@@ -1,0 +1,568 @@
+{
+  "navbar": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "hospitals": "Krankenhäuser",
+    "doctors": "Ärzte",
+    "howItWorks": "So funktioniert es",
+    "contact": "Kontakt"
+  },
+
+  "common": {
+    "bookConsultation": "Beratung buchen",
+    "startEnquiry": "Anfrage starten",
+    "learnMore": "Mehr erfahren",
+    "viewProfile": "Profil ansehen",
+    "sendEnquiry": "Anfrage senden",
+    "back": "Zurück",
+    "readMore": "Mehr lesen",
+    "contactUs": "Kontaktieren Sie uns",
+    "submit": "Absenden",
+    "submitEnquiry": "Anfrage absenden",
+    "close": "Schließen"
+  },
+
+  "hero": {
+    "badge": "UNTERSTÜTZUNG FÜR MEDIZINISCHE REISEN NACH INDIEN",
+    "title": "Ihre Gesundheitsreise",
+    "titleHighlight": "in Indien",
+    "description": "Wir unterstützen internationale Patienten bei der Koordination von Krankenhaus- und Arztterminen, Unterkunft, lokalem Transport, Dolmetscherdiensten und Patientenbetreuung während ihrer medizinischen Reise in Indien.",
+    "primaryButton": "Beratung buchen",
+    "secondaryButton": "So funktioniert es",
+    "trust": {
+      "easyCoordination": "Einfache Koordination",
+      "patientSupport": "Patientenbetreuung",
+      "communication": "Klare Kommunikation"
+    }
+  },
+
+  "home": {
+    "services": {
+      "label": "UNSERE DIENSTLEISTUNGEN",
+      "title": "Unterstützung für Ihre medizinische Reise",
+      "description": "Wir helfen dabei, Ihre medizinische Reise nach Indien einfacher und besser organisiert zu gestalten."
+    },
+
+    "serviceCards": {
+      "appointments": {
+        "title": "Medizinische Termine",
+        "description": "Wir helfen bei der Organisation von Terminen in Krankenhäusern und bei Ärzten entsprechend Ihren Anforderungen."
+      },
+      "accommodation": {
+        "title": "Unterkunft",
+        "description": "Unterstützung bei der Suche nach einer geeigneten Unterkunft während Ihrer medizinischen Reise."
+      },
+      "transport": {
+        "title": "Lokaler Transport",
+        "description": "Unterstützung bei der Organisation des lokalen Transports während Ihres Aufenthalts."
+      },
+      "interpreter": {
+        "title": "Dolmetscherdienste",
+        "description": "Sprachliche Unterstützung, um die Kommunikation mit medizinischen Fachkräften zu erleichtern."
+      },
+      "patientCare": {
+        "title": "Koordination der Patientenbetreuung",
+        "description": "Koordination und Unterstützung während verschiedener Phasen Ihrer medizinischen Reise."
+      }
+    },
+
+    "why": {
+      "label": "WARUM SHIFOPATH INDIA",
+      "title": "Unterstützung, die Sie begleitet",
+      "description": "Von Ihrer ersten Anfrage bis zu Ihrer Behandlung helfen wir bei der Koordination der wichtigen Teile Ihrer Reise."
+    },
+
+    "whyCards": {
+      "personalized": {
+        "title": "Individuelle Unterstützung",
+        "description": "Wir verstehen Ihre Anforderungen und helfen dabei, Dienstleistungen entsprechend Ihren Bedürfnissen zu koordinieren."
+      },
+      "coordination": {
+        "title": "Einfache Koordination",
+        "description": "Krankenhaustermine, Unterkunft und lokale Unterstützung können über einen Ansprechpartner koordiniert werden."
+      },
+      "communication": {
+        "title": "Kommunikationsunterstützung",
+        "description": "Dolmetscherunterstützung kann die Kommunikation während Ihrer medizinischen Reise erleichtern."
+      },
+      "journey": {
+        "title": "Unterstützung auf der Reise",
+        "description": "Wir bieten Koordinationsunterstützung in verschiedenen Phasen Ihrer medizinischen Reise."
+      }
+    },
+
+    "journey": {
+      "label": "SO FUNKTIONIERT ES",
+      "title": "Ihre medizinische Reise – Schritt für Schritt",
+      "description": "Wir helfen bei der Koordination Ihrer Reise von der ersten Anfrage über die Behandlung bis zur Nachsorge."
+    },
+
+    "journeySteps": {
+      "step1": {
+        "title": "Teilen Sie Ihre Anforderungen mit",
+        "description": "Informieren Sie uns über Ihre medizinischen Anforderungen und die Unterstützung, die Sie benötigen."
+      },
+      "step2": {
+        "title": "Medizinische Unterlagen teilen",
+        "description": "Falls erforderlich, teilen Sie relevante medizinische Unterlagen für die Beratung und Behandlungsplanung."
+      },
+      "step3": {
+        "title": "Krankenhaus- und Arztauswahl",
+        "description": "Wir helfen bei der Koordination geeigneter Krankenhäuser und Ärzte entsprechend Ihren Anforderungen."
+      },
+      "step4": {
+        "title": "Beratung und Planung",
+        "description": "Wir koordinieren die Beratung und besprechen die nächsten Schritte mit dem medizinischen Leistungserbringer."
+      },
+      "step5": {
+        "title": "Kosten und Behandlungsdetails",
+        "description": "Erhalten Sie verfügbare Informationen zu Behandlung und Kosten vom medizinischen Leistungserbringer."
+      },
+      "step6": {
+        "title": "Unterstützung bei Reise und Behandlung",
+        "description": "Erhalten Sie Koordinationsunterstützung für Unterkunft, lokalen Transport und andere organisierte Dienstleistungen."
+      },
+      "step7": {
+        "title": "Behandlung und Nachsorge",
+        "description": "Setzen Sie Ihre Behandlung mit Koordinationsunterstützung und Hilfe bei der Nachsorge fort."
+      }
+    },
+
+    "cta": {
+      "label": "STARTEN SIE IHRE REISE",
+      "title": "Benötigen Sie Hilfe bei der Planung Ihrer medizinischen Reise nach Indien?",
+      "description": "Teilen Sie uns Ihre Anforderungen mit, und unser Team kann Ihnen bei der Koordination der nächsten Schritte helfen."
+    }
+  },
+
+  "footer": {
+    "description": "Koordination und Unterstützung medizinischer Reisen für internationale Patienten, die medizinische Versorgung in Indien suchen.",
+    "quickLinks": "Schnellzugriff",
+    "services": "Unsere Dienstleistungen",
+    "contact": "Kontakt",
+    "rights": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Allgemeine Geschäftsbedingungen",
+    "disclaimer": "Medizinischer Haftungsausschluss",
+    "serviceLinks": {
+      "appointments": "Medizinische Termine",
+      "accommodation": "Unterkunft",
+      "transport": "Lokaler Transport",
+      "interpreter": "Dolmetscherdienste",
+      "patientCare": "Koordination der Patientenbetreuung"
+    }
+  },
+
+  "about": {
+    "hero": {
+      "badge": "UNTERSTÜTZUNG FÜR MEDIZINISCHE REISEN NACH INDIEN",
+      "label": "ÜBER SHIFOPATH INDIA",
+      "title": "Wir unterstützen Ihre",
+      "highlight": "Gesundheitsreise",
+      "end": " in Indien",
+      "description": "Wir helfen internationalen Patienten bei der Koordination wichtiger Teile ihrer medizinischen Reise in Indien."
+    },
+
+    "intro": {
+      "label": "WER WIR SIND",
+      "title": "Wir machen medizinische Reisen einfacher",
+      "paragraph1": "ShifoPath India bietet internationalen Patienten, die medizinische Versorgung in Indien suchen, Koordinationsunterstützung.",
+      "paragraph2": "Von der Organisation von Krankenhausterminen bis zur Unterstützung bei Unterkunft, lokalem Transport, Dolmetscherdiensten und Patientenbetreuung helfen wir dabei, die praktischen Aspekte der Reise zu organisieren.",
+      "paragraph3": "Unsere Aufgabe besteht darin, Kommunikation und Koordination zu unterstützen, während medizinische Entscheidungen und Behandlungen qualifizierten medizinischen Fachkräften vorbehalten bleiben."
+    },
+
+    "highlights": {
+      "understand": {
+        "title": "Verstehen",
+        "description": "Wir verstehen Ihre Anforderungen und die Art der Unterstützung, die Sie für Ihre medizinische Reise benötigen."
+      },
+      "coordinate": {
+        "title": "Koordinieren",
+        "description": "Wir helfen bei der Koordination von Terminen und organisierten Unterstützungsleistungen während Ihrer medizinischen Reise."
+      },
+      "support": {
+        "title": "Unterstützen",
+        "description": "Wir bleiben während verschiedener Phasen Ihrer medizinischen Reise mit Ihnen in Verbindung."
+      }
+    },
+
+    "values": {
+      "label": "UNSER ANSATZ",
+      "title": "Worauf wir uns konzentrieren",
+      "description": "Unser Ansatz basiert auf klarer Kommunikation, Koordination und Patientenunterstützung.",
+      "cards": {
+        "communication": {
+          "title": "Klare Kommunikation",
+          "description": "Wir möchten Kommunikation und Koordination während Ihrer gesamten Reise einfacher gestalten."
+        },
+        "support": {
+          "title": "Patientenunterstützung",
+          "description": "Wir helfen bei der Koordination praktischer Unterstützung entsprechend den angeforderten Dienstleistungen."
+        },
+        "organized": {
+          "title": "Organisierte Reise",
+          "description": "Wir helfen dabei, verschiedene organisatorische Aspekte zusammenzuführen, damit Ihre Reise einfacher zu verwalten ist."
+        }
+      }
+    },
+
+    "cta": {
+      "label": "STARTEN SIE IHRE REISE",
+      "title": "Planen Sie eine medizinische Behandlung in Indien?",
+      "description": "Teilen Sie uns Ihre Anforderungen mit und besprechen Sie die benötigte Koordinationsunterstützung."
+    }
+  },
+
+  "services": {
+    "hero": {
+      "badge": "UNTERSTÜTZUNG FÜR MEDIZINISCHE REISEN NACH INDIEN",
+      "label": "UNSERE DIENSTLEISTUNGEN",
+      "title": "Umfassende Unterstützung für Ihre",
+      "highlight": "medizinische Reise",
+      "description": "Von Krankenhausterminen bis hin zu Unterkunft, Transport und Sprachunterstützung helfen wir bei der Koordination der wichtigen Teile Ihrer medizinischen Reise in Indien."
+    },
+
+    "main": {
+      "label": "UNSERE DIENSTLEISTUNGEN",
+      "title": "Unterstützung in jeder Phase Ihrer Reise",
+      "description": "Entdecken Sie die verfügbaren Koordinations- und Unterstützungsleistungen für internationale Patienten."
+    },
+
+    "cards": {
+      "appointments": {
+        "title": "Medizinische Termine",
+        "description": "Wir helfen bei der Organisation von Krankenhaus- und Arztterminen entsprechend Ihren medizinischen Anforderungen."
+      },
+      "accommodation": {
+        "title": "Unterkunft",
+        "description": "Wir können bei der Koordination geeigneter Unterkunftsmöglichkeiten während Ihrer medizinischen Reise helfen."
+      },
+      "transport": {
+        "title": "Lokaler Transport",
+        "description": "Wir unterstützen bei der Organisation des lokalen Transports während Ihres Aufenthalts in Indien."
+      },
+      "interpreter": {
+        "title": "Dolmetscherdienste",
+        "description": "Sprachliche Unterstützung kann die Kommunikation mit medizinischen Fachkräften erleichtern."
+      },
+      "patientCare": {
+        "title": "Koordination der Patientenbetreuung",
+        "description": "Wir bieten Koordination und Unterstützung während verschiedener Phasen Ihrer medizinischen Reise."
+      }
+    },
+
+    "support": {
+      "label": "BENÖTIGEN SIE UNTERSTÜTZUNG?",
+      "title": "Lassen Sie uns Ihre Anforderungen besprechen",
+      "description": "Teilen Sie uns Ihre medizinischen Anforderungen mit und besprechen Sie die benötigte Koordinationsunterstützung.",
+      "button": "Anfrage starten"
+    }
+  },
+
+  "hospitals": {
+    "hero": {
+      "badge": "MEDIZINISCHE VERSORGUNG IN INDIEN",
+      "label": "KRANKENHÄUSER",
+      "title": "Entdecken Sie medizinische",
+      "highlight": "Möglichkeiten in Indien",
+      "description": "Informieren Sie sich über Krankenhäuser in Indien und die verfügbaren medizinischen Möglichkeiten für Ihre Reise."
+    },
+
+    "main": {
+      "label": "KRANKENHAUSINFORMATIONEN",
+      "title": "Krankenhäuser in Indien",
+      "description": "Informieren Sie sich über Krankenhäuser und die medizinischen Fachbereiche, die sie anbieten."
+    },
+
+    "specialties": "Fachbereiche",
+
+    "cta": {
+      "label": "BENÖTIGEN SIE HILFE?",
+      "title": "Suchen Sie ein Krankenhaus in Indien?",
+      "description": "Teilen Sie uns Ihre medizinischen Anforderungen mit und besprechen Sie verfügbare Krankenhausoptionen für Ihre Reise."
+    }
+  },
+
+  "doctors": {
+    "hero": {
+      "badge": "MEDIZINISCHE FACHKRÄFTE IN INDIEN",
+      "label": "ÄRZTE",
+      "title": "Entdecken Sie medizinische",
+      "highlight": "Fachärzte in Indien",
+      "description": "Entdecken Sie Ärzte verschiedener medizinischer Fachrichtungen und Krankenhäuser in Indien."
+    },
+
+    "main": {
+      "label": "ÄRZTEVERZEICHNIS",
+      "title": "Ärzte und Fachärzte",
+      "description": "Entdecken Sie Ärzte nach medizinischer Fachrichtung und Krankenhaus."
+    },
+
+    "specialization": "Fachrichtung",
+    "hospital": "Krankenhaus",
+    "location": "Standort",
+
+    "cta": {
+      "label": "BENÖTIGEN SIE HILFE?",
+      "title": "Suchen Sie einen Arzt in Indien?",
+      "description": "Teilen Sie uns Ihre medizinischen Anforderungen mit, und wir können Ihnen bei der Koordination der nächsten Schritte helfen.",
+      "button": "Anfrage senden"
+    }
+  },
+
+  "doctorProfile": {
+    "back": "Zurück zu den Ärzten",
+
+    "profile": {
+      "specialization": "Fachrichtung",
+      "hospital": "Krankenhaus",
+      "location": "Standort"
+    },
+
+    "about": {
+      "label": "ÜBER DEN ARZT",
+      "title": "Berufliche Informationen",
+      "description": "Dieser Abschnitt enthält allgemeine Informationen über die Fachrichtung des Arztes und das Krankenhaus."
+    },
+
+    "appointment": {
+      "label": "INFORMATIONEN ZUM TERMIN",
+      "title": "Möchten Sie einen Termin besprechen?",
+      "description": "Teilen Sie uns Ihre medizinischen Anforderungen mit, und wir können bei der Koordination einer Terminanfrage helfen.",
+      "button": "Terminanfrage senden"
+    },
+
+    "otherDoctors": {
+      "label": "WEITERE ÄRZTE",
+      "title": "Weitere Fachärzte entdecken",
+      "button": "Ärzte ansehen"
+    }
+  },
+
+  "howItWorks": {
+    "hero": {
+      "badge": "IHRE MEDIZINISCHE REISE",
+      "label": "SO FUNKTIONIERT ES",
+      "title": "Ein einfacher Prozess für Ihre",
+      "highlight": "medizinische Reise",
+      "description": "Unser siebenstufiger Prozess hilft dabei, die wichtigen Teile Ihrer medizinischen Reise in Indien zu organisieren."
+    },
+
+    "main": {
+      "label": "SIEBEN EINFACHE SCHRITTE",
+      "title": "Von der Anfrage bis zur Nachsorge",
+      "description": "Erfahren Sie, wie wir die verschiedenen Phasen Ihrer medizinischen Reise koordinieren."
+    },
+
+    "steps": {
+      "step1": {
+        "title": "Teilen Sie Ihre Anforderungen mit",
+        "description": "Informieren Sie uns über Ihre medizinischen Anforderungen, die gewünschte Dienstleistung und Ihren Unterstützungsbedarf."
+      },
+      "step2": {
+        "title": "Medizinische Unterlagen teilen",
+        "description": "Falls erforderlich, teilen Sie relevante medizinische Berichte oder Dokumente für die Beratungsplanung."
+      },
+      "step3": {
+        "title": "Krankenhaus- und Arztauswahl",
+        "description": "Wir helfen bei der Koordination geeigneter Krankenhaus- und Arztoptionen entsprechend Ihren Anforderungen."
+      },
+      "step4": {
+        "title": "Beratung und Planung",
+        "description": "Wir helfen bei der Koordination der Beratung und der nächsten Schritte mit dem medizinischen Leistungserbringer."
+      },
+      "step5": {
+        "title": "Kosten und Behandlungsdetails",
+        "description": "Sie können Behandlungsdetails und verfügbare Kosteninformationen mit dem medizinischen Leistungserbringer besprechen."
+      },
+      "step6": {
+        "title": "Unterstützung bei Reise und Behandlung",
+        "description": "Wir unterstützen bei organisierten Dienstleistungen wie Unterkunft, Transport und Dolmetschen."
+      },
+      "step7": {
+        "title": "Behandlung und Nachsorge",
+        "description": "Setzen Sie Ihre medizinische Reise mit Koordinations- und Nachsorgeunterstützung fort."
+      }
+    },
+
+    "cta": {
+      "label": "BEREIT ZU STARTEN?",
+      "title": "Teilen Sie uns Ihre Anforderungen mit",
+      "description": "Starten Sie Ihre Anfrage und besprechen Sie die Unterstützung, die Sie während Ihrer medizinischen Reise benötigen.",
+      "button": "Anfrage starten"
+    }
+  },
+
+  "contact": {
+    "hero": {
+      "badge": "UNTERSTÜTZUNG FÜR MEDIZINISCHE REISEN NACH INDIEN",
+      "label": "KONTAKTIEREN SIE UNS",
+      "title": "Lassen Sie uns Ihre",
+      "highlight": "Gesundheitsreise planen",
+      "description": "Teilen Sie uns Ihre medizinischen Anforderungen mit und besprechen Sie die benötigte Koordinationsunterstützung für Ihre medizinische Reise nach Indien."
+    },
+
+    "form": {
+      "label": "ANFRAGE SENDEN",
+      "title": "Informieren Sie uns über Ihre Anforderungen",
+      "description": "Füllen Sie das folgende Formular aus, damit unser Team Ihre Anfrage prüfen kann.",
+      "fullName": "Vollständiger Name",
+      "fullNamePlaceholder": "Geben Sie Ihren vollständigen Namen ein",
+      "country": "Land",
+      "countryPlaceholder": "Geben Sie Ihr Land ein",
+      "phone": "Telefon / WhatsApp",
+      "phonePlaceholder": "Geben Sie Ihre Telefon- oder WhatsApp-Nummer ein",
+      "email": "E-Mail",
+      "emailPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
+      "service": "Benötigte Dienstleistung",
+      "servicePlaceholder": "Dienstleistung auswählen",
+      "message": "Nachricht",
+      "messagePlaceholder": "Informieren Sie uns über Ihre Anforderungen",
+      "submit": "Anfrage absenden",
+      "required": "Erforderlich"
+    },
+
+    "services": {
+      "appointments": "Medizinische Termine",
+      "accommodation": "Unterkunft",
+      "transport": "Lokaler Transport",
+      "interpreter": "Dolmetscherdienste",
+      "patientCare": "Koordination der Patientenbetreuung",
+      "other": "Andere"
+    },
+
+    "info": {
+      "label": "KONTAKT AUFNEHMEN",
+      "title": "Wir sind für Sie da",
+      "description": "Kontaktieren Sie ShifoPath India, um Ihre Anforderungen an medizinische Reisen und Koordination zu besprechen.",
+      "phone": "Telefon / WhatsApp",
+      "instagram": "Instagram",
+      "telegram": "Telegram"
+    },
+
+    "afterSubmit": {
+      "label": "WAS PASSIERT ALS NÄCHSTES?",
+      "title": "Nachdem Sie Ihre Anfrage gesendet haben",
+      "step1": "Ihre Anfrage wird von unserem Team empfangen.",
+      "step2": "Wir prüfen die von Ihnen bereitgestellten Informationen.",
+      "step3": "Wir kontaktieren Sie, um Ihre Anforderungen zu besprechen.",
+      "step4": "Wir besprechen die nächsten Koordinationsschritte mit Ihnen."
+    }
+  },
+
+  "admin": {
+    "login": {
+      "title": "Admin-Anmeldung",
+      "subtitle": "Melden Sie sich an, um auf das ShifoPath India Admin-Dashboard zuzugreifen.",
+      "username": "Benutzername",
+      "usernamePlaceholder": "Benutzernamen eingeben",
+      "password": "Passwort",
+      "passwordPlaceholder": "Passwort eingeben",
+      "loginButton": "Anmelden",
+      "error": "Ungültiger Benutzername oder ungültiges Passwort."
+    },
+
+    "dashboard": {
+      "title": "Admin-Dashboard",
+      "subtitle": "Patientenanfragen verwalten und prüfen.",
+      "logout": "Abmelden",
+      "totalEnquiries": "Anfragen insgesamt",
+      "new": "Neu",
+      "contacted": "Kontaktiert",
+      "inProgress": "In Bearbeitung",
+      "completed": "Abgeschlossen",
+      "search": "Anfragen suchen",
+      "filter": "Nach Status filtern",
+      "all": "Alle",
+      "name": "Name",
+      "country": "Land",
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "service": "Dienstleistung",
+      "message": "Nachricht",
+      "date": "Datum",
+      "status": "Status",
+      "actions": "Aktionen",
+      "update": "Aktualisieren",
+      "noEnquiries": "Keine Anfragen gefunden."
+    }
+  },
+
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "intro": "Diese Datenschutzerklärung erläutert, wie ShifoPath India Informationen erfassen und verwenden kann, die über diese Website übermittelt werden.",
+    "sections": {
+      "information": {
+        "title": "Von uns erfasste Informationen",
+        "text": "Wenn Sie eine Anfrage senden, können wir Informationen wie Ihren Namen, Ihr Land, Ihre Telefonnummer, Ihre E-Mail-Adresse, die gewünschte Dienstleistung und Ihre Nachricht erfassen."
+      },
+      "use": {
+        "title": "Wie wir Informationen verwenden",
+        "text": "Informationen können verwendet werden, um Anfragen zu beantworten, angeforderte Dienstleistungen zu koordinieren und mit Ihnen über Ihre Anforderungen zu kommunizieren."
+      },
+      "medical": {
+        "title": "Medizinische Informationen",
+        "text": "Wenn medizinische Unterlagen angefordert oder geteilt werden, sollten diese nur bereitgestellt werden, wenn sie für die Koordination oder Beratung erforderlich sind. Bitte teilen Sie keine unnötigen sensiblen Informationen."
+      },
+      "security": {
+        "title": "Datensicherheit",
+        "text": "Wir ergreifen angemessene Maßnahmen zum Schutz der über die Website verarbeiteten Informationen. Kein Online-System kann jedoch absolute Sicherheit garantieren."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "text": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie bitte ShifoPath India."
+      }
+    }
+  },
+
+  "terms": {
+    "title": "Allgemeine Geschäftsbedingungen",
+    "intro": "Durch die Nutzung dieser Website stimmen Sie den folgenden allgemeinen Geschäftsbedingungen zu.",
+    "sections": {
+      "information": {
+        "title": "Informationen auf der Website",
+        "text": "Die auf dieser Website bereitgestellten Informationen dienen allgemeinen Informations- und Koordinationszwecken."
+      },
+      "services": {
+        "title": "Koordinationsleistungen",
+        "text": "ShifoPath India kann bei der Koordination von Terminen, Unterkunft, Transport, Dolmetschdiensten und Patientenunterstützung helfen."
+      },
+      "healthcare": {
+        "title": "Medizinische Entscheidungen",
+        "text": "Medizinische Diagnosen, Behandlungsentscheidungen und klinische Versorgung liegen in der Verantwortung qualifizierter medizinischer Fachkräfte und medizinischer Einrichtungen."
+      },
+      "accuracy": {
+        "title": "Richtigkeit der Informationen",
+        "text": "Wir bemühen uns um nützliche und korrekte Informationen. Krankenhausleistungen, Verfügbarkeit von Ärzten, Preise und andere Angaben können sich jedoch ändern."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "text": "Bei Fragen zu diesen Bedingungen kontaktieren Sie bitte ShifoPath India."
+      }
+    }
+  },
+
+  "medicalDisclaimer": {
+    "title": "Medizinischer Haftungsausschluss",
+    "intro": "Die Informationen auf dieser Website ersetzen keine professionelle medizinische Beratung, Diagnose oder Behandlung.",
+    "sections": {
+      "notMedicalAdvice": {
+        "title": "Keine medizinische Beratung",
+        "text": "ShifoPath India bietet Informationen zur Koordination und Unterstützung medizinischer Reisen. Über diese Website bieten wir keine medizinische Diagnose oder Behandlung an."
+      },
+      "professionals": {
+        "title": "Medizinische Fachkräfte",
+        "text": "Medizinische Entscheidungen sollten direkt mit qualifizierten Ärzten und medizinischen Einrichtungen getroffen werden."
+      },
+      "emergency": {
+        "title": "Medizinische Notfälle",
+        "text": "Wenn Sie einen medizinischen Notfall haben, wenden Sie sich an den örtlichen Notdienst oder suchen Sie sofort medizinische Hilfe."
+      },
+      "information": {
+        "title": "Änderungen der Informationen",
+        "text": "Krankenhausleistungen, Verfügbarkeit von Ärzten, Behandlungsmöglichkeiten und Kosten können sich ändern. Bestätigen Sie aktuelle Informationen direkt beim jeweiligen medizinischen Leistungserbringer."
+      }
+    }
+  }
+}

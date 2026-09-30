@@ -1,0 +1,568 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "hospitals": "Hospitals",
+        "doctors": "Doctors",
+        "howItWorks": "How It Works",
+        "contact": "Contact"
+    },
+
+    "common": {
+        "bookConsultation": "Book Consultation",
+        "startEnquiry": "Start Your Enquiry",
+        "learnMore": "Learn More",
+        "viewProfile": "View Profile",
+        "sendEnquiry": "Send an Enquiry",
+        "back": "Back",
+        "readMore": "Read More",
+        "contactUs": "Contact Us",
+        "submit": "Submit",
+        "submitEnquiry": "Submit Enquiry",
+        "close": "Close"
+    },
+
+    "hero": {
+        "badge": "MEDICAL TRAVEL SUPPORT IN INDIA",
+        "title": "Your Healthcare",
+        "titleHighlight": "Journey in India",
+        "description": "We help international patients coordinate hospital appointments, accommodation, local transport, interpretation and patient care support throughout their medical journey in India.",
+        "primaryButton": "Book a Consultation",
+        "secondaryButton": "How It Works",
+        "trust": {
+            "easyCoordination": "Easy Coordination",
+            "patientSupport": "Patient Support",
+            "communication": "Clear Communication"
+        }
+    },
+
+    "home": {
+        "services": {
+            "label": "OUR SERVICES",
+            "title": "Support for Your Medical Journey",
+            "description": "We help make your healthcare journey in India easier and more organized."
+        },
+
+        "serviceCards": {
+            "appointments": {
+                "title": "Medical Appointments",
+                "description": "We help arrange appointments with hospitals and doctors according to your requirements."
+            },
+            "accommodation": {
+                "title": "Accommodation",
+                "description": "Support with finding suitable accommodation during your medical journey."
+            },
+            "transport": {
+                "title": "Local Transport",
+                "description": "Assistance with local transportation arrangements during your stay."
+            },
+            "interpreter": {
+                "title": "Interpreter Services",
+                "description": "Language support to make communication with healthcare providers easier."
+            },
+            "patientCare": {
+                "title": "Patient Care Coordination",
+                "description": "Coordination and support throughout different stages of your healthcare journey."
+            }
+        },
+
+        "why": {
+            "label": "WHY SHIFOPATH INDIA",
+            "title": "Support That Stays With You",
+            "description": "From your first enquiry to your treatment journey, we help coordinate the important parts of your visit."
+        },
+
+        "whyCards": {
+            "personalized": {
+                "title": "Personalized Support",
+                "description": "We understand your requirements and help coordinate services based on your needs."
+            },
+            "coordination": {
+                "title": "Easy Coordination",
+                "description": "Hospital appointments, accommodation and local support can be coordinated through one point of contact."
+            },
+            "communication": {
+                "title": "Communication Support",
+                "description": "Interpreter support can help make communication during your healthcare journey easier."
+            },
+            "journey": {
+                "title": "Journey Assistance",
+                "description": "We provide coordination support across different stages of your medical travel journey."
+            }
+        },
+
+        "journey": {
+            "label": "HOW IT WORKS",
+            "title": "Your Medical Journey, Step by Step",
+            "description": "We help coordinate your journey from the initial enquiry through treatment and follow-up."
+        },
+
+        "journeySteps": {
+            "step1": {
+                "title": "Submit Your Requirement",
+                "description": "Tell us about your healthcare requirements and the support you need."
+            },
+            "step2": {
+                "title": "Share Medical Documents",
+                "description": "When needed, share relevant medical documents for consultation and treatment planning."
+            },
+            "step3": {
+                "title": "Hospital & Doctor Matching",
+                "description": "We help coordinate suitable hospital and doctor options based on your requirements."
+            },
+            "step4": {
+                "title": "Consultation & Planning",
+                "description": "Coordinate consultation and discuss the next steps with the healthcare provider."
+            },
+            "step5": {
+                "title": "Cost & Treatment Details",
+                "description": "Receive available treatment and cost information from the healthcare provider."
+            },
+            "step6": {
+                "title": "Travel & Treatment Support",
+                "description": "Get coordination support for your stay, local transport and other arranged services."
+            },
+            "step7": {
+                "title": "Treatment & Follow-up",
+                "description": "Continue your treatment journey with coordination support and follow-up assistance."
+            }
+        },
+
+        "cta": {
+            "label": "START YOUR JOURNEY",
+            "title": "Need Help Planning Your Medical Journey to India?",
+            "description": "Share your requirements with us and our team can help coordinate the next steps."
+        }
+    },
+
+    "footer": {
+        "description": "Medical travel coordination and support for international patients seeking healthcare in India.",
+        "quickLinks": "Quick Links",
+        "services": "Our Services",
+        "contact": "Contact",
+        "rights": "All rights reserved.",
+        "privacy": "Privacy Policy",
+        "terms": "Terms & Conditions",
+        "disclaimer": "Medical Disclaimer",
+        "serviceLinks": {
+            "appointments": "Medical Appointments",
+            "accommodation": "Accommodation",
+            "transport": "Local Transport",
+            "interpreter": "Interpreter Services",
+            "patientCare": "Patient Care Coordination"
+        }
+    },
+
+    "about": {
+        "hero": {
+            "badge": "MEDICAL TRAVEL SUPPORT IN INDIA",
+            "label": "ABOUT SHIFOPATH INDIA",
+            "title": "Supporting Your",
+            "highlight": "Healthcare Journey",
+            "end": " in India",
+            "description": "We help international patients coordinate important parts of their medical journey in India."
+        },
+
+        "intro": {
+            "label": "WHO WE ARE",
+            "title": "Making Medical Travel Easier to Navigate",
+            "paragraph1": "ShifoPath India provides coordination support for international patients seeking healthcare services in India.",
+            "paragraph2": "From arranging hospital appointments to supporting accommodation, local transport, interpretation and patient care coordination, we help organize the practical parts of the journey.",
+            "paragraph3": "Our role is to support communication and coordination while healthcare decisions and treatment remain with qualified healthcare professionals."
+        },
+
+        "highlights": {
+            "understand": {
+                "title": "Understand",
+                "description": "We understand your requirements and the type of support you need for your healthcare journey."
+            },
+            "coordinate": {
+                "title": "Coordinate",
+                "description": "We help coordinate appointments and arranged support services during your medical journey."
+            },
+            "support": {
+                "title": "Support",
+                "description": "We stay connected through different stages of your medical travel journey."
+            }
+        },
+
+        "values": {
+            "label": "OUR APPROACH",
+            "title": "What We Focus On",
+            "description": "Our approach is centered around clear communication, coordination and patient support.",
+            "cards": {
+                "communication": {
+                    "title": "Clear Communication",
+                    "description": "We aim to make communication and coordination easier throughout your journey."
+                },
+                "support": {
+                    "title": "Patient Support",
+                    "description": "We help coordinate practical support based on the services requested."
+                },
+                "organized": {
+                    "title": "Organized Journey",
+                    "description": "We help bring different arrangements together so your journey is easier to manage."
+                }
+            }
+        },
+
+        "cta": {
+            "label": "START YOUR JOURNEY",
+            "title": "Planning Healthcare in India?",
+            "description": "Share your requirements with us and discuss the coordination support you may need."
+        }
+    },
+
+    "services": {
+        "hero": {
+            "badge": "MEDICAL TRAVEL SUPPORT IN INDIA",
+            "label": "OUR SERVICES",
+            "title": "Complete Support for Your",
+            "highlight": "Medical Journey",
+            "description": "From hospital appointments to accommodation, transport and language support, we help coordinate the important parts of your healthcare journey in India."
+        },
+
+        "main": {
+            "label": "OUR SERVICES",
+            "title": "Support for Every Stage of Your Journey",
+            "description": "Explore the coordination and support services available for international patients."
+        },
+
+        "cards": {
+            "appointments": {
+                "title": "Medical Appointments",
+                "description": "We help arrange appointments with hospitals and doctors according to your healthcare requirements."
+            },
+            "accommodation": {
+                "title": "Accommodation",
+                "description": "We can help coordinate suitable accommodation options during your medical journey."
+            },
+            "transport": {
+                "title": "Local Transport",
+                "description": "We assist with local transportation arrangements during your stay in India."
+            },
+            "interpreter": {
+                "title": "Interpreter Services",
+                "description": "Language support can help make communication with healthcare providers easier."
+            },
+            "patientCare": {
+                "title": "Patient Care Coordination",
+                "description": "We provide coordination and support throughout different stages of your healthcare journey."
+            }
+        },
+
+        "support": {
+            "label": "NEED SUPPORT?",
+            "title": "Let's Discuss Your Requirements",
+            "description": "Share your healthcare requirements with us and discuss the coordination support you may need.",
+            "button": "Start Your Enquiry"
+        }
+    },
+
+    "hospitals": {
+        "hero": {
+            "badge": "HEALTHCARE IN INDIA",
+            "label": "HOSPITALS",
+            "title": "Explore Healthcare",
+            "highlight": "Options in India",
+            "description": "Explore hospitals across India and understand the healthcare options available for your medical journey."
+        },
+
+        "main": {
+            "label": "HOSPITAL INFORMATION",
+            "title": "Hospitals in India",
+            "description": "Explore information about hospitals and the medical specialties they provide."
+        },
+
+        "specialties": "Specialties",
+
+        "cta": {
+            "label": "NEED HELP?",
+            "title": "Looking for Hospital Options in India?",
+            "description": "Share your healthcare requirements with us and discuss available hospital options for your journey."
+        }
+    },
+
+    "doctors": {
+        "hero": {
+            "badge": "HEALTHCARE PROFESSIONALS IN INDIA",
+            "label": "DOCTORS",
+            "title": "Explore Medical",
+            "highlight": "Specialists in India",
+            "description": "Explore doctors across different medical specialties and hospitals in India."
+        },
+
+        "main": {
+            "label": "DOCTOR DIRECTORY",
+            "title": "Doctors & Specialists",
+            "description": "Explore doctors listed by medical specialty and hospital."
+        },
+
+        "specialization": "Specialization",
+        "hospital": "Hospital",
+        "location": "Location",
+
+        "cta": {
+            "label": "NEED HELP?",
+            "title": "Looking for a Doctor in India?",
+            "description": "Share your healthcare requirements and we can help coordinate the next steps.",
+            "button": "Send an Enquiry"
+        }
+    },
+
+    "doctorProfile": {
+        "back": "Back to Doctors",
+
+        "profile": {
+            "specialization": "Specialization",
+            "hospital": "Hospital",
+            "location": "Location"
+        },
+
+        "about": {
+            "label": "ABOUT THE DOCTOR",
+            "title": "Professional Information",
+            "description": "This section provides general information about the doctor's specialty and hospital."
+        },
+
+        "appointment": {
+            "label": "APPOINTMENT INFORMATION",
+            "title": "Want to Discuss an Appointment?",
+            "description": "Share your healthcare requirements with us and we can help coordinate an appointment enquiry.",
+            "button": "Send Appointment Enquiry"
+        },
+
+        "otherDoctors": {
+            "label": "OTHER DOCTORS",
+            "title": "Explore Other Specialists",
+            "button": "View Doctors"
+        }
+    },
+
+    "howItWorks": {
+        "hero": {
+            "badge": "YOUR MEDICAL JOURNEY",
+            "label": "HOW IT WORKS",
+            "title": "A Simple Process for Your",
+            "highlight": "Medical Journey",
+            "description": "Our seven-step process helps organize the important parts of your healthcare journey in India."
+        },
+
+        "main": {
+            "label": "SEVEN SIMPLE STEPS",
+            "title": "From Enquiry to Follow-up",
+            "description": "Understand how we coordinate different stages of your medical travel journey."
+        },
+
+        "steps": {
+            "step1": {
+                "title": "Submit Your Requirement",
+                "description": "Tell us about your healthcare requirements, preferred service and support needs."
+            },
+            "step2": {
+                "title": "Share Medical Documents",
+                "description": "When required, share relevant medical reports or documents for consultation planning."
+            },
+            "step3": {
+                "title": "Hospital & Doctor Matching",
+                "description": "We help coordinate suitable hospital and doctor options based on your requirements."
+            },
+            "step4": {
+                "title": "Consultation & Planning",
+                "description": "We help coordinate the consultation and the next steps with the healthcare provider."
+            },
+            "step5": {
+                "title": "Cost & Treatment Details",
+                "description": "You can discuss treatment details and available cost information with the healthcare provider."
+            },
+            "step6": {
+                "title": "Travel & Treatment Support",
+                "description": "We assist with arranged services such as accommodation, transport and interpretation."
+            },
+            "step7": {
+                "title": "Treatment & Follow-up",
+                "description": "Continue your healthcare journey with coordination and follow-up support."
+            }
+        },
+
+        "cta": {
+            "label": "READY TO START?",
+            "title": "Share Your Requirements With Us",
+            "description": "Start your enquiry and discuss the support you may need for your medical journey.",
+            "button": "Start Your Enquiry"
+        }
+    },
+
+    "contact": {
+        "hero": {
+            "badge": "MEDICAL TRAVEL SUPPORT IN INDIA",
+            "label": "CONTACT US",
+            "title": "Let's Plan Your",
+            "highlight": "Healthcare Journey",
+            "description": "Share your healthcare requirements with us and discuss the coordination support you may need for your medical journey in India."
+        },
+
+        "form": {
+            "label": "SEND AN ENQUIRY",
+            "title": "Tell Us About Your Requirements",
+            "description": "Fill in the form below and our team can review your enquiry.",
+            "fullName": "Full Name",
+            "fullNamePlaceholder": "Enter your full name",
+            "country": "Country",
+            "countryPlaceholder": "Enter your country",
+            "phone": "Phone / WhatsApp",
+            "phonePlaceholder": "Enter your phone or WhatsApp number",
+            "email": "Email",
+            "emailPlaceholder": "Enter your email address",
+            "service": "Service Required",
+            "servicePlaceholder": "Select a service",
+            "message": "Message",
+            "messagePlaceholder": "Tell us about your requirements",
+            "submit": "Submit Enquiry",
+            "required": "Required"
+        },
+
+        "services": {
+            "appointments": "Medical Appointments",
+            "accommodation": "Accommodation",
+            "transport": "Local Transport",
+            "interpreter": "Interpreter Services",
+            "patientCare": "Patient Care Coordination",
+            "other": "Other"
+        },
+
+        "info": {
+            "label": "GET IN TOUCH",
+            "title": "We're Here to Help",
+            "description": "Contact ShifoPath India to discuss your medical travel requirements and coordination needs.",
+            "phone": "Phone / WhatsApp",
+            "instagram": "Instagram",
+            "telegram": "Telegram"
+        },
+
+        "afterSubmit": {
+            "label": "WHAT HAPPENS NEXT",
+            "title": "After You Submit Your Enquiry",
+            "step1": "Your enquiry is received by our team.",
+            "step2": "We review the information you provided.",
+            "step3": "We contact you to discuss your requirements.",
+            "step4": "We discuss the next coordination steps with you."
+        }
+    },
+
+    "admin": {
+        "login": {
+            "title": "Admin Login",
+            "subtitle": "Sign in to access the ShifoPath India admin dashboard.",
+            "username": "Username",
+            "usernamePlaceholder": "Enter username",
+            "password": "Password",
+            "passwordPlaceholder": "Enter password",
+            "loginButton": "Login",
+            "error": "Invalid username or password."
+        },
+
+        "dashboard": {
+            "title": "Admin Dashboard",
+            "subtitle": "Manage and review patient enquiries.",
+            "logout": "Logout",
+            "totalEnquiries": "Total Enquiries",
+            "new": "New",
+            "contacted": "Contacted",
+            "inProgress": "In Progress",
+            "completed": "Completed",
+            "search": "Search enquiries",
+            "filter": "Filter by status",
+            "all": "All",
+            "name": "Name",
+            "country": "Country",
+            "phone": "Phone",
+            "email": "Email",
+            "service": "Service",
+            "message": "Message",
+            "date": "Date",
+            "status": "Status",
+            "actions": "Actions",
+            "update": "Update",
+            "noEnquiries": "No enquiries found."
+        }
+    },
+
+    "privacy": {
+        "title": "Privacy Policy",
+        "intro": "This Privacy Policy explains how ShifoPath India may collect and use information submitted through this website.",
+        "sections": {
+            "information": {
+                "title": "Information We Collect",
+                "text": "We may collect information such as your name, country, phone number, email address, service requirement and message when you submit an enquiry."
+            },
+            "use": {
+                "title": "How We Use Information",
+                "text": "Information may be used to respond to enquiries, coordinate requested services and communicate with you about your requirements."
+            },
+            "medical": {
+                "title": "Medical Information",
+                "text": "If medical documents are requested or shared, they should only be provided when necessary for coordination or consultation purposes. Please avoid sharing unnecessary sensitive information."
+            },
+            "security": {
+                "title": "Data Security",
+                "text": "We take reasonable steps to protect information handled through the website, but no online system can guarantee absolute security."
+            },
+            "contact": {
+                "title": "Contact",
+                "text": "If you have questions about this Privacy Policy, please contact ShifoPath India."
+            }
+        }
+    },
+
+    "terms": {
+        "title": "Terms & Conditions",
+        "intro": "By using this website, you agree to the following general terms and conditions.",
+        "sections": {
+            "information": {
+                "title": "Website Information",
+                "text": "Information provided on this website is for general informational and coordination purposes."
+            },
+            "services": {
+                "title": "Coordination Services",
+                "text": "ShifoPath India may assist with coordination of appointments, accommodation, transport, interpretation and patient support services."
+            },
+            "healthcare": {
+                "title": "Healthcare Decisions",
+                "text": "Medical diagnosis, treatment decisions and clinical care are the responsibility of qualified healthcare professionals and healthcare providers."
+            },
+            "accuracy": {
+                "title": "Information Accuracy",
+                "text": "We aim to keep information useful and accurate, but hospital services, doctor availability, prices and other details may change."
+            },
+            "contact": {
+                "title": "Contact",
+                "text": "For questions regarding these terms, please contact ShifoPath India."
+            }
+        }
+    },
+
+    "medicalDisclaimer": {
+        "title": "Medical Disclaimer",
+        "intro": "The information on this website is not a substitute for professional medical advice, diagnosis or treatment.",
+        "sections": {
+            "notMedicalAdvice": {
+                "title": "Not Medical Advice",
+                "text": "ShifoPath India provides medical travel coordination and support information. We do not provide medical diagnosis or treatment through this website."
+            },
+            "professionals": {
+                "title": "Healthcare Professionals",
+                "text": "Medical decisions should be made directly with qualified doctors and healthcare providers."
+            },
+            "emergency": {
+                "title": "Medical Emergencies",
+                "text": "If you are experiencing a medical emergency, contact your local emergency service or seek immediate medical attention."
+            },
+            "information": {
+                "title": "Information Changes",
+                "text": "Hospital services, doctor availability, treatment options and costs may change. Confirm current information directly with the relevant healthcare provider."
+            }
+        }
+    }
+}

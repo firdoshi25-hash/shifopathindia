@@ -1,0 +1,568 @@
+{
+  "navbar": {
+    "home": "홈",
+    "about": "회사 소개",
+    "services": "서비스",
+    "hospitals": "병원",
+    "doctors": "의사",
+    "howItWorks": "이용 방법",
+    "contact": "문의하기"
+  },
+
+  "common": {
+    "bookConsultation": "상담 예약",
+    "startEnquiry": "문의 시작",
+    "learnMore": "자세히 보기",
+    "viewProfile": "프로필 보기",
+    "sendEnquiry": "문의 보내기",
+    "back": "뒤로",
+    "readMore": "더 읽기",
+    "contactUs": "문의하기",
+    "submit": "제출",
+    "submitEnquiry": "문의 제출",
+    "close": "닫기"
+  },
+
+  "hero": {
+    "badge": "인도 의료 여행 지원",
+    "title": "인도에서의",
+    "titleHighlight": "건강 관리 여정",
+    "description": "국제 환자들이 인도에서 의료 여행을 하는 동안 병원 및 의사 예약, 숙박, 현지 교통, 통역 서비스와 환자 지원을 조정할 수 있도록 도와드립니다.",
+    "primaryButton": "상담 예약",
+    "secondaryButton": "이용 방법",
+    "trust": {
+      "easyCoordination": "간편한 조정",
+      "patientSupport": "환자 지원",
+      "communication": "명확한 소통"
+    }
+  },
+
+  "home": {
+    "services": {
+      "label": "서비스",
+      "title": "의료 여행을 위한 지원",
+      "description": "인도에서의 의료 여행을 더욱 편리하고 체계적으로 진행할 수 있도록 도와드립니다."
+    },
+
+    "serviceCards": {
+      "appointments": {
+        "title": "진료 예약",
+        "description": "필요에 따라 병원 및 의사와의 진료 예약을 조정해 드립니다."
+      },
+      "accommodation": {
+        "title": "숙박",
+        "description": "의료 여행 기간 동안 적합한 숙박 시설을 찾을 수 있도록 지원합니다."
+      },
+      "transport": {
+        "title": "현지 교통",
+        "description": "인도 체류 기간 동안 현지 교통편을 준비할 수 있도록 도와드립니다."
+      },
+      "interpreter": {
+        "title": "통역 서비스",
+        "description": "의료진과의 원활한 의사소통을 위한 언어 지원을 제공합니다."
+      },
+      "patientCare": {
+        "title": "환자 케어 조정",
+        "description": "의료 여행의 여러 단계에서 조정 및 지원을 제공합니다."
+      }
+    },
+
+    "why": {
+      "label": "SHIFOPATH INDIA를 선택하는 이유",
+      "title": "여정 전반에 함께하는 지원",
+      "description": "첫 문의부터 치료 과정까지 의료 여행의 중요한 부분을 조정할 수 있도록 도와드립니다."
+    },
+
+    "whyCards": {
+      "personalized": {
+        "title": "맞춤형 지원",
+        "description": "필요 사항을 파악하고 고객의 요구에 맞는 서비스를 조정할 수 있도록 도와드립니다."
+      },
+      "coordination": {
+        "title": "간편한 조정",
+        "description": "병원 예약, 숙박 및 현지 지원을 하나의 연락 창구를 통해 조정할 수 있습니다."
+      },
+      "communication": {
+        "title": "의사소통 지원",
+        "description": "통역 지원을 통해 의료 여행 중 의사소통을 보다 편리하게 할 수 있습니다."
+      },
+      "journey": {
+        "title": "여정 지원",
+        "description": "의료 여행의 여러 단계에서 조정 지원을 제공합니다."
+      }
+    },
+
+    "journey": {
+      "label": "이용 방법",
+      "title": "단계별 의료 여행",
+      "description": "초기 문의부터 치료 및 사후 관리까지 여정의 각 단계를 조정할 수 있도록 도와드립니다."
+    },
+
+    "journeySteps": {
+      "step1": {
+        "title": "필요 사항 제출",
+        "description": "의료 관련 요구 사항과 필요한 지원 내용을 알려주세요."
+      },
+      "step2": {
+        "title": "의료 서류 제출",
+        "description": "필요한 경우 상담 및 치료 계획을 위해 관련 의료 서류를 제출해 주세요."
+      },
+      "step3": {
+        "title": "병원 및 의사 매칭",
+        "description": "요구 사항에 따라 적합한 병원 및 의사 옵션을 조정할 수 있도록 도와드립니다."
+      },
+      "step4": {
+        "title": "상담 및 계획",
+        "description": "의료 서비스 제공자와 상담 및 다음 단계를 조정할 수 있도록 지원합니다."
+      },
+      "step5": {
+        "title": "비용 및 치료 정보",
+        "description": "의료 서비스 제공자로부터 이용 가능한 치료 및 비용 정보를 확인할 수 있습니다."
+      },
+      "step6": {
+        "title": "여행 및 치료 지원",
+        "description": "숙박, 현지 교통 및 기타 준비된 서비스에 대한 조정 지원을 제공합니다."
+      },
+      "step7": {
+        "title": "치료 및 사후 관리",
+        "description": "조정 및 사후 관리 지원을 받으며 의료 여정을 계속 진행할 수 있습니다."
+      }
+    },
+
+    "cta": {
+      "label": "여정 시작하기",
+      "title": "인도 의료 여행 계획에 도움이 필요하신가요?",
+      "description": "필요 사항을 알려주시면 저희 팀이 다음 단계를 조정할 수 있도록 도와드립니다."
+    }
+  },
+
+  "footer": {
+    "description": "인도에서 의료 서비스를 이용하려는 국제 환자를 위한 의료 여행 조정 및 지원 서비스입니다.",
+    "quickLinks": "빠른 링크",
+    "services": "서비스",
+    "contact": "문의",
+    "rights": "All rights reserved.",
+    "privacy": "개인정보 보호정책",
+    "terms": "이용약관",
+    "disclaimer": "의료 면책 조항",
+    "serviceLinks": {
+      "appointments": "진료 예약",
+      "accommodation": "숙박",
+      "transport": "현지 교통",
+      "interpreter": "통역 서비스",
+      "patientCare": "환자 케어 조정"
+    }
+  },
+
+  "about": {
+    "hero": {
+      "badge": "인도 의료 여행 지원",
+      "label": "SHIFOPATH INDIA 소개",
+      "title": "인도에서의",
+      "highlight": "건강 관리 여정을 지원합니다",
+      "end": "",
+      "description": "국제 환자들이 인도에서 의료 여행의 중요한 부분을 조정할 수 있도록 도와드립니다."
+    },
+
+    "intro": {
+      "label": "우리는 누구인가요",
+      "title": "의료 여행을 더욱 편리하게",
+      "paragraph1": "ShifoPath India는 인도에서 의료 서비스를 이용하려는 국제 환자를 위한 조정 지원을 제공합니다.",
+      "paragraph2": "병원 예약부터 숙박, 현지 교통, 통역 및 환자 케어 조정까지 의료 여행의 실질적인 부분을 체계적으로 준비할 수 있도록 도와드립니다.",
+      "paragraph3": "저희의 역할은 의사소통과 조정을 지원하는 것이며, 의료 결정과 치료는 자격을 갖춘 의료 전문가가 담당합니다."
+    },
+
+    "highlights": {
+      "understand": {
+        "title": "이해합니다",
+        "description": "의료 여행에 필요한 고객의 요구 사항과 지원 유형을 파악합니다."
+      },
+      "coordinate": {
+        "title": "조정합니다",
+        "description": "의료 여행 중 진료 예약 및 준비된 지원 서비스를 조정할 수 있도록 도와드립니다."
+      },
+      "support": {
+        "title": "지원합니다",
+        "description": "의료 여행의 여러 단계에서 지속적으로 연락하며 지원합니다."
+      }
+    },
+
+    "values": {
+      "label": "우리의 접근 방식",
+      "title": "우리가 중요하게 생각하는 것",
+      "description": "명확한 의사소통, 조정 및 환자 지원을 중심으로 서비스를 제공합니다.",
+      "cards": {
+        "communication": {
+          "title": "명확한 의사소통",
+          "description": "여정 전반에서 의사소통과 조정이 더욱 편리하도록 지원합니다."
+        },
+        "support": {
+          "title": "환자 지원",
+          "description": "요청하신 서비스에 따라 실질적인 지원을 조정할 수 있도록 도와드립니다."
+        },
+        "organized": {
+          "title": "체계적인 여정",
+          "description": "여러 준비 사항을 함께 조정하여 여행을 보다 편리하게 관리할 수 있도록 도와드립니다."
+        }
+      }
+    },
+
+    "cta": {
+      "label": "여정 시작하기",
+      "title": "인도에서 의료 서비스를 계획하고 계신가요?",
+      "description": "필요 사항을 알려주시고 필요한 조정 지원에 대해 상담해 보세요."
+    }
+  },
+
+  "services": {
+    "hero": {
+      "badge": "인도 의료 여행 지원",
+      "label": "서비스",
+      "title": "의료 여행을 위한",
+      "highlight": "종합 지원",
+      "description": "병원 예약부터 숙박, 교통 및 언어 지원까지 인도에서의 의료 여행에 필요한 주요 사항을 조정할 수 있도록 도와드립니다."
+    },
+
+    "main": {
+      "label": "서비스",
+      "title": "여정의 모든 단계에서 지원",
+      "description": "국제 환자를 위해 제공되는 조정 및 지원 서비스를 확인해 보세요."
+    },
+
+    "cards": {
+      "appointments": {
+        "title": "진료 예약",
+        "description": "의료 요구 사항에 따라 병원 및 의사 예약을 조정할 수 있도록 도와드립니다."
+      },
+      "accommodation": {
+        "title": "숙박",
+        "description": "의료 여행 기간 동안 적합한 숙박 옵션을 조정할 수 있도록 도와드립니다."
+      },
+      "transport": {
+        "title": "현지 교통",
+        "description": "인도 체류 기간 동안 현지 교통편을 준비할 수 있도록 지원합니다."
+      },
+      "interpreter": {
+        "title": "통역 서비스",
+        "description": "언어 지원을 통해 의료 서비스 제공자와의 의사소통을 더욱 편리하게 할 수 있습니다."
+      },
+      "patientCare": {
+        "title": "환자 케어 조정",
+        "description": "의료 여행의 여러 단계에서 조정 및 지원을 제공합니다."
+      }
+    },
+
+    "support": {
+      "label": "도움이 필요하신가요?",
+      "title": "필요 사항에 대해 상담해 보세요",
+      "description": "의료 관련 요구 사항을 알려주시고 필요한 조정 지원에 대해 상담해 보세요.",
+      "button": "문의 시작"
+    }
+  },
+
+  "hospitals": {
+    "hero": {
+      "badge": "인도의 의료 서비스",
+      "label": "병원",
+      "title": "인도의 의료",
+      "highlight": "옵션을 확인하세요",
+      "description": "인도의 병원을 확인하고 의료 여행에 이용할 수 있는 의료 서비스 옵션에 대해 알아보세요."
+    },
+
+    "main": {
+      "label": "병원 정보",
+      "title": "인도의 병원",
+      "description": "병원 및 병원에서 제공하는 의료 전문 분야에 대한 정보를 확인하세요."
+    },
+
+    "specialties": "전문 분야",
+
+    "cta": {
+      "label": "도움이 필요하신가요?",
+      "title": "인도에서 병원을 찾고 계신가요?",
+      "description": "의료 관련 요구 사항을 알려주시면 의료 여행에 이용할 수 있는 병원 옵션에 대해 상담할 수 있습니다."
+    }
+  },
+
+  "doctors": {
+    "hero": {
+      "badge": "인도의 의료 전문가",
+      "label": "의사",
+      "title": "인도의 의료",
+      "highlight": "전문의를 확인하세요",
+      "description": "인도의 다양한 의료 전문 분야와 병원에서 진료하는 의사를 확인하세요."
+    },
+
+    "main": {
+      "label": "의사 디렉터리",
+      "title": "의사 및 전문의",
+      "description": "의료 전문 분야와 병원별로 의사를 확인하세요."
+    },
+
+    "specialization": "전문 분야",
+    "hospital": "병원",
+    "location": "위치",
+
+    "cta": {
+      "label": "도움이 필요하신가요?",
+      "title": "인도에서 의사를 찾고 계신가요?",
+      "description": "의료 관련 요구 사항을 알려주시면 다음 단계를 조정할 수 있도록 도와드립니다.",
+      "button": "문의 보내기"
+    }
+  },
+
+  "doctorProfile": {
+    "back": "의사 목록으로 돌아가기",
+
+    "profile": {
+      "specialization": "전문 분야",
+      "hospital": "병원",
+      "location": "위치"
+    },
+
+    "about": {
+      "label": "의사 소개",
+      "title": "전문 정보",
+      "description": "이 섹션에서는 의사의 전문 분야와 병원에 대한 일반적인 정보를 제공합니다."
+    },
+
+    "appointment": {
+      "label": "예약 정보",
+      "title": "진료 예약에 대해 상담하시겠어요?",
+      "description": "의료 관련 요구 사항을 알려주시면 진료 예약 문의를 조정할 수 있도록 도와드립니다.",
+      "button": "진료 예약 문의"
+    },
+
+    "otherDoctors": {
+      "label": "다른 의사",
+      "title": "다른 전문의 확인하기",
+      "button": "의사 보기"
+    }
+  },
+
+  "howItWorks": {
+    "hero": {
+      "badge": "의료 여행",
+      "label": "이용 방법",
+      "title": "의료 여행을 위한",
+      "highlight": "간단한 과정",
+      "description": "7단계 과정으로 인도에서의 의료 여행에 필요한 주요 사항을 체계적으로 준비할 수 있습니다."
+    },
+
+    "main": {
+      "label": "7가지 간단한 단계",
+      "title": "문의부터 사후 관리까지",
+      "description": "의료 여행의 여러 단계를 어떻게 조정하는지 알아보세요."
+    },
+
+    "steps": {
+      "step1": {
+        "title": "필요 사항 제출",
+        "description": "의료 관련 요구 사항, 원하는 서비스 및 필요한 지원 내용을 알려주세요."
+      },
+      "step2": {
+        "title": "의료 서류 제출",
+        "description": "필요한 경우 상담 계획을 위해 관련 의료 보고서나 서류를 제출해 주세요."
+      },
+      "step3": {
+        "title": "병원 및 의사 매칭",
+        "description": "요구 사항에 따라 적합한 병원 및 의사 옵션을 조정할 수 있도록 도와드립니다."
+      },
+      "step4": {
+        "title": "상담 및 계획",
+        "description": "의료 서비스 제공자와 상담 및 다음 단계를 조정할 수 있도록 지원합니다."
+      },
+      "step5": {
+        "title": "비용 및 치료 정보",
+        "description": "의료 서비스 제공자와 치료 세부 사항 및 이용 가능한 비용 정보를 상담할 수 있습니다."
+      },
+      "step6": {
+        "title": "여행 및 치료 지원",
+        "description": "숙박, 교통 및 통역과 같은 준비된 서비스에 대한 지원을 제공합니다."
+      },
+      "step7": {
+        "title": "치료 및 사후 관리",
+        "description": "조정 및 사후 관리 지원을 받으며 의료 여정을 계속 진행하세요."
+      }
+    },
+
+    "cta": {
+      "label": "시작할 준비가 되셨나요?",
+      "title": "필요 사항을 알려주세요",
+      "description": "문의 내용을 제출하고 의료 여행에 필요한 지원에 대해 상담해 보세요.",
+      "button": "문의 시작"
+    }
+  },
+
+  "contact": {
+    "hero": {
+      "badge": "인도 의료 여행 지원",
+      "label": "문의하기",
+      "title": "의료 여행을",
+      "highlight": "함께 계획해 보세요",
+      "description": "의료 관련 요구 사항을 알려주시고 인도에서의 의료 여행에 필요한 조정 지원에 대해 상담해 보세요."
+    },
+
+    "form": {
+      "label": "문의 보내기",
+      "title": "필요 사항을 알려주세요",
+      "description": "아래 양식을 작성해 주시면 저희 팀이 문의 내용을 검토합니다.",
+      "fullName": "이름",
+      "fullNamePlaceholder": "이름을 입력하세요",
+      "country": "국가",
+      "countryPlaceholder": "국가를 입력하세요",
+      "phone": "전화 / WhatsApp",
+      "phonePlaceholder": "전화번호 또는 WhatsApp 번호를 입력하세요",
+      "email": "이메일",
+      "emailPlaceholder": "이메일 주소를 입력하세요",
+      "service": "필요한 서비스",
+      "servicePlaceholder": "서비스를 선택하세요",
+      "message": "메시지",
+      "messagePlaceholder": "필요 사항을 알려주세요",
+      "submit": "문의 제출",
+      "required": "필수"
+    },
+
+    "services": {
+      "appointments": "진료 예약",
+      "accommodation": "숙박",
+      "transport": "현지 교통",
+      "interpreter": "통역 서비스",
+      "patientCare": "환자 케어 조정",
+      "other": "기타"
+    },
+
+    "info": {
+      "label": "연락하기",
+      "title": "도움을 드리겠습니다",
+      "description": "의료 여행 요구 사항 및 조정에 대해 상담하려면 ShifoPath India에 문의하세요.",
+      "phone": "전화 / WhatsApp",
+      "instagram": "Instagram",
+      "telegram": "Telegram"
+    },
+
+    "afterSubmit": {
+      "label": "다음 단계",
+      "title": "문의 제출 후 진행 과정",
+      "step1": "문의 내용이 저희 팀에 접수됩니다.",
+      "step2": "제공해 주신 정보를 검토합니다.",
+      "step3": "필요 사항을 상담하기 위해 연락드립니다.",
+      "step4": "다음 조정 단계를 함께 논의합니다."
+    }
+  },
+
+  "admin": {
+    "login": {
+      "title": "관리자 로그인",
+      "subtitle": "ShifoPath India 관리자 대시보드에 접속하려면 로그인하세요.",
+      "username": "사용자 이름",
+      "usernamePlaceholder": "사용자 이름을 입력하세요",
+      "password": "비밀번호",
+      "passwordPlaceholder": "비밀번호를 입력하세요",
+      "loginButton": "로그인",
+      "error": "사용자 이름 또는 비밀번호가 올바르지 않습니다."
+    },
+
+    "dashboard": {
+      "title": "관리자 대시보드",
+      "subtitle": "환자 문의를 관리하고 검토하세요.",
+      "logout": "로그아웃",
+      "totalEnquiries": "전체 문의",
+      "new": "신규",
+      "contacted": "연락 완료",
+      "inProgress": "진행 중",
+      "completed": "완료",
+      "search": "문의 검색",
+      "filter": "상태별 필터",
+      "all": "전체",
+      "name": "이름",
+      "country": "국가",
+      "phone": "전화",
+      "email": "이메일",
+      "service": "서비스",
+      "message": "메시지",
+      "date": "날짜",
+      "status": "상태",
+      "actions": "작업",
+      "update": "업데이트",
+      "noEnquiries": "문의가 없습니다."
+    }
+  },
+
+  "privacy": {
+    "title": "개인정보 보호정책",
+    "intro": "이 개인정보 보호정책은 ShifoPath India가 이 웹사이트를 통해 제출된 정보를 어떻게 수집하고 사용할 수 있는지 설명합니다.",
+    "sections": {
+      "information": {
+        "title": "수집하는 정보",
+        "text": "문의 제출 시 이름, 국가, 전화번호, 이메일 주소, 필요한 서비스 및 메시지와 같은 정보를 수집할 수 있습니다."
+      },
+      "use": {
+        "title": "정보의 이용 방법",
+        "text": "정보는 문의에 답변하고, 요청한 서비스를 조정하며, 요구 사항과 관련하여 연락하기 위해 사용될 수 있습니다."
+      },
+      "medical": {
+        "title": "의료 정보",
+        "text": "의료 서류를 요청하거나 공유하는 경우 조정 또는 상담에 필요한 경우에만 제공해야 합니다. 불필요한 민감 정보를 공유하지 마세요."
+      },
+      "security": {
+        "title": "데이터 보안",
+        "text": "웹사이트를 통해 처리되는 정보를 보호하기 위해 합리적인 조치를 취하지만, 어떠한 온라인 시스템도 절대적인 보안을 보장할 수 없습니다."
+      },
+      "contact": {
+        "title": "문의",
+        "text": "개인정보 보호정책에 대해 궁금한 점이 있으면 ShifoPath India에 문의하세요."
+      }
+    }
+  },
+
+  "terms": {
+    "title": "이용약관",
+    "intro": "이 웹사이트를 이용함으로써 다음의 일반 이용약관에 동의하게 됩니다.",
+    "sections": {
+      "information": {
+        "title": "웹사이트 정보",
+        "text": "이 웹사이트에서 제공되는 정보는 일반적인 정보 제공 및 조정 목적으로 제공됩니다."
+      },
+      "services": {
+        "title": "조정 서비스",
+        "text": "ShifoPath India는 진료 예약, 숙박, 교통, 통역 및 환자 지원 서비스의 조정을 도울 수 있습니다."
+      },
+      "healthcare": {
+        "title": "의료 관련 결정",
+        "text": "의료 진단, 치료 결정 및 임상 진료는 자격을 갖춘 의료 전문가와 의료 서비스 제공자의 책임입니다."
+      },
+      "accuracy": {
+        "title": "정보의 정확성",
+        "text": "유용하고 정확한 정보를 제공하기 위해 노력하지만 병원 서비스, 의사 예약 가능 여부, 가격 및 기타 정보는 변경될 수 있습니다."
+      },
+      "contact": {
+        "title": "문의",
+        "text": "이용약관에 관한 문의 사항은 ShifoPath India에 문의하세요."
+      }
+    }
+  },
+
+  "medicalDisclaimer": {
+    "title": "의료 면책 조항",
+    "intro": "이 웹사이트의 정보는 전문적인 의료 조언, 진단 또는 치료를 대신할 수 없습니다.",
+    "sections": {
+      "notMedicalAdvice": {
+        "title": "의료 조언이 아닙니다",
+        "text": "ShifoPath India는 의료 여행 조정 및 지원 정보를 제공합니다. 이 웹사이트를 통해 의료 진단이나 치료를 제공하지 않습니다."
+      },
+      "professionals": {
+        "title": "의료 전문가",
+        "text": "의료 관련 결정은 자격을 갖춘 의사 및 의료 서비스 제공자와 직접 상담하여 내려야 합니다."
+      },
+      "emergency": {
+        "title": "의료 응급 상황",
+        "text": "의료 응급 상황이 발생한 경우 현지 응급 서비스에 연락하거나 즉시 의료 도움을 받으세요."
+      },
+      "information": {
+        "title": "정보 변경",
+        "text": "병원 서비스, 의사 예약 가능 여부, 치료 옵션 및 비용은 변경될 수 있습니다. 현재 정보를 관련 의료 서비스 제공자에게 직접 확인하세요."
+      }
+    }
+  }
+}
