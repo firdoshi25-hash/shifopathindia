@@ -1,0 +1,496 @@
+.how-it-works-page {
+    width: 100%;
+    background: #ffffff;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.how-hero {
+    position: relative;
+    width: 100%;
+    min-height: 430px;
+    overflow: hidden;
+    background: #0d4168;
+    display: flex;
+    align-items: center;
+}
+
+.how-hero-shape {
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.how-shape-one {
+    width: 420px;
+    height: 420px;
+    right: -150px;
+    top: -180px;
+    background: rgba(21, 155, 145, 0.22);
+}
+
+.how-shape-two {
+    width: 300px;
+    height: 300px;
+    left: -140px;
+    bottom: -180px;
+    background: rgba(255, 255, 255, 0.07);
+}
+
+.how-hero-content {
+    position: relative;
+    z-index: 2;
+
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+    padding: 80px 35px;
+
+    color: #ffffff;
+}
+
+.how-hero-badge {
+    display: inline-flex;
+    align-items: center;
+
+    padding: 9px 16px;
+
+    margin-bottom: 22px;
+
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 30px;
+
+    background: rgba(255, 255, 255, 0.08);
+
+    color: #d8f4f1;
+
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+.how-hero-content > p {
+    margin: 0 0 12px;
+
+    color: #63d0c6;
+
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.how-hero-content h1 {
+    max-width: 700px;
+
+    margin: 0;
+
+    color: #ffffff;
+
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 1.08;
+}
+
+.how-hero-content h1 span {
+    display: block;
+
+    color: #45c5ba;
+}
+
+.how-hero-line {
+    width: 65px;
+    height: 4px;
+
+    margin: 25px 0;
+
+    border-radius: 10px;
+
+    background: #45c5ba;
+}
+
+.how-hero-content > span {
+    display: block;
+
+    max-width: 650px;
+
+    color: #d4e3ec;
+
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+
+/* =========================
+   MAIN SECTION
+========================= */
+
+.how-main {
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    padding: 90px 35px 100px;
+}
+
+.section-heading {
+    max-width: 760px;
+
+    margin: 0 auto 55px;
+
+    text-align: center;
+}
+
+.section-heading p {
+    margin: 0 0 12px;
+
+    color: #159b91;
+
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1.8px;
+}
+
+.section-heading h2 {
+    margin: 0 0 18px;
+
+    color: #0d4168;
+
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.section-heading span {
+    display: block;
+
+    color: #64748b;
+
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
+/* =========================
+   STEPS GRID
+========================= */
+
+.how-steps-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+.how-step-card {
+    position: relative;
+
+    min-height: 270px;
+
+    padding: 30px;
+
+    border: 1px solid #e1edf2;
+    border-radius: 16px;
+
+    background: #ffffff;
+
+    box-shadow: 0 10px 30px rgba(13, 65, 104, 0.06);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
+
+    overflow: hidden;
+}
+
+.how-step-card::before {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    top: 0;
+
+    width: 100%;
+    height: 4px;
+
+    background: #159b91;
+
+    transform: scaleX(0);
+    transform-origin: left;
+
+    transition: transform 0.3s ease;
+}
+
+.how-step-card:hover {
+    transform: translateY(-7px);
+
+    border-color: #b8deda;
+
+    box-shadow: 0 18px 40px rgba(13, 65, 104, 0.12);
+}
+
+.how-step-card:hover::before {
+    transform: scaleX(1);
+}
+
+
+/* =========================
+   STEP TOP
+========================= */
+
+.how-step-top {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 28px;
+}
+
+.how-step-number {
+    color: #d5e5ec;
+
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.how-step-icon {
+    width: 58px;
+    height: 58px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 14px;
+
+    background: #eaf8f6;
+
+    font-size: 27px;
+}
+
+
+/* =========================
+   STEP CONTENT
+========================= */
+
+.how-step-card h3 {
+    margin: 0 0 13px;
+
+    color: #0d4168;
+
+    font-size: 20px;
+    font-weight: 750;
+    line-height: 1.35;
+}
+
+.how-step-card p {
+    margin: 0;
+
+    color: #64748b;
+
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+
+/* =========================
+   CTA
+========================= */
+
+.how-cta {
+    width: 100%;
+
+    padding: 85px 35px;
+
+    background: #eef8f8;
+}
+
+.how-cta-content {
+    max-width: 850px;
+
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.how-cta-content > p {
+    margin: 0 0 12px;
+
+    color: #159b91;
+
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1.8px;
+}
+
+.how-cta-content h2 {
+    margin: 0 0 18px;
+
+    color: #0d4168;
+
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.how-cta-content > span {
+    display: block;
+
+    max-width: 650px;
+
+    margin: 0 auto 30px;
+
+    color: #64748b;
+
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.how-cta-content a {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 14px 28px;
+
+    border-radius: 8px;
+
+    background: #0d4168;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    transition: 0.25s ease;
+}
+
+.how-cta-content a:hover {
+    background: #159b91;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 950px) {
+
+    .how-hero-content h1 {
+        font-size: 48px;
+    }
+
+    .how-steps-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 650px) {
+
+    .how-hero {
+        min-height: 400px;
+    }
+
+    .how-hero-content {
+        padding: 65px 25px;
+    }
+
+    .how-hero-content h1 {
+        font-size: 40px;
+    }
+
+    .how-hero-content > span {
+        font-size: 14px;
+    }
+
+    .how-main {
+        padding: 65px 25px 75px;
+    }
+
+    .section-heading {
+        margin-bottom: 40px;
+    }
+
+    .section-heading h2 {
+        font-size: 30px;
+    }
+
+    .section-heading span {
+        font-size: 14px;
+    }
+
+    .how-steps-grid {
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+    }
+
+    .how-step-card {
+        min-height: auto;
+
+        padding: 27px;
+    }
+
+    .how-step-number {
+        font-size: 36px;
+    }
+
+    .how-cta {
+        padding: 65px 25px;
+    }
+
+    .how-cta-content h2 {
+        font-size: 30px;
+    }
+
+    .how-cta-content > span {
+        font-size: 14px;
+    }
+
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 400px) {
+
+    .how-hero-content h1 {
+        font-size: 34px;
+    }
+
+    .how-hero-badge {
+        font-size: 10px;
+    }
+
+    .section-heading h2 {
+        font-size: 27px;
+    }
+
+    .how-step-card {
+        padding: 23px;
+    }
+
+}

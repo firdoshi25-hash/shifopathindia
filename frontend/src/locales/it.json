@@ -1,0 +1,568 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "Chi siamo",
+    "services": "Servizi",
+    "hospitals": "Ospedali",
+    "doctors": "Medici",
+    "howItWorks": "Come funziona",
+    "contact": "Contatti"
+  },
+
+  "common": {
+    "bookConsultation": "Prenota una consulenza",
+    "startEnquiry": "Inizia la tua richiesta",
+    "learnMore": "Scopri di più",
+    "viewProfile": "Visualizza profilo",
+    "sendEnquiry": "Invia una richiesta",
+    "back": "Indietro",
+    "readMore": "Leggi di più",
+    "contactUs": "Contattaci",
+    "submit": "Invia",
+    "submitEnquiry": "Invia richiesta",
+    "close": "Chiudi"
+  },
+
+  "hero": {
+    "badge": "SUPPORTO PER VIAGGI MEDICI IN INDIA",
+    "title": "Il tuo percorso sanitario",
+    "titleHighlight": "in India",
+    "description": "Aiutiamo i pazienti internazionali a coordinare appuntamenti ospedalieri, alloggio, trasporto locale, interpretariato e assistenza durante il loro percorso medico in India.",
+    "primaryButton": "Prenota una consulenza",
+    "secondaryButton": "Come funziona",
+    "trust": {
+      "easyCoordination": "Coordinamento semplice",
+      "patientSupport": "Assistenza al paziente",
+      "communication": "Comunicazione chiara"
+    }
+  },
+
+  "home": {
+    "services": {
+      "label": "I NOSTRI SERVIZI",
+      "title": "Supporto per il tuo percorso medico",
+      "description": "Ti aiutiamo a rendere il tuo percorso sanitario in India più semplice e organizzato."
+    },
+
+    "serviceCards": {
+      "appointments": {
+        "title": "Appuntamenti medici",
+        "description": "Ti aiutiamo a organizzare appuntamenti con ospedali e medici in base alle tue esigenze."
+      },
+      "accommodation": {
+        "title": "Alloggio",
+        "description": "Supporto nella ricerca di un alloggio adatto durante il tuo percorso medico."
+      },
+      "transport": {
+        "title": "Trasporto locale",
+        "description": "Assistenza nell'organizzazione dei trasporti locali durante il tuo soggiorno."
+      },
+      "interpreter": {
+        "title": "Servizi di interpretariato",
+        "description": "Supporto linguistico per facilitare la comunicazione con gli operatori sanitari."
+      },
+      "patientCare": {
+        "title": "Coordinamento dell'assistenza",
+        "description": "Coordinamento e supporto durante le diverse fasi del tuo percorso sanitario."
+      }
+    },
+
+    "why": {
+      "label": "PERCHÉ SHIFOPATH INDIA",
+      "title": "Un supporto che ti accompagna",
+      "description": "Dalla prima richiesta al percorso di trattamento, aiutiamo a coordinare gli aspetti importanti della tua visita."
+    },
+
+    "whyCards": {
+      "personalized": {
+        "title": "Supporto personalizzato",
+        "description": "Comprendiamo le tue esigenze e aiutiamo a coordinare i servizi in base alle tue necessità."
+      },
+      "coordination": {
+        "title": "Coordinamento semplice",
+        "description": "Appuntamenti ospedalieri, alloggio e supporto locale possono essere coordinati attraverso un unico punto di contatto."
+      },
+      "communication": {
+        "title": "Supporto alla comunicazione",
+        "description": "Il supporto di un interprete può facilitare la comunicazione durante il tuo percorso sanitario."
+      },
+      "journey": {
+        "title": "Assistenza durante il percorso",
+        "description": "Forniamo supporto al coordinamento durante le diverse fasi del tuo viaggio medico."
+      }
+    },
+
+    "journey": {
+      "label": "COME FUNZIONA",
+      "title": "Il tuo percorso medico, passo dopo passo",
+      "description": "Aiutiamo a coordinare il tuo percorso dalla richiesta iniziale fino al trattamento e al follow-up."
+    },
+
+    "journeySteps": {
+      "step1": {
+        "title": "Invia la tua richiesta",
+        "description": "Parlaci delle tue esigenze sanitarie e del supporto di cui hai bisogno."
+      },
+      "step2": {
+        "title": "Condividi i documenti medici",
+        "description": "Quando necessario, condividi i documenti medici pertinenti per la consulenza e la pianificazione del trattamento."
+      },
+      "step3": {
+        "title": "Abbinamento ospedale e medico",
+        "description": "Ti aiutiamo a coordinare opzioni di ospedali e medici adatti alle tue esigenze."
+      },
+      "step4": {
+        "title": "Consulenza e pianificazione",
+        "description": "Coordiniamo la consulenza e discutiamo i passaggi successivi con il professionista sanitario."
+      },
+      "step5": {
+        "title": "Costi e dettagli del trattamento",
+        "description": "Ricevi informazioni disponibili sul trattamento e sui costi dal professionista sanitario."
+      },
+      "step6": {
+        "title": "Supporto per viaggio e trattamento",
+        "description": "Ricevi supporto per il soggiorno, il trasporto locale e altri servizi organizzati."
+      },
+      "step7": {
+        "title": "Trattamento e follow-up",
+        "description": "Continua il tuo percorso di trattamento con supporto al coordinamento e assistenza nel follow-up."
+      }
+    },
+
+    "cta": {
+      "label": "INIZIA IL TUO PERCORSO",
+      "title": "Hai bisogno di aiuto per organizzare il tuo percorso medico in India?",
+      "description": "Condividi con noi le tue esigenze e il nostro team può aiutarti a coordinare i prossimi passi."
+    }
+  },
+
+  "footer": {
+    "description": "Coordinamento e supporto per viaggi medici per pazienti internazionali che cercano assistenza sanitaria in India.",
+    "quickLinks": "Link rapidi",
+    "services": "I nostri servizi",
+    "contact": "Contatti",
+    "rights": "Tutti i diritti riservati.",
+    "privacy": "Informativa sulla privacy",
+    "terms": "Termini e condizioni",
+    "disclaimer": "Disclaimer medico",
+    "serviceLinks": {
+      "appointments": "Appuntamenti medici",
+      "accommodation": "Alloggio",
+      "transport": "Trasporto locale",
+      "interpreter": "Servizi di interpretariato",
+      "patientCare": "Coordinamento dell'assistenza"
+    }
+  },
+
+  "about": {
+    "hero": {
+      "badge": "SUPPORTO PER VIAGGI MEDICI IN INDIA",
+      "label": "CHI SIAMO",
+      "title": "Supportiamo il tuo",
+      "highlight": "percorso sanitario",
+      "end": " in India",
+      "description": "Aiutiamo i pazienti internazionali a coordinare gli aspetti importanti del loro percorso medico in India."
+    },
+
+    "intro": {
+      "label": "CHI SIAMO",
+      "title": "Rendere più semplice il percorso medico",
+      "paragraph1": "ShifoPath India offre supporto al coordinamento per i pazienti internazionali che cercano servizi sanitari in India.",
+      "paragraph2": "Dall'organizzazione degli appuntamenti ospedalieri al supporto per alloggio, trasporto locale, interpretariato e coordinamento dell'assistenza, aiutiamo a organizzare gli aspetti pratici del percorso.",
+      "paragraph3": "Il nostro ruolo è supportare la comunicazione e il coordinamento, mentre le decisioni sanitarie e i trattamenti rimangono di competenza dei professionisti sanitari qualificati."
+    },
+
+    "highlights": {
+      "understand": {
+        "title": "Comprendere",
+        "description": "Comprendiamo le tue esigenze e il tipo di supporto necessario per il tuo percorso sanitario."
+      },
+      "coordinate": {
+        "title": "Coordinare",
+        "description": "Aiutiamo a coordinare appuntamenti e servizi di supporto organizzati durante il tuo percorso medico."
+      },
+      "support": {
+        "title": "Supportare",
+        "description": "Rimaniamo in contatto durante le diverse fasi del tuo viaggio medico."
+      }
+    },
+
+    "values": {
+      "label": "IL NOSTRO APPROCCIO",
+      "title": "Su cosa ci concentriamo",
+      "description": "Il nostro approccio si basa su comunicazione chiara, coordinamento e supporto al paziente.",
+      "cards": {
+        "communication": {
+          "title": "Comunicazione chiara",
+          "description": "Cerchiamo di rendere più semplice la comunicazione e il coordinamento durante tutto il percorso."
+        },
+        "support": {
+          "title": "Supporto al paziente",
+          "description": "Aiutiamo a coordinare il supporto pratico in base ai servizi richiesti."
+        },
+        "organized": {
+          "title": "Percorso organizzato",
+          "description": "Aiutiamo a riunire le diverse organizzazioni per rendere il tuo percorso più facile da gestire."
+        }
+      }
+    },
+
+    "cta": {
+      "label": "INIZIA IL TUO PERCORSO",
+      "title": "Stai pianificando cure mediche in India?",
+      "description": "Condividi con noi le tue esigenze e parla del supporto di coordinamento di cui potresti aver bisogno."
+    }
+  },
+
+  "services": {
+    "hero": {
+      "badge": "SUPPORTO PER VIAGGI MEDICI IN INDIA",
+      "label": "I NOSTRI SERVIZI",
+      "title": "Supporto completo per il tuo",
+      "highlight": "percorso medico",
+      "description": "Dagli appuntamenti ospedalieri all'alloggio, al trasporto e al supporto linguistico, aiutiamo a coordinare gli aspetti importanti del tuo percorso sanitario in India."
+    },
+
+    "main": {
+      "label": "I NOSTRI SERVIZI",
+      "title": "Supporto per ogni fase del tuo percorso",
+      "description": "Scopri i servizi di coordinamento e supporto disponibili per i pazienti internazionali."
+    },
+
+    "cards": {
+      "appointments": {
+        "title": "Appuntamenti medici",
+        "description": "Ti aiutiamo a organizzare appuntamenti con ospedali e medici in base alle tue esigenze sanitarie."
+      },
+      "accommodation": {
+        "title": "Alloggio",
+        "description": "Possiamo aiutarti a coordinare opzioni di alloggio adatte durante il tuo percorso medico."
+      },
+      "transport": {
+        "title": "Trasporto locale",
+        "description": "Assistiamo nell'organizzazione del trasporto locale durante il tuo soggiorno in India."
+      },
+      "interpreter": {
+        "title": "Servizi di interpretariato",
+        "description": "Il supporto linguistico può facilitare la comunicazione con gli operatori sanitari."
+      },
+      "patientCare": {
+        "title": "Coordinamento dell'assistenza",
+        "description": "Forniamo coordinamento e supporto durante le diverse fasi del tuo percorso sanitario."
+      }
+    },
+
+    "support": {
+      "label": "HAI BISOGNO DI SUPPORTO?",
+      "title": "Parliamo delle tue esigenze",
+      "description": "Condividi con noi le tue esigenze sanitarie e parla del supporto di coordinamento di cui potresti aver bisogno.",
+      "button": "Inizia la tua richiesta"
+    }
+  },
+
+  "hospitals": {
+    "hero": {
+      "badge": "ASSISTENZA SANITARIA IN INDIA",
+      "label": "OSPEDALI",
+      "title": "Esplora le opzioni sanitarie",
+      "highlight": "in India",
+      "description": "Esplora gli ospedali in India e scopri le opzioni sanitarie disponibili per il tuo percorso medico."
+    },
+
+    "main": {
+      "label": "INFORMAZIONI SUGLI OSPEDALI",
+      "title": "Ospedali in India",
+      "description": "Esplora le informazioni sugli ospedali e sulle specialità mediche che offrono."
+    },
+
+    "specialties": "Specialità",
+
+    "cta": {
+      "label": "HAI BISOGNO DI AIUTO?",
+      "title": "Cerchi opzioni ospedaliere in India?",
+      "description": "Condividi con noi le tue esigenze sanitarie e parla delle opzioni ospedaliere disponibili per il tuo percorso."
+    }
+  },
+
+  "doctors": {
+    "hero": {
+      "badge": "PROFESSIONISTI SANITARI IN INDIA",
+      "label": "MEDICI",
+      "title": "Esplora gli specialisti",
+      "highlight": "medici in India",
+      "description": "Esplora i medici di diverse specialità e ospedali in India."
+    },
+
+    "main": {
+      "label": "ELENCO DEI MEDICI",
+      "title": "Medici e specialisti",
+      "description": "Esplora i medici organizzati per specialità e ospedale."
+    },
+
+    "specialization": "Specializzazione",
+    "hospital": "Ospedale",
+    "location": "Località",
+
+    "cta": {
+      "label": "HAI BISOGNO DI AIUTO?",
+      "title": "Cerchi un medico in India?",
+      "description": "Condividi le tue esigenze sanitarie e possiamo aiutarti a coordinare i prossimi passi.",
+      "button": "Invia una richiesta"
+    }
+  },
+
+  "doctorProfile": {
+    "back": "Torna ai medici",
+
+    "profile": {
+      "specialization": "Specializzazione",
+      "hospital": "Ospedale",
+      "location": "Località"
+    },
+
+    "about": {
+      "label": "INFORMAZIONI SUL MEDICO",
+      "title": "Informazioni professionali",
+      "description": "Questa sezione fornisce informazioni generali sulla specialità del medico e sull'ospedale."
+    },
+
+    "appointment": {
+      "label": "INFORMAZIONI SULL'APPUNTAMENTO",
+      "title": "Vuoi discutere di un appuntamento?",
+      "description": "Condividi con noi le tue esigenze sanitarie e possiamo aiutarti a coordinare una richiesta di appuntamento.",
+      "button": "Invia richiesta di appuntamento"
+    },
+
+    "otherDoctors": {
+      "label": "ALTRI MEDICI",
+      "title": "Esplora altri specialisti",
+      "button": "Visualizza medici"
+    }
+  },
+
+  "howItWorks": {
+    "hero": {
+      "badge": "IL TUO PERCORSO MEDICO",
+      "label": "COME FUNZIONA",
+      "title": "Un processo semplice per il tuo",
+      "highlight": "percorso medico",
+      "description": "Il nostro processo in sette passaggi aiuta a organizzare gli aspetti importanti del tuo percorso sanitario in India."
+    },
+
+    "main": {
+      "label": "SETTE SEMPLICI PASSAGGI",
+      "title": "Dalla richiesta al follow-up",
+      "description": "Scopri come coordiniamo le diverse fasi del tuo viaggio medico."
+    },
+
+    "steps": {
+      "step1": {
+        "title": "Invia la tua richiesta",
+        "description": "Parlaci delle tue esigenze sanitarie, del servizio preferito e del supporto necessario."
+      },
+      "step2": {
+        "title": "Condividi i documenti medici",
+        "description": "Quando richiesto, condividi referti o documenti medici pertinenti per la pianificazione della consulenza."
+      },
+      "step3": {
+        "title": "Abbinamento ospedale e medico",
+        "description": "Ti aiutiamo a coordinare opzioni di ospedali e medici adatti alle tue esigenze."
+      },
+      "step4": {
+        "title": "Consulenza e pianificazione",
+        "description": "Aiutiamo a coordinare la consulenza e i passaggi successivi con il professionista sanitario."
+      },
+      "step5": {
+        "title": "Costi e dettagli del trattamento",
+        "description": "Puoi discutere i dettagli del trattamento e le informazioni disponibili sui costi con il professionista sanitario."
+      },
+      "step6": {
+        "title": "Supporto per viaggio e trattamento",
+        "description": "Assistiamo con servizi organizzati come alloggio, trasporto e interpretariato."
+      },
+      "step7": {
+        "title": "Trattamento e follow-up",
+        "description": "Continua il tuo percorso sanitario con supporto al coordinamento e al follow-up."
+      }
+    },
+
+    "cta": {
+      "label": "PRONTO A INIZIARE?",
+      "title": "Condividi con noi le tue esigenze",
+      "description": "Inizia la tua richiesta e parla del supporto di cui potresti aver bisogno per il tuo percorso medico.",
+      "button": "Inizia la tua richiesta"
+    }
+  },
+
+  "contact": {
+    "hero": {
+      "badge": "SUPPORTO PER VIAGGI MEDICI IN INDIA",
+      "label": "CONTATTACI",
+      "title": "Organizziamo il tuo",
+      "highlight": "percorso sanitario",
+      "description": "Condividi con noi le tue esigenze sanitarie e parla del supporto di coordinamento di cui potresti aver bisogno per il tuo percorso medico in India."
+    },
+
+    "form": {
+      "label": "INVIA UNA RICHIESTA",
+      "title": "Parlaci delle tue esigenze",
+      "description": "Compila il modulo qui sotto e il nostro team potrà esaminare la tua richiesta.",
+      "fullName": "Nome completo",
+      "fullNamePlaceholder": "Inserisci il tuo nome completo",
+      "country": "Paese",
+      "countryPlaceholder": "Inserisci il tuo paese",
+      "phone": "Telefono / WhatsApp",
+      "phonePlaceholder": "Inserisci il tuo numero di telefono o WhatsApp",
+      "email": "Email",
+      "emailPlaceholder": "Inserisci il tuo indirizzo email",
+      "service": "Servizio richiesto",
+      "servicePlaceholder": "Seleziona un servizio",
+      "message": "Messaggio",
+      "messagePlaceholder": "Descrivi le tue esigenze",
+      "submit": "Invia richiesta",
+      "required": "Obbligatorio"
+    },
+
+    "services": {
+      "appointments": "Appuntamenti medici",
+      "accommodation": "Alloggio",
+      "transport": "Trasporto locale",
+      "interpreter": "Servizi di interpretariato",
+      "patientCare": "Coordinamento dell'assistenza",
+      "other": "Altro"
+    },
+
+    "info": {
+      "label": "CONTATTACI",
+      "title": "Siamo qui per aiutarti",
+      "description": "Contatta ShifoPath India per parlare delle tue esigenze di viaggio medico e delle necessità di coordinamento.",
+      "phone": "Telefono / WhatsApp",
+      "instagram": "Instagram",
+      "telegram": "Telegram"
+    },
+
+    "afterSubmit": {
+      "label": "COSA SUCCEDE DOPO",
+      "title": "Dopo aver inviato la tua richiesta",
+      "step1": "La tua richiesta viene ricevuta dal nostro team.",
+      "step2": "Esaminiamo le informazioni che hai fornito.",
+      "step3": "Ti contattiamo per discutere delle tue esigenze.",
+      "step4": "Discutiamo con te i prossimi passaggi di coordinamento."
+    }
+  },
+
+  "admin": {
+    "login": {
+      "title": "Accesso amministratore",
+      "subtitle": "Accedi per entrare nella dashboard amministrativa di ShifoPath India.",
+      "username": "Nome utente",
+      "usernamePlaceholder": "Inserisci il nome utente",
+      "password": "Password",
+      "passwordPlaceholder": "Inserisci la password",
+      "loginButton": "Accedi",
+      "error": "Nome utente o password non validi."
+    },
+
+    "dashboard": {
+      "title": "Dashboard amministrativa",
+      "subtitle": "Gestisci e consulta le richieste dei pazienti.",
+      "logout": "Esci",
+      "totalEnquiries": "Richieste totali",
+      "new": "Nuove",
+      "contacted": "Contattate",
+      "inProgress": "In corso",
+      "completed": "Completate",
+      "search": "Cerca richieste",
+      "filter": "Filtra per stato",
+      "all": "Tutte",
+      "name": "Nome",
+      "country": "Paese",
+      "phone": "Telefono",
+      "email": "Email",
+      "service": "Servizio",
+      "message": "Messaggio",
+      "date": "Data",
+      "status": "Stato",
+      "actions": "Azioni",
+      "update": "Aggiorna",
+      "noEnquiries": "Nessuna richiesta trovata."
+    }
+  },
+
+  "privacy": {
+    "title": "Informativa sulla privacy",
+    "intro": "Questa Informativa sulla privacy spiega come ShifoPath India può raccogliere e utilizzare le informazioni inviate attraverso questo sito web.",
+    "sections": {
+      "information": {
+        "title": "Informazioni che raccogliamo",
+        "text": "Possiamo raccogliere informazioni come nome, paese, numero di telefono, indirizzo email, servizio richiesto e messaggio quando invii una richiesta."
+      },
+      "use": {
+        "title": "Come utilizziamo le informazioni",
+        "text": "Le informazioni possono essere utilizzate per rispondere alle richieste, coordinare i servizi richiesti e comunicare con te riguardo alle tue esigenze."
+      },
+      "medical": {
+        "title": "Informazioni mediche",
+        "text": "Se vengono richiesti o condivisi documenti medici, dovrebbero essere forniti solo quando necessari per il coordinamento o per la consulenza. Evita di condividere informazioni sensibili non necessarie."
+      },
+      "security": {
+        "title": "Sicurezza dei dati",
+        "text": "Adottiamo misure ragionevoli per proteggere le informazioni gestite attraverso il sito web, ma nessun sistema online può garantire una sicurezza assoluta."
+      },
+      "contact": {
+        "title": "Contatti",
+        "text": "Per domande relative a questa Informativa sulla privacy, contatta ShifoPath India."
+      }
+    }
+  },
+
+  "terms": {
+    "title": "Termini e condizioni",
+    "intro": "Utilizzando questo sito web, accetti i seguenti termini e condizioni generali.",
+    "sections": {
+      "information": {
+        "title": "Informazioni sul sito web",
+        "text": "Le informazioni fornite su questo sito web hanno scopo informativo generale e di coordinamento."
+      },
+      "services": {
+        "title": "Servizi di coordinamento",
+        "text": "ShifoPath India può assistere nel coordinamento di appuntamenti, alloggio, trasporto, interpretariato e servizi di supporto al paziente."
+      },
+      "healthcare": {
+        "title": "Decisioni sanitarie",
+        "text": "La diagnosi medica, le decisioni terapeutiche e l'assistenza clinica sono responsabilità di professionisti sanitari qualificati e strutture sanitarie."
+      },
+      "accuracy": {
+        "title": "Accuratezza delle informazioni",
+        "text": "Cerchiamo di mantenere le informazioni utili e accurate, ma i servizi ospedalieri, la disponibilità dei medici, i prezzi e altri dettagli possono cambiare."
+      },
+      "contact": {
+        "title": "Contatti",
+        "text": "Per domande relative a questi termini, contatta ShifoPath India."
+      }
+    }
+  },
+
+  "medicalDisclaimer": {
+    "title": "Disclaimer medico",
+    "intro": "Le informazioni presenti su questo sito web non sostituiscono il parere medico professionale, la diagnosi o il trattamento.",
+    "sections": {
+      "notMedicalAdvice": {
+        "title": "Non costituisce consulenza medica",
+        "text": "ShifoPath India fornisce informazioni sul coordinamento e sul supporto per i viaggi medici. Non forniamo diagnosi o trattamenti medici attraverso questo sito web."
+      },
+      "professionals": {
+        "title": "Professionisti sanitari",
+        "text": "Le decisioni mediche dovrebbero essere prese direttamente con medici qualificati e professionisti sanitari."
+      },
+      "emergency": {
+        "title": "Emergenze mediche",
+        "text": "Se stai vivendo un'emergenza medica, contatta il servizio di emergenza locale o richiedi immediatamente assistenza medica."
+      },
+      "information": {
+        "title": "Modifica delle informazioni",
+        "text": "I servizi ospedalieri, la disponibilità dei medici, le opzioni di trattamento e i costi possono cambiare. Conferma le informazioni aggiornate direttamente con il relativo professionista sanitario."
+      }
+    }
+  }
+}

@@ -1,0 +1,568 @@
+{
+  "navbar": {
+    "home": "首页",
+    "about": "关于我们",
+    "services": "服务",
+    "hospitals": "医院",
+    "doctors": "医生",
+    "howItWorks": "服务流程",
+    "contact": "联系我们"
+  },
+
+  "common": {
+    "bookConsultation": "预约咨询",
+    "startEnquiry": "开始咨询",
+    "learnMore": "了解更多",
+    "viewProfile": "查看简介",
+    "sendEnquiry": "提交咨询",
+    "back": "返回",
+    "readMore": "阅读更多",
+    "contactUs": "联系我们",
+    "submit": "提交",
+    "submitEnquiry": "提交咨询",
+    "close": "关闭"
+  },
+
+  "hero": {
+    "badge": "印度医疗旅行支持",
+    "title": "您的医疗",
+    "titleHighlight": "印度就医之旅",
+    "description": "我们为国际患者协调医院预约、住宿、当地交通、翻译以及整个印度医疗旅程中的患者支持服务。",
+    "primaryButton": "预约咨询",
+    "secondaryButton": "了解服务流程",
+    "trust": {
+      "easyCoordination": "便捷协调",
+      "patientSupport": "患者支持",
+      "communication": "清晰沟通"
+    }
+  },
+
+  "home": {
+    "services": {
+      "label": "我们的服务",
+      "title": "为您的医疗旅程提供支持",
+      "description": "我们帮助您更轻松、更有序地完成在印度的医疗旅程。"
+    },
+
+    "serviceCards": {
+      "appointments": {
+        "title": "医疗预约",
+        "description": "根据您的需求，帮助安排医院和医生的预约。"
+      },
+      "accommodation": {
+        "title": "住宿安排",
+        "description": "帮助您寻找医疗旅程期间合适的住宿。"
+      },
+      "transport": {
+        "title": "当地交通",
+        "description": "协助安排您在印度停留期间的当地交通。"
+      },
+      "interpreter": {
+        "title": "翻译服务",
+        "description": "提供语言支持，让您与医疗服务提供者沟通更加方便。"
+      },
+      "patientCare": {
+        "title": "患者护理协调",
+        "description": "在医疗旅程的不同阶段提供协调和支持。"
+      }
+    },
+
+    "why": {
+      "label": "为什么选择 SHIFOPATH INDIA",
+      "title": "陪伴您的医疗旅程",
+      "description": "从第一次咨询到治疗过程，我们帮助您协调就医过程中重要的事项。"
+    },
+
+    "whyCards": {
+      "personalized": {
+        "title": "个性化支持",
+        "description": "我们了解您的需求，并根据您的情况帮助协调相关服务。"
+      },
+      "coordination": {
+        "title": "便捷协调",
+        "description": "医院预约、住宿和当地支持可以通过一个联系渠道进行协调。"
+      },
+      "communication": {
+        "title": "沟通支持",
+        "description": "翻译支持可以帮助您在医疗旅程中更轻松地进行沟通。"
+      },
+      "journey": {
+        "title": "旅程协助",
+        "description": "我们在医疗旅行的不同阶段提供协调支持。"
+      }
+    },
+
+    "journey": {
+      "label": "服务流程",
+      "title": "一步一步完成您的医疗旅程",
+      "description": "从最初咨询到治疗和后续支持，我们帮助协调您的医疗旅程。"
+    },
+
+    "journeySteps": {
+      "step1": {
+        "title": "提交您的需求",
+        "description": "告诉我们您的医疗需求以及您需要的支持。"
+      },
+      "step2": {
+        "title": "分享医疗文件",
+        "description": "如有需要，可以分享相关医疗文件，用于咨询和治疗规划。"
+      },
+      "step3": {
+        "title": "医院与医生匹配",
+        "description": "根据您的需求，帮助协调合适的医院和医生选择。"
+      },
+      "step4": {
+        "title": "咨询与规划",
+        "description": "协调医疗咨询，并与医疗服务提供者讨论下一步安排。"
+      },
+      "step5": {
+        "title": "费用与治疗信息",
+        "description": "从医疗服务提供者处获取可提供的治疗和费用信息。"
+      },
+      "step6": {
+        "title": "旅行与治疗支持",
+        "description": "为您的住宿、当地交通以及其他已安排服务提供协调支持。"
+      },
+      "step7": {
+        "title": "治疗与后续支持",
+        "description": "在协调和后续支持下继续您的医疗旅程。"
+      }
+    },
+
+    "cta": {
+      "label": "开始您的旅程",
+      "title": "需要帮助规划您的印度医疗之旅吗？",
+      "description": "向我们分享您的需求，我们的团队可以帮助您协调下一步安排。"
+    }
+  },
+
+  "footer": {
+    "description": "为前往印度寻求医疗服务的国际患者提供医疗旅行协调和支持。",
+    "quickLinks": "快速链接",
+    "services": "我们的服务",
+    "contact": "联系方式",
+    "rights": "版权所有。",
+    "privacy": "隐私政策",
+    "terms": "条款与条件",
+    "disclaimer": "医疗免责声明",
+    "serviceLinks": {
+      "appointments": "医疗预约",
+      "accommodation": "住宿安排",
+      "transport": "当地交通",
+      "interpreter": "翻译服务",
+      "patientCare": "患者护理协调"
+    }
+  },
+
+  "about": {
+    "hero": {
+      "badge": "印度医疗旅行支持",
+      "label": "关于 SHIFOPATH INDIA",
+      "title": "支持您的",
+      "highlight": "医疗旅程",
+      "end": " 在印度",
+      "description": "我们帮助国际患者协调在印度医疗旅程中的重要事项。"
+    },
+
+    "intro": {
+      "label": "关于我们",
+      "title": "让医疗旅行更加简单",
+      "paragraph1": "ShifoPath India 为前往印度寻求医疗服务的国际患者提供协调支持。",
+      "paragraph2": "从安排医院预约，到住宿、当地交通、翻译和患者护理协调，我们帮助您安排医疗旅程中的实际事项。",
+      "paragraph3": "我们的职责是提供沟通和协调支持，而医疗决定和治疗由合格的医疗专业人员负责。"
+    },
+
+    "highlights": {
+      "understand": {
+        "title": "了解",
+        "description": "我们了解您的需求以及您在医疗旅程中所需要的支持。"
+      },
+      "coordinate": {
+        "title": "协调",
+        "description": "我们帮助协调医疗预约以及医疗旅程中的相关支持服务。"
+      },
+      "support": {
+        "title": "支持",
+        "description": "我们在医疗旅行的不同阶段持续提供协调支持。"
+      }
+    },
+
+    "values": {
+      "label": "我们的理念",
+      "title": "我们关注的重点",
+      "description": "我们的服务理念以清晰沟通、协调和患者支持为中心。",
+      "cards": {
+        "communication": {
+          "title": "清晰沟通",
+          "description": "我们致力于让整个医疗旅程中的沟通和协调更加简单。"
+        },
+        "support": {
+          "title": "患者支持",
+          "description": "根据您所需要的服务，我们帮助协调相关实际支持。"
+        },
+        "organized": {
+          "title": "有序的旅程",
+          "description": "我们帮助整合不同的安排，让您的医疗旅程更加容易管理。"
+        }
+      }
+    },
+
+    "cta": {
+      "label": "开始您的旅程",
+      "title": "计划在印度接受医疗服务吗？",
+      "description": "向我们分享您的需求，并与我们讨论您可能需要的协调支持。"
+    }
+  },
+
+  "services": {
+    "hero": {
+      "badge": "印度医疗旅行支持",
+      "label": "我们的服务",
+      "title": "为您的",
+      "highlight": "医疗旅程提供全面支持",
+      "description": "从医院预约到住宿、交通和语言支持，我们帮助协调您在印度医疗旅程中的重要事项。"
+    },
+
+    "main": {
+      "label": "我们的服务",
+      "title": "支持您旅程的每个阶段",
+      "description": "了解我们为国际患者提供的协调和支持服务。"
+    },
+
+    "cards": {
+      "appointments": {
+        "title": "医疗预约",
+        "description": "根据您的医疗需求，帮助安排医院和医生的预约。"
+      },
+      "accommodation": {
+        "title": "住宿安排",
+        "description": "帮助协调您医疗旅程期间合适的住宿选择。"
+      },
+      "transport": {
+        "title": "当地交通",
+        "description": "协助安排您在印度停留期间的当地交通。"
+      },
+      "interpreter": {
+        "title": "翻译服务",
+        "description": "语言支持可以帮助您更轻松地与医疗服务提供者沟通。"
+      },
+      "patientCare": {
+        "title": "患者护理协调",
+        "description": "在医疗旅程的不同阶段提供协调和支持。"
+      }
+    },
+
+    "support": {
+      "label": "需要支持吗？",
+      "title": "让我们了解您的需求",
+      "description": "向我们分享您的医疗需求，并讨论您可能需要的协调支持。",
+      "button": "开始咨询"
+    }
+  },
+
+  "hospitals": {
+    "hero": {
+      "badge": "印度医疗服务",
+      "label": "医院",
+      "title": "探索印度的医疗",
+      "highlight": "选择",
+      "description": "了解印度不同医院以及您的医疗旅程中可以选择的医疗服务。"
+    },
+
+    "main": {
+      "label": "医院信息",
+      "title": "印度的医院",
+      "description": "了解不同医院以及它们提供的医疗专业服务。"
+    },
+
+    "specialties": "医疗专科",
+
+    "cta": {
+      "label": "需要帮助吗？",
+      "title": "正在寻找印度的医院选择吗？",
+      "description": "向我们分享您的医疗需求，并与我们讨论适合您旅程的医院选择。"
+    }
+  },
+
+  "doctors": {
+    "hero": {
+      "badge": "印度医疗专业人员",
+      "label": "医生",
+      "title": "探索印度的医疗",
+      "highlight": "专科医生",
+      "description": "探索印度不同医疗专科和医院的医生。"
+    },
+
+    "main": {
+      "label": "医生目录",
+      "title": "医生与专科专家",
+      "description": "按照医疗专科和医院探索医生信息。"
+    },
+
+    "specialization": "医疗专科",
+    "hospital": "医院",
+    "location": "所在地",
+
+    "cta": {
+      "label": "需要帮助吗？",
+      "title": "正在寻找印度的医生吗？",
+      "description": "向我们分享您的医疗需求，我们可以帮助协调下一步安排。",
+      "button": "提交咨询"
+    }
+  },
+
+  "doctorProfile": {
+    "back": "返回医生列表",
+
+    "profile": {
+      "specialization": "医疗专科",
+      "hospital": "医院",
+      "location": "所在地"
+    },
+
+    "about": {
+      "label": "关于医生",
+      "title": "专业信息",
+      "description": "此部分提供医生专业领域和所在医院的一般信息。"
+    },
+
+    "appointment": {
+      "label": "预约信息",
+      "title": "想咨询预约吗？",
+      "description": "向我们分享您的医疗需求，我们可以帮助协调预约咨询。",
+      "button": "提交预约咨询"
+    },
+
+    "otherDoctors": {
+      "label": "其他医生",
+      "title": "探索其他专科医生",
+      "button": "查看医生"
+    }
+  },
+
+  "howItWorks": {
+    "hero": {
+      "badge": "您的医疗旅程",
+      "label": "服务流程",
+      "title": "简单的",
+      "highlight": "医疗旅程流程",
+      "description": "我们的七步流程帮助您安排在印度医疗旅程中的重要事项。"
+    },
+
+    "main": {
+      "label": "七个简单步骤",
+      "title": "从咨询到后续支持",
+      "description": "了解我们如何协调您医疗旅行的不同阶段。"
+    },
+
+    "steps": {
+      "step1": {
+        "title": "提交您的需求",
+        "description": "告诉我们您的医疗需求、所需服务以及支持需求。"
+      },
+      "step2": {
+        "title": "分享医疗文件",
+        "description": "如有需要，分享相关医疗报告或文件，用于咨询规划。"
+      },
+      "step3": {
+        "title": "医院与医生匹配",
+        "description": "根据您的需求，帮助协调合适的医院和医生选择。"
+      },
+      "step4": {
+        "title": "咨询与规划",
+        "description": "帮助协调医疗咨询，并与医疗服务提供者确定下一步安排。"
+      },
+      "step5": {
+        "title": "费用与治疗信息",
+        "description": "您可以与医疗服务提供者讨论治疗详情和可提供的费用信息。"
+      },
+      "step6": {
+        "title": "旅行与治疗支持",
+        "description": "协助安排住宿、交通和翻译等相关服务。"
+      },
+      "step7": {
+        "title": "治疗与后续支持",
+        "description": "通过协调和后续支持继续您的医疗旅程。"
+      }
+    },
+
+    "cta": {
+      "label": "准备开始了吗？",
+      "title": "向我们分享您的需求",
+      "description": "开始提交咨询，并与我们讨论您医疗旅程中可能需要的支持。",
+      "button": "开始咨询"
+    }
+  },
+
+  "contact": {
+    "hero": {
+      "badge": "印度医疗旅行支持",
+      "label": "联系我们",
+      "title": "让我们规划您的",
+      "highlight": "医疗旅程",
+      "description": "向我们分享您的医疗需求，并讨论您在印度医疗旅程中可能需要的协调支持。"
+    },
+
+    "form": {
+      "label": "提交咨询",
+      "title": "告诉我们您的需求",
+      "description": "填写下面的表格，我们的团队可以查看您的咨询。",
+      "fullName": "姓名",
+      "fullNamePlaceholder": "请输入您的姓名",
+      "country": "国家",
+      "countryPlaceholder": "请输入您的国家",
+      "phone": "电话 / WhatsApp",
+      "phonePlaceholder": "请输入您的电话或 WhatsApp 号码",
+      "email": "电子邮箱",
+      "emailPlaceholder": "请输入您的电子邮箱地址",
+      "service": "所需服务",
+      "servicePlaceholder": "选择服务",
+      "message": "留言",
+      "messagePlaceholder": "请告诉我们您的需求",
+      "submit": "提交咨询",
+      "required": "必填"
+    },
+
+    "services": {
+      "appointments": "医疗预约",
+      "accommodation": "住宿安排",
+      "transport": "当地交通",
+      "interpreter": "翻译服务",
+      "patientCare": "患者护理协调",
+      "other": "其他"
+    },
+
+    "info": {
+      "label": "联系我们",
+      "title": "我们随时为您提供帮助",
+      "description": "联系 ShifoPath India，讨论您的医疗旅行需求和协调需求。",
+      "phone": "电话 / WhatsApp",
+      "instagram": "Instagram",
+      "telegram": "Telegram"
+    },
+
+    "afterSubmit": {
+      "label": "接下来会发生什么",
+      "title": "提交咨询后",
+      "step1": "您的咨询将由我们的团队收到。",
+      "step2": "我们会查看您提供的信息。",
+      "step3": "我们会联系您，了解您的具体需求。",
+      "step4": "我们会与您讨论下一步协调安排。"
+    }
+  },
+
+  "admin": {
+    "login": {
+      "title": "管理员登录",
+      "subtitle": "登录以访问 ShifoPath India 管理员后台。",
+      "username": "用户名",
+      "usernamePlaceholder": "请输入用户名",
+      "password": "密码",
+      "passwordPlaceholder": "请输入密码",
+      "loginButton": "登录",
+      "error": "用户名或密码无效。"
+    },
+
+    "dashboard": {
+      "title": "管理员后台",
+      "subtitle": "管理和查看患者咨询。",
+      "logout": "退出登录",
+      "totalEnquiries": "咨询总数",
+      "new": "新咨询",
+      "contacted": "已联系",
+      "inProgress": "处理中",
+      "completed": "已完成",
+      "search": "搜索咨询",
+      "filter": "按状态筛选",
+      "all": "全部",
+      "name": "姓名",
+      "country": "国家",
+      "phone": "电话",
+      "email": "电子邮箱",
+      "service": "服务",
+      "message": "留言",
+      "date": "日期",
+      "status": "状态",
+      "actions": "操作",
+      "update": "更新",
+      "noEnquiries": "未找到咨询。"
+    }
+  },
+
+  "privacy": {
+    "title": "隐私政策",
+    "intro": "本隐私政策说明 ShifoPath India 如何收集和使用通过本网站提交的信息。",
+    "sections": {
+      "information": {
+        "title": "我们收集的信息",
+        "text": "当您提交咨询时，我们可能会收集您的姓名、国家、电话号码、电子邮箱、服务需求和留言等信息。"
+      },
+      "use": {
+        "title": "我们如何使用信息",
+        "text": "这些信息可能用于回复咨询、协调您所请求的服务以及与您沟通相关需求。"
+      },
+      "medical": {
+        "title": "医疗信息",
+        "text": "如果需要或您主动分享医疗文件，应仅在协调或咨询所必需的情况下提供。请避免分享不必要的敏感信息。"
+      },
+      "security": {
+        "title": "数据安全",
+        "text": "我们会采取合理措施保护通过网站处理的信息，但任何在线系统都无法保证绝对安全。"
+      },
+      "contact": {
+        "title": "联系我们",
+        "text": "如果您对本隐私政策有任何疑问，请联系 ShifoPath India。"
+      }
+    }
+  },
+
+  "terms": {
+    "title": "条款与条件",
+    "intro": "使用本网站即表示您同意以下一般条款与条件。",
+    "sections": {
+      "information": {
+        "title": "网站信息",
+        "text": "本网站提供的信息用于一般信息和医疗旅行协调目的。"
+      },
+      "services": {
+        "title": "协调服务",
+        "text": "ShifoPath India 可以协助协调医疗预约、住宿、交通、翻译和患者支持服务。"
+      },
+      "healthcare": {
+        "title": "医疗决定",
+        "text": "医疗诊断、治疗决定和临床护理由合格的医疗专业人员和医疗服务提供者负责。"
+      },
+      "accuracy": {
+        "title": "信息准确性",
+        "text": "我们努力保持信息有用和准确，但医院服务、医生可预约情况、价格以及其他信息可能发生变化。"
+      },
+      "contact": {
+        "title": "联系我们",
+        "text": "如果您对这些条款有任何疑问，请联系 ShifoPath India。"
+      }
+    }
+  },
+
+  "medicalDisclaimer": {
+    "title": "医疗免责声明",
+    "intro": "本网站上的信息不能替代专业医疗建议、诊断或治疗。",
+    "sections": {
+      "notMedicalAdvice": {
+        "title": "非医疗建议",
+        "text": "ShifoPath India 提供医疗旅行协调和支持信息。本网站不提供医疗诊断或治疗。"
+      },
+      "professionals": {
+        "title": "医疗专业人员",
+        "text": "医疗决定应直接与合格的医生和医疗服务提供者讨论。"
+      },
+      "emergency": {
+        "title": "医疗紧急情况",
+        "text": "如果您遇到医疗紧急情况，请联系当地紧急服务机构或立即寻求医疗救助。"
+      },
+      "information": {
+        "title": "信息变化",
+        "text": "医院服务、医生可预约情况、治疗选择和费用可能发生变化。请直接向相关医疗服务提供者确认最新信息。"
+      }
+    }
+  }
+}
