@@ -1,0 +1,568 @@
+{
+  "navbar": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "hospitals": "Hastaneler",
+    "doctors": "Doktorlar",
+    "howItWorks": "Nasıl Çalışır",
+    "contact": "İletişim"
+  },
+
+  "common": {
+    "bookConsultation": "Konsültasyon Randevusu Al",
+    "startEnquiry": "Talep Oluştur",
+    "learnMore": "Daha Fazla Bilgi",
+    "viewProfile": "Profili Görüntüle",
+    "sendEnquiry": "Talep Gönder",
+    "back": "Geri",
+    "readMore": "Devamını Oku",
+    "contactUs": "Bize Ulaşın",
+    "submit": "Gönder",
+    "submitEnquiry": "Talep Gönder",
+    "close": "Kapat"
+  },
+
+  "hero": {
+    "badge": "HİNDİSTAN'DA TIBBİ SEYAHAT DESTEĞİ",
+    "title": "Sağlık Yolculuğunuz",
+    "titleHighlight": "Hindistan'da",
+    "description": "Uluslararası hastaların Hindistan'daki tıbbi yolculukları boyunca hastane ve doktor randevularını, konaklamayı, yerel ulaşımı, tercüman hizmetlerini ve hasta desteğini koordine etmelerine yardımcı oluyoruz.",
+    "primaryButton": "Konsültasyon Randevusu Al",
+    "secondaryButton": "Nasıl Çalışır",
+    "trust": {
+      "easyCoordination": "Kolay Koordinasyon",
+      "patientSupport": "Hasta Desteği",
+      "communication": "Açık İletişim"
+    }
+  },
+
+  "home": {
+    "services": {
+      "label": "HİZMETLERİMİZ",
+      "title": "Tıbbi Yolculuğunuz İçin Destek",
+      "description": "Hindistan'daki sağlık yolculuğunuzu daha kolay ve düzenli hale getirmenize yardımcı oluyoruz."
+    },
+
+    "serviceCards": {
+      "appointments": {
+        "title": "Tıbbi Randevular",
+        "description": "İhtiyaçlarınıza göre hastaneler ve doktorlarla randevu ayarlamanıza yardımcı oluyoruz."
+      },
+      "accommodation": {
+        "title": "Konaklama",
+        "description": "Tıbbi yolculuğunuz sırasında uygun konaklama bulmanıza destek oluyoruz."
+      },
+      "transport": {
+        "title": "Yerel Ulaşım",
+        "description": "Konaklamanız sırasında yerel ulaşım düzenlemeleri konusunda yardımcı oluyoruz."
+      },
+      "interpreter": {
+        "title": "Tercüman Hizmetleri",
+        "description": "Sağlık hizmeti sağlayıcılarıyla iletişimi kolaylaştırmak için dil desteği sağlıyoruz."
+      },
+      "patientCare": {
+        "title": "Hasta Bakımı Koordinasyonu",
+        "description": "Sağlık yolculuğunuzun farklı aşamalarında koordinasyon ve destek sağlıyoruz."
+      }
+    },
+
+    "why": {
+      "label": "NEDEN SHIFOPATH INDIA",
+      "title": "Yolculuğunuz Boyunca Destek",
+      "description": "İlk talebinizden tedavi sürecinize kadar yolculuğunuzun önemli bölümlerini koordine etmenize yardımcı oluyoruz."
+    },
+
+    "whyCards": {
+      "personalized": {
+        "title": "Kişiselleştirilmiş Destek",
+        "description": "İhtiyaçlarınızı anlayarak hizmetleri gereksinimlerinize göre koordine etmenize yardımcı oluyoruz."
+      },
+      "coordination": {
+        "title": "Kolay Koordinasyon",
+        "description": "Hastane randevuları, konaklama ve yerel destek tek bir iletişim noktası üzerinden koordine edilebilir."
+      },
+      "communication": {
+        "title": "İletişim Desteği",
+        "description": "Tercüman desteği, sağlık yolculuğunuz sırasında iletişimi kolaylaştırabilir."
+      },
+      "journey": {
+        "title": "Yolculuk Desteği",
+        "description": "Tıbbi seyahatinizin farklı aşamalarında koordinasyon desteği sağlıyoruz."
+      }
+    },
+
+    "journey": {
+      "label": "NASIL ÇALIŞIR",
+      "title": "Tıbbi Yolculuğunuz, Adım Adım",
+      "description": "İlk talepten tedavi ve takip sürecine kadar yolculuğunuzu koordine etmenize yardımcı oluyoruz."
+    },
+
+    "journeySteps": {
+      "step1": {
+        "title": "İhtiyaçlarınızı Paylaşın",
+        "description": "Sağlık ihtiyaçlarınızı ve ihtiyaç duyduğunuz desteği bize bildirin."
+      },
+      "step2": {
+        "title": "Tıbbi Belgeleri Paylaşın",
+        "description": "Gerektiğinde konsültasyon ve tedavi planlaması için ilgili tıbbi belgeleri paylaşın."
+      },
+      "step3": {
+        "title": "Hastane ve Doktor Eşleştirme",
+        "description": "İhtiyaçlarınıza göre uygun hastane ve doktor seçeneklerini koordine etmenize yardımcı oluyoruz."
+      },
+      "step4": {
+        "title": "Konsültasyon ve Planlama",
+        "description": "Konsültasyonu koordine etmenize ve sağlık hizmeti sağlayıcısıyla sonraki adımları görüşmenize yardımcı oluyoruz."
+      },
+      "step5": {
+        "title": "Maliyet ve Tedavi Bilgileri",
+        "description": "Sağlık hizmeti sağlayıcısından mevcut tedavi ve maliyet bilgilerini alabilirsiniz."
+      },
+      "step6": {
+        "title": "Seyahat ve Tedavi Desteği",
+        "description": "Konaklama, yerel ulaşım ve diğer düzenlenen hizmetler için koordinasyon desteği alabilirsiniz."
+      },
+      "step7": {
+        "title": "Tedavi ve Takip",
+        "description": "Koordinasyon desteği ve takip yardımıyla sağlık yolculuğunuza devam edin."
+      }
+    },
+
+    "cta": {
+      "label": "YOLCULUĞUNUZA BAŞLAYIN",
+      "title": "Hindistan'daki Tıbbi Yolculuğunuzu Planlamak İçin Yardıma mı İhtiyacınız Var?",
+      "description": "İhtiyaçlarınızı bizimle paylaşın, ekibimiz sonraki adımları koordine etmenize yardımcı olsun."
+    }
+  },
+
+  "footer": {
+    "description": "Hindistan'da sağlık hizmeti almak isteyen uluslararası hastalar için tıbbi seyahat koordinasyonu ve desteği.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "services": "Hizmetlerimiz",
+    "contact": "İletişim",
+    "rights": "Tüm hakları saklıdır.",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Şartlar ve Koşullar",
+    "disclaimer": "Tıbbi Sorumluluk Reddi",
+    "serviceLinks": {
+      "appointments": "Tıbbi Randevular",
+      "accommodation": "Konaklama",
+      "transport": "Yerel Ulaşım",
+      "interpreter": "Tercüman Hizmetleri",
+      "patientCare": "Hasta Bakımı Koordinasyonu"
+    }
+  },
+
+  "about": {
+    "hero": {
+      "badge": "HİNDİSTAN'DA TIBBİ SEYAHAT DESTEĞİ",
+      "label": "SHIFOPATH INDIA HAKKINDA",
+      "title": "Sağlık",
+      "highlight": "Yolculuğunuzu Destekliyoruz",
+      "end": " Hindistan'da",
+      "description": "Uluslararası hastaların Hindistan'daki tıbbi yolculuklarının önemli bölümlerini koordine etmelerine yardımcı oluyoruz."
+    },
+
+    "intro": {
+      "label": "BİZ KİMİZ",
+      "title": "Tıbbi Seyahati Daha Kolay Hale Getiriyoruz",
+      "paragraph1": "ShifoPath India, Hindistan'da sağlık hizmeti almak isteyen uluslararası hastalara koordinasyon desteği sağlar.",
+      "paragraph2": "Hastane randevularının ayarlanmasından konaklama, yerel ulaşım, tercümanlık ve hasta bakımı koordinasyonuna kadar yolculuğun pratik bölümlerini düzenlemeye yardımcı oluyoruz.",
+      "paragraph3": "Rolümüz iletişim ve koordinasyonu desteklemektir. Tıbbi kararlar ve tedavi ise nitelikli sağlık profesyonellerinin sorumluluğundadır."
+    },
+
+    "highlights": {
+      "understand": {
+        "title": "Anlıyoruz",
+        "description": "İhtiyaçlarınızı ve tıbbi yolculuğunuz için ihtiyaç duyduğunuz desteği anlamaya çalışıyoruz."
+      },
+      "coordinate": {
+        "title": "Koordine Ediyoruz",
+        "description": "Tıbbi yolculuğunuz sırasında randevuları ve düzenlenen destek hizmetlerini koordine etmenize yardımcı oluyoruz."
+      },
+      "support": {
+        "title": "Destekliyoruz",
+        "description": "Tıbbi seyahatinizin farklı aşamalarında sizinle iletişim halinde kalıyoruz."
+      }
+    },
+
+    "values": {
+      "label": "YAKLAŞIMIMIZ",
+      "title": "Odaklandığımız Noktalar",
+      "description": "Yaklaşımımız açık iletişim, koordinasyon ve hasta desteğine dayanmaktadır.",
+      "cards": {
+        "communication": {
+          "title": "Açık İletişim",
+          "description": "Yolculuğunuz boyunca iletişimi ve koordinasyonu kolaylaştırmayı amaçlıyoruz."
+        },
+        "support": {
+          "title": "Hasta Desteği",
+          "description": "Talep edilen hizmetlere göre pratik desteklerin koordine edilmesine yardımcı oluyoruz."
+        },
+        "organized": {
+          "title": "Düzenli Yolculuk",
+          "description": "Yolculuğunuzu daha kolay yönetebilmeniz için farklı düzenlemeleri bir araya getirmenize yardımcı oluyoruz."
+        }
+      }
+    },
+
+    "cta": {
+      "label": "YOLCULUĞUNUZA BAŞLAYIN",
+      "title": "Hindistan'da Sağlık Hizmeti mi Planlıyorsunuz?",
+      "description": "İhtiyaçlarınızı bizimle paylaşın ve ihtiyaç duyabileceğiniz koordinasyon desteğini görüşün."
+    }
+  },
+
+  "services": {
+    "hero": {
+      "badge": "HİNDİSTAN'DA TIBBİ SEYAHAT DESTEĞİ",
+      "label": "HİZMETLERİMİZ",
+      "title": "Tıbbi Yolculuğunuz İçin",
+      "highlight": "Kapsamlı Destek",
+      "description": "Hastane randevularından konaklama, ulaşım ve dil desteğine kadar Hindistan'daki sağlık yolculuğunuzun önemli bölümlerini koordine etmenize yardımcı oluyoruz."
+    },
+
+    "main": {
+      "label": "HİZMETLERİMİZ",
+      "title": "Yolculuğunuzun Her Aşamasında Destek",
+      "description": "Uluslararası hastalar için sunulan koordinasyon ve destek hizmetlerini keşfedin."
+    },
+
+    "cards": {
+      "appointments": {
+        "title": "Tıbbi Randevular",
+        "description": "Tıbbi ihtiyaçlarınıza göre hastane ve doktor randevularının ayarlanmasına yardımcı oluyoruz."
+      },
+      "accommodation": {
+        "title": "Konaklama",
+        "description": "Tıbbi yolculuğunuz sırasında uygun konaklama seçeneklerinin koordinasyonuna yardımcı olabiliriz."
+      },
+      "transport": {
+        "title": "Yerel Ulaşım",
+        "description": "Hindistan'daki konaklamanız sırasında yerel ulaşım düzenlemelerinde destek sağlıyoruz."
+      },
+      "interpreter": {
+        "title": "Tercüman Hizmetleri",
+        "description": "Dil desteği, sağlık hizmeti sağlayıcılarıyla iletişimi kolaylaştırabilir."
+      },
+      "patientCare": {
+        "title": "Hasta Bakımı Koordinasyonu",
+        "description": "Sağlık yolculuğunuzun farklı aşamalarında koordinasyon ve destek sağlıyoruz."
+      }
+    },
+
+    "support": {
+      "label": "DESTEĞE Mİ İHTİYACINIZ VAR?",
+      "title": "İhtiyaçlarınızı Görüşelim",
+      "description": "Tıbbi ihtiyaçlarınızı bizimle paylaşın ve ihtiyaç duyabileceğiniz koordinasyon desteğini görüşün.",
+      "button": "Talep Oluştur"
+    }
+  },
+
+  "hospitals": {
+    "hero": {
+      "badge": "HİNDİSTAN'DA SAĞLIK HİZMETLERİ",
+      "label": "HASTANELER",
+      "title": "Hindistan'daki Sağlık",
+      "highlight": "Seçeneklerini Keşfedin",
+      "description": "Hindistan'daki hastaneleri keşfedin ve tıbbi yolculuğunuz için mevcut sağlık seçeneklerini inceleyin."
+    },
+
+    "main": {
+      "label": "HASTANE BİLGİLERİ",
+      "title": "Hindistan'daki Hastaneler",
+      "description": "Hastaneler ve sundukları tıbbi uzmanlık alanları hakkında bilgi edinin."
+    },
+
+    "specialties": "Uzmanlık Alanları",
+
+    "cta": {
+      "label": "YARDIMA MI İHTİYACINIZ VAR?",
+      "title": "Hindistan'da Hastane mi Arıyorsunuz?",
+      "description": "Tıbbi ihtiyaçlarınızı bizimle paylaşın ve yolculuğunuz için mevcut hastane seçeneklerini görüşün."
+    }
+  },
+
+  "doctors": {
+    "hero": {
+      "badge": "HİNDİSTAN'DAKİ SAĞLIK PROFESYONELLERİ",
+      "label": "DOKTORLAR",
+      "title": "Hindistan'daki Tıbbi",
+      "highlight": "Uzmanları Keşfedin",
+      "description": "Hindistan'daki farklı tıbbi uzmanlık alanlarında çalışan doktorları ve hastaneleri keşfedin."
+    },
+
+    "main": {
+      "label": "DOKTOR DİZİNİ",
+      "title": "Doktorlar ve Uzmanlar",
+      "description": "Doktorları tıbbi uzmanlık alanlarına ve hastanelere göre keşfedin."
+    },
+
+    "specialization": "Uzmanlık",
+    "hospital": "Hastane",
+    "location": "Konum",
+
+    "cta": {
+      "label": "YARDIMA MI İHTİYACINIZ VAR?",
+      "title": "Hindistan'da Doktor mu Arıyorsunuz?",
+      "description": "Tıbbi ihtiyaçlarınızı bizimle paylaşın, sonraki adımları koordine etmenize yardımcı olalım.",
+      "button": "Talep Gönder"
+    }
+  },
+
+  "doctorProfile": {
+    "back": "Doktorlara Geri Dön",
+
+    "profile": {
+      "specialization": "Uzmanlık",
+      "hospital": "Hastane",
+      "location": "Konum"
+    },
+
+    "about": {
+      "label": "DOKTOR HAKKINDA",
+      "title": "Mesleki Bilgiler",
+      "description": "Bu bölüm doktorun uzmanlık alanı ve hastanesi hakkında genel bilgiler sunar."
+    },
+
+    "appointment": {
+      "label": "RANDEVU BİLGİLERİ",
+      "title": "Randevu Hakkında Görüşmek İster misiniz?",
+      "description": "Tıbbi ihtiyaçlarınızı bizimle paylaşın, randevu talebinin koordine edilmesine yardımcı olalım.",
+      "button": "Randevu Talebi Gönder"
+    },
+
+    "otherDoctors": {
+      "label": "DİĞER DOKTORLAR",
+      "title": "Diğer Uzmanları Keşfedin",
+      "button": "Doktorları Görüntüle"
+    }
+  },
+
+  "howItWorks": {
+    "hero": {
+      "badge": "TIBBİ YOLCULUĞUNUZ",
+      "label": "NASIL ÇALIŞIR",
+      "title": "Tıbbi Yolculuğunuz İçin",
+      "highlight": "Basit Bir Süreç",
+      "description": "Yedi adımlı sürecimiz, Hindistan'daki sağlık yolculuğunuzun önemli bölümlerini düzenlemenize yardımcı olur."
+    },
+
+    "main": {
+      "label": "YEDİ BASİT ADIM",
+      "title": "Talepten Takibe",
+      "description": "Tıbbi seyahatinizin farklı aşamalarını nasıl koordine ettiğimizi öğrenin."
+    },
+
+    "steps": {
+      "step1": {
+        "title": "İhtiyaçlarınızı Paylaşın",
+        "description": "Tıbbi ihtiyaçlarınızı, tercih ettiğiniz hizmeti ve destek gereksinimlerinizi bize bildirin."
+      },
+      "step2": {
+        "title": "Tıbbi Belgeleri Paylaşın",
+        "description": "Gerektiğinde konsültasyon planlaması için ilgili tıbbi raporları veya belgeleri paylaşın."
+      },
+      "step3": {
+        "title": "Hastane ve Doktor Eşleştirme",
+        "description": "İhtiyaçlarınıza göre uygun hastane ve doktor seçeneklerinin koordine edilmesine yardımcı oluyoruz."
+      },
+      "step4": {
+        "title": "Konsültasyon ve Planlama",
+        "description": "Sağlık hizmeti sağlayıcısıyla konsültasyon ve sonraki adımların koordine edilmesine yardımcı oluyoruz."
+      },
+      "step5": {
+        "title": "Maliyet ve Tedavi Bilgileri",
+        "description": "Tedavi ayrıntılarını ve mevcut maliyet bilgilerini sağlık hizmeti sağlayıcısıyla görüşebilirsiniz."
+      },
+      "step6": {
+        "title": "Seyahat ve Tedavi Desteği",
+        "description": "Konaklama, ulaşım ve tercümanlık gibi düzenlenen hizmetlerde destek sağlıyoruz."
+      },
+      "step7": {
+        "title": "Tedavi ve Takip",
+        "description": "Koordinasyon ve takip desteğiyle sağlık yolculuğunuza devam edin."
+      }
+    },
+
+    "cta": {
+      "label": "BAŞLAMAYA HAZIR MISINIZ?",
+      "title": "İhtiyaçlarınızı Bizimle Paylaşın",
+      "description": "Talebinizi başlatın ve tıbbi yolculuğunuz için ihtiyaç duyabileceğiniz desteği görüşün.",
+      "button": "Talep Oluştur"
+    }
+  },
+
+  "contact": {
+    "hero": {
+      "badge": "HİNDİSTAN'DA TIBBİ SEYAHAT DESTEĞİ",
+      "label": "BİZE ULAŞIN",
+      "title": "Sağlık",
+      "highlight": "Yolculuğunuzu Planlayalım",
+      "description": "Tıbbi ihtiyaçlarınızı bizimle paylaşın ve Hindistan'daki sağlık yolculuğunuz için ihtiyaç duyabileceğiniz koordinasyon desteğini görüşün."
+    },
+
+    "form": {
+      "label": "TALEP GÖNDER",
+      "title": "İhtiyaçlarınızı Bize Anlatın",
+      "description": "Aşağıdaki formu doldurun, ekibimiz talebinizi inceleyebilir.",
+      "fullName": "Ad Soyad",
+      "fullNamePlaceholder": "Adınızı ve soyadınızı girin",
+      "country": "Ülke",
+      "countryPlaceholder": "Ülkenizi girin",
+      "phone": "Telefon / WhatsApp",
+      "phonePlaceholder": "Telefon veya WhatsApp numaranızı girin",
+      "email": "E-posta",
+      "emailPlaceholder": "E-posta adresinizi girin",
+      "service": "Gerekli Hizmet",
+      "servicePlaceholder": "Bir hizmet seçin",
+      "message": "Mesaj",
+      "messagePlaceholder": "İhtiyaçlarınızı bize anlatın",
+      "submit": "Talep Gönder",
+      "required": "Gerekli"
+    },
+
+    "services": {
+      "appointments": "Tıbbi Randevular",
+      "accommodation": "Konaklama",
+      "transport": "Yerel Ulaşım",
+      "interpreter": "Tercüman Hizmetleri",
+      "patientCare": "Hasta Bakımı Koordinasyonu",
+      "other": "Diğer"
+    },
+
+    "info": {
+      "label": "İLETİŞİME GEÇİN",
+      "title": "Size Yardımcı Olmak İçin Buradayız",
+      "description": "Tıbbi seyahat ihtiyaçlarınızı ve koordinasyon gereksinimlerinizi görüşmek için ShifoPath India ile iletişime geçin.",
+      "phone": "Telefon / WhatsApp",
+      "instagram": "Instagram",
+      "telegram": "Telegram"
+    },
+
+    "afterSubmit": {
+      "label": "SONRA NE OLUR?",
+      "title": "Talebinizi Gönderdikten Sonra",
+      "step1": "Talebiniz ekibimize ulaşır.",
+      "step2": "Paylaştığınız bilgileri inceleriz.",
+      "step3": "İhtiyaçlarınızı görüşmek için sizinle iletişime geçeriz.",
+      "step4": "Sonraki koordinasyon adımlarını sizinle görüşürüz."
+    }
+  },
+
+  "admin": {
+    "login": {
+      "title": "Yönetici Girişi",
+      "subtitle": "ShifoPath India yönetici paneline erişmek için giriş yapın.",
+      "username": "Kullanıcı Adı",
+      "usernamePlaceholder": "Kullanıcı adınızı girin",
+      "password": "Şifre",
+      "passwordPlaceholder": "Şifrenizi girin",
+      "loginButton": "Giriş Yap",
+      "error": "Geçersiz kullanıcı adı veya şifre."
+    },
+
+    "dashboard": {
+      "title": "Yönetici Paneli",
+      "subtitle": "Hasta taleplerini yönetin ve inceleyin.",
+      "logout": "Çıkış Yap",
+      "totalEnquiries": "Toplam Talepler",
+      "new": "Yeni",
+      "contacted": "İletişime Geçildi",
+      "inProgress": "Devam Ediyor",
+      "completed": "Tamamlandı",
+      "search": "Taleplerde ara",
+      "filter": "Duruma göre filtrele",
+      "all": "Tümü",
+      "name": "Ad",
+      "country": "Ülke",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "service": "Hizmet",
+      "message": "Mesaj",
+      "date": "Tarih",
+      "status": "Durum",
+      "actions": "İşlemler",
+      "update": "Güncelle",
+      "noEnquiries": "Talep bulunamadı."
+    }
+  },
+
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "intro": "Bu Gizlilik Politikası, ShifoPath India'nın bu web sitesi üzerinden gönderilen bilgileri nasıl toplayabileceğini ve kullanabileceğini açıklar.",
+    "sections": {
+      "information": {
+        "title": "Topladığımız Bilgiler",
+        "text": "Bir talep gönderdiğinizde adınız, ülkeniz, telefon numaranız, e-posta adresiniz, talep ettiğiniz hizmet ve mesajınız gibi bilgileri toplayabiliriz."
+      },
+      "use": {
+        "title": "Bilgileri Nasıl Kullanıyoruz",
+        "text": "Bilgiler; taleplere yanıt vermek, talep edilen hizmetleri koordine etmek ve ihtiyaçlarınız hakkında sizinle iletişim kurmak için kullanılabilir."
+      },
+      "medical": {
+        "title": "Tıbbi Bilgiler",
+        "text": "Tıbbi belgeler istenir veya paylaşılırsa, bunlar yalnızca koordinasyon veya konsültasyon amacıyla gerekli olduğunda sağlanmalıdır. Gereksiz hassas bilgileri paylaşmaktan kaçının."
+      },
+      "security": {
+        "title": "Veri Güvenliği",
+        "text": "Web sitesi üzerinden işlenen bilgileri korumak için makul önlemler alıyoruz, ancak hiçbir çevrimiçi sistem mutlak güvenlik garantisi veremez."
+      },
+      "contact": {
+        "title": "İletişim",
+        "text": "Bu Gizlilik Politikası hakkında sorularınız varsa ShifoPath India ile iletişime geçin."
+      }
+    }
+  },
+
+  "terms": {
+    "title": "Şartlar ve Koşullar",
+    "intro": "Bu web sitesini kullanarak aşağıdaki genel şartlar ve koşulları kabul etmiş olursunuz.",
+    "sections": {
+      "information": {
+        "title": "Web Sitesi Bilgileri",
+        "text": "Bu web sitesinde sunulan bilgiler genel bilgilendirme ve koordinasyon amaçlıdır."
+      },
+      "services": {
+        "title": "Koordinasyon Hizmetleri",
+        "text": "ShifoPath India; randevuların, konaklamanın, ulaşımın, tercümanlık hizmetlerinin ve hasta desteğinin koordinasyonuna yardımcı olabilir."
+      },
+      "healthcare": {
+        "title": "Sağlık Kararları",
+        "text": "Tıbbi teşhis, tedavi kararları ve klinik bakım, nitelikli sağlık profesyonellerinin ve sağlık hizmeti sağlayıcılarının sorumluluğundadır."
+      },
+      "accuracy": {
+        "title": "Bilgilerin Doğruluğu",
+        "text": "Bilgileri faydalı ve doğru tutmaya çalışıyoruz, ancak hastane hizmetleri, doktorların uygunluğu, fiyatlar ve diğer bilgiler değişebilir."
+      },
+      "contact": {
+        "title": "İletişim",
+        "text": "Bu şartlarla ilgili sorularınız için ShifoPath India ile iletişime geçin."
+      }
+    }
+  },
+
+  "medicalDisclaimer": {
+    "title": "Tıbbi Sorumluluk Reddi",
+    "intro": "Bu web sitesindeki bilgiler profesyonel tıbbi tavsiye, teşhis veya tedavinin yerine geçmez.",
+    "sections": {
+      "notMedicalAdvice": {
+        "title": "Tıbbi Tavsiye Değildir",
+        "text": "ShifoPath India, tıbbi seyahat koordinasyonu ve destek bilgileri sağlar. Bu web sitesi üzerinden tıbbi teşhis veya tedavi sunmuyoruz."
+      },
+      "professionals": {
+        "title": "Sağlık Profesyonelleri",
+        "text": "Tıbbi kararlar doğrudan nitelikli doktorlar ve sağlık hizmeti sağlayıcılarıyla görüşülerek alınmalıdır."
+      },
+      "emergency": {
+        "title": "Tıbbi Acil Durumlar",
+        "text": "Tıbbi bir acil durum yaşıyorsanız yerel acil yardım hizmetleriyle iletişime geçin veya derhal tıbbi yardım alın."
+      },
+      "information": {
+        "title": "Bilgilerdeki Değişiklikler",
+        "text": "Hastane hizmetleri, doktorların uygunluğu, tedavi seçenekleri ve maliyetler değişebilir. Güncel bilgileri ilgili sağlık hizmeti sağlayıcısından doğrudan teyit edin."
+      }
+    }
+  }
+}

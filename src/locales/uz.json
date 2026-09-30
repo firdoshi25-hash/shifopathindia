@@ -1,0 +1,568 @@
+{
+  "navbar": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "services": "Xizmatlar",
+    "hospitals": "Shifoxonalar",
+    "doctors": "Shifokorlar",
+    "howItWorks": "Qanday ishlaydi",
+    "contact": "Aloqa"
+  },
+
+  "common": {
+    "bookConsultation": "Konsultatsiyaga yozilish",
+    "startEnquiry": "So‘rovni boshlash",
+    "learnMore": "Batafsil",
+    "viewProfile": "Profilni ko‘rish",
+    "sendEnquiry": "So‘rov yuborish",
+    "back": "Orqaga",
+    "readMore": "Batafsil o‘qish",
+    "contactUs": "Biz bilan bog‘lanish",
+    "submit": "Yuborish",
+    "submitEnquiry": "So‘rov yuborish",
+    "close": "Yopish"
+  },
+
+  "hero": {
+    "badge": "HINDISTONDA TIBBIY SAYOHAT YORDAMI",
+    "title": "Sog‘liqni saqlash",
+    "titleHighlight": "sayohatingiz Hindistonda",
+    "description": "Biz xalqaro bemorlarga Hindistondagi tibbiy sayohatlari davomida shifoxona va shifokor qabullarini, turar joyni, mahalliy transportni, tarjimonlik xizmatlarini va bemorlarni qo‘llab-quvvatlashni muvofiqlashtirishda yordam beramiz.",
+    "primaryButton": "Konsultatsiyaga yozilish",
+    "secondaryButton": "Qanday ishlaydi",
+    "trust": {
+      "easyCoordination": "Oson muvofiqlashtirish",
+      "patientSupport": "Bemorlarni qo‘llab-quvvatlash",
+      "communication": "Aniq muloqot"
+    }
+  },
+
+  "home": {
+    "services": {
+      "label": "BIZNING XIZMATLARIMIZ",
+      "title": "Tibbiy sayohatingiz uchun yordam",
+      "description": "Biz Hindistondagi sog‘liqni saqlash sayohatingizni yanada oson va tartibli qilishga yordam beramiz."
+    },
+
+    "serviceCards": {
+      "appointments": {
+        "title": "Tibbiy qabullar",
+        "description": "Talablaringizga mos ravishda shifoxona va shifokorlar bilan uchrashuvlarni tashkil qilishda yordam beramiz."
+      },
+      "accommodation": {
+        "title": "Turar joy",
+        "description": "Tibbiy sayohatingiz davomida mos turar joy topishda yordam beramiz."
+      },
+      "transport": {
+        "title": "Mahalliy transport",
+        "description": "Hindistonda bo‘lishingiz davomida mahalliy transportni tashkil qilishda yordam beramiz."
+      },
+      "interpreter": {
+        "title": "Tarjimon xizmatlari",
+        "description": "Tibbiyot xodimlari bilan muloqotni osonlashtirish uchun til bo‘yicha yordam beramiz."
+      },
+      "patientCare": {
+        "title": "Bemorlarni parvarish qilishni muvofiqlashtirish",
+        "description": "Sog‘liqni saqlash sayohatingizning turli bosqichlarida muvofiqlashtirish va yordam ko‘rsatamiz."
+      }
+    },
+
+    "why": {
+      "label": "NIMA UCHUN SHIFOPATH INDIA",
+      "title": "Siz bilan birga bo‘ladigan yordam",
+      "description": "Birinchi so‘rovingizdan davolanish jarayonigacha sayohatingizning muhim qismlarini muvofiqlashtirishga yordam beramiz."
+    },
+
+    "whyCards": {
+      "personalized": {
+        "title": "Shaxsiylashtirilgan yordam",
+        "description": "Talablaringizni tushunib, xizmatlarni ehtiyojlaringizga mos ravishda muvofiqlashtirishga yordam beramiz."
+      },
+      "coordination": {
+        "title": "Oson muvofiqlashtirish",
+        "description": "Shifoxona qabullari, turar joy va mahalliy yordamni bitta aloqa nuqtasi orqali muvofiqlashtirish mumkin."
+      },
+      "communication": {
+        "title": "Muloqot yordami",
+        "description": "Tarjimon yordami tibbiy sayohatingiz davomida muloqotni osonlashtirishga yordam beradi."
+      },
+      "journey": {
+        "title": "Sayohat yordami",
+        "description": "Tibbiy sayohatingizning turli bosqichlarida muvofiqlashtirish yordamini taqdim etamiz."
+      }
+    },
+
+    "journey": {
+      "label": "QANDAY ISHLAYDI",
+      "title": "Tibbiy sayohatingiz bosqichma-bosqich",
+      "description": "Dastlabki so‘rovdan davolanish va keyingi kuzatuvgacha bo‘lgan jarayonni muvofiqlashtirishga yordam beramiz."
+    },
+
+    "journeySteps": {
+      "step1": {
+        "title": "Talablaringizni yuboring",
+        "description": "Sog‘liqni saqlash bo‘yicha ehtiyojlaringiz va kerakli yordam haqida bizga xabar bering."
+      },
+      "step2": {
+        "title": "Tibbiy hujjatlarni yuboring",
+        "description": "Zarur bo‘lganda konsultatsiya va davolashni rejalashtirish uchun tegishli tibbiy hujjatlarni yuboring."
+      },
+      "step3": {
+        "title": "Shifoxona va shifokorni tanlash",
+        "description": "Talablaringiz asosida mos shifoxona va shifokor variantlarini muvofiqlashtirishga yordam beramiz."
+      },
+      "step4": {
+        "title": "Konsultatsiya va rejalashtirish",
+        "description": "Tibbiyot xizmati ko‘rsatuvchi bilan konsultatsiya va keyingi bosqichlarni muvofiqlashtirishga yordam beramiz."
+      },
+      "step5": {
+        "title": "Narx va davolash ma’lumotlari",
+        "description": "Tibbiyot xizmati ko‘rsatuvchidan mavjud davolash va narxlar haqida ma’lumot olishingiz mumkin."
+      },
+      "step6": {
+        "title": "Sayohat va davolanish yordami",
+        "description": "Turar joy, mahalliy transport va boshqa tashkil etilgan xizmatlar bo‘yicha yordam olishingiz mumkin."
+      },
+      "step7": {
+        "title": "Davolanish va keyingi kuzatuv",
+        "description": "Muvofiqlashtirish va keyingi kuzatuv yordami bilan davolanish jarayoningizni davom ettiring."
+      }
+    },
+
+    "cta": {
+      "label": "SAYOHATINGIZNI BOSHLANG",
+      "title": "Hindistonga tibbiy sayohatingizni rejalashtirishda yordam kerakmi?",
+      "description": "Talablaringizni biz bilan baham ko‘ring va jamoamiz keyingi bosqichlarni muvofiqlashtirishga yordam beradi."
+    }
+  },
+
+  "footer": {
+    "description": "Hindistonda tibbiy yordam olishni istagan xalqaro bemorlar uchun tibbiy sayohatni muvofiqlashtirish va qo‘llab-quvvatlash.",
+    "quickLinks": "Tezkor havolalar",
+    "services": "Bizning xizmatlarimiz",
+    "contact": "Aloqa",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "privacy": "Maxfiylik siyosati",
+    "terms": "Shartlar va qoidalar",
+    "disclaimer": "Tibbiy rad javobi",
+    "serviceLinks": {
+      "appointments": "Tibbiy qabullar",
+      "accommodation": "Turar joy",
+      "transport": "Mahalliy transport",
+      "interpreter": "Tarjimon xizmatlari",
+      "patientCare": "Bemorlarni parvarish qilishni muvofiqlashtirish"
+    }
+  },
+
+  "about": {
+    "hero": {
+      "badge": "HINDISTONDA TIBBIY SAYOHAT YORDAMI",
+      "label": "SHIFOPATH INDIA HAQIDA",
+      "title": "Sizning",
+      "highlight": "sog‘liqni saqlash sayohatingizni qo‘llab-quvvatlaymiz",
+      "end": " Hindistonda",
+      "description": "Biz xalqaro bemorlarga Hindistondagi tibbiy sayohatlarining muhim qismlarini muvofiqlashtirishda yordam beramiz."
+    },
+
+    "intro": {
+      "label": "BIZ KIMMIZ",
+      "title": "Tibbiy sayohatni osonlashtiramiz",
+      "paragraph1": "ShifoPath India Hindistonda tibbiy xizmat olishni istagan xalqaro bemorlarga muvofiqlashtirish yordamini taqdim etadi.",
+      "paragraph2": "Shifoxona qabullarini tashkil qilishdan tortib turar joy, mahalliy transport, tarjimonlik va bemorlarni parvarish qilishni muvofiqlashtirishgacha bo‘lgan amaliy jarayonlarni tartibga solishga yordam beramiz.",
+      "paragraph3": "Bizning vazifamiz muloqot va muvofiqlashtirishni qo‘llab-quvvatlashdir. Tibbiy qarorlar va davolash malakali tibbiyot mutaxassislariga tegishli."
+    },
+
+    "highlights": {
+      "understand": {
+        "title": "Tushunamiz",
+        "description": "Talablaringizni va tibbiy sayohatingiz uchun kerak bo‘ladigan yordam turini tushunamiz."
+      },
+      "coordinate": {
+        "title": "Muvofiqlashtiramiz",
+        "description": "Tibbiy sayohatingiz davomida qabullar va tashkil etilgan yordam xizmatlarini muvofiqlashtirishga yordam beramiz."
+      },
+      "support": {
+        "title": "Qo‘llab-quvvatlaymiz",
+        "description": "Tibbiy sayohatingizning turli bosqichlarida siz bilan aloqada bo‘lib turamiz."
+      }
+    },
+
+    "values": {
+      "label": "BIZNING YONDASHUVIMIZ",
+      "title": "Biz nimalarga e’tibor beramiz",
+      "description": "Bizning yondashuvimiz aniq muloqot, muvofiqlashtirish va bemorlarni qo‘llab-quvvatlashga asoslangan.",
+      "cards": {
+        "communication": {
+          "title": "Aniq muloqot",
+          "description": "Sayohatingiz davomida muloqot va muvofiqlashtirishni osonlashtirishga intilamiz."
+        },
+        "support": {
+          "title": "Bemorlarni qo‘llab-quvvatlash",
+          "description": "So‘ralgan xizmatlarga qarab amaliy yordamni muvofiqlashtirishga yordam beramiz."
+        },
+        "organized": {
+          "title": "Tartibli sayohat",
+          "description": "Sayohatingizni boshqarishni osonlashtirish uchun turli tashkilot ishlarini birlashtirishga yordam beramiz."
+        }
+      }
+    },
+
+    "cta": {
+      "label": "SAYOHATINGIZNI BOSHLANG",
+      "title": "Hindistonda tibbiy yordam olishni rejalashtiryapsizmi?",
+      "description": "Talablaringizni biz bilan baham ko‘ring va kerak bo‘lishi mumkin bo‘lgan muvofiqlashtirish yordami haqida suhbatlashing."
+    }
+  },
+
+  "services": {
+    "hero": {
+      "badge": "HINDISTONDA TIBBIY SAYOHAT YORDAMI",
+      "label": "BIZNING XIZMATLARIMIZ",
+      "title": "Tibbiy sayohatingiz uchun",
+      "highlight": "to‘liq yordam",
+      "description": "Shifoxona qabullaridan turar joy, transport va til yordami xizmatlarigacha Hindistondagi tibbiy sayohatingizning muhim qismlarini muvofiqlashtirishga yordam beramiz."
+    },
+
+    "main": {
+      "label": "BIZNING XIZMATLARIMIZ",
+      "title": "Sayohatingizning har bir bosqichida yordam",
+      "description": "Xalqaro bemorlar uchun mavjud muvofiqlashtirish va yordam xizmatlarini ko‘rib chiqing."
+    },
+
+    "cards": {
+      "appointments": {
+        "title": "Tibbiy qabullar",
+        "description": "Tibbiy ehtiyojlaringizga mos ravishda shifoxona va shifokor qabullarini tashkil qilishga yordam beramiz."
+      },
+      "accommodation": {
+        "title": "Turar joy",
+        "description": "Tibbiy sayohatingiz davomida mos turar joy variantlarini muvofiqlashtirishga yordam beramiz."
+      },
+      "transport": {
+        "title": "Mahalliy transport",
+        "description": "Hindistonda bo‘lishingiz davomida mahalliy transportni tashkil qilishda yordam beramiz."
+      },
+      "interpreter": {
+        "title": "Tarjimon xizmatlari",
+        "description": "Til yordami tibbiyot xodimlari bilan muloqotni osonlashtirishi mumkin."
+      },
+      "patientCare": {
+        "title": "Bemorlarni parvarish qilishni muvofiqlashtirish",
+        "description": "Sog‘liqni saqlash sayohatingizning turli bosqichlarida muvofiqlashtirish va yordam ko‘rsatamiz."
+      }
+    },
+
+    "support": {
+      "label": "YORDAM KERAKMI?",
+      "title": "Talablaringiz haqida suhbatlashamiz",
+      "description": "Tibbiy ehtiyojlaringizni biz bilan baham ko‘ring va kerak bo‘lishi mumkin bo‘lgan muvofiqlashtirish yordamini muhokama qiling.",
+      "button": "So‘rovni boshlash"
+    }
+  },
+
+  "hospitals": {
+    "hero": {
+      "badge": "HINDISTONDA SOG‘LIQNI SAQLASH",
+      "label": "SHIFOXONALAR",
+      "title": "Hindistondagi tibbiy",
+      "highlight": "imkoniyatlarni o‘rganing",
+      "description": "Hindistondagi shifoxonalarni o‘rganing va tibbiy sayohatingiz uchun mavjud sog‘liqni saqlash imkoniyatlari haqida ma’lumot oling."
+    },
+
+    "main": {
+      "label": "SHIFOXONA MA’LUMOTLARI",
+      "title": "Hindistondagi shifoxonalar",
+      "description": "Shifoxonalar va ular taqdim etadigan tibbiy mutaxassisliklar haqida ma’lumot oling."
+    },
+
+    "specialties": "Mutaxassisliklar",
+
+    "cta": {
+      "label": "YORDAM KERAKMI?",
+      "title": "Hindistonda shifoxona qidiryapsizmi?",
+      "description": "Tibbiy ehtiyojlaringizni biz bilan baham ko‘ring va sayohatingiz uchun mavjud shifoxona variantlarini muhokama qiling."
+    }
+  },
+
+  "doctors": {
+    "hero": {
+      "badge": "HINDISTONDAGI TIBBIY MUTAXASSISLAR",
+      "label": "SHIFOKORLAR",
+      "title": "Hindistondagi tibbiy",
+      "highlight": "mutaxassislarni o‘rganing",
+      "description": "Hindistondagi turli tibbiy mutaxassisliklar va shifoxonalarda faoliyat yuritadigan shifokorlarni o‘rganing."
+    },
+
+    "main": {
+      "label": "SHIFOKORLAR RO‘YXATI",
+      "title": "Shifokorlar va mutaxassislar",
+      "description": "Shifokorlarni tibbiy mutaxassisligi va shifoxonasiga qarab o‘rganing."
+    },
+
+    "specialization": "Mutaxassislik",
+    "hospital": "Shifoxona",
+    "location": "Joylashuv",
+
+    "cta": {
+      "label": "YORDAM KERAKMI?",
+      "title": "Hindistonda shifokor qidiryapsizmi?",
+      "description": "Tibbiy ehtiyojlaringizni biz bilan baham ko‘ring va keyingi bosqichlarni muvofiqlashtirishga yordam beramiz.",
+      "button": "So‘rov yuborish"
+    }
+  },
+
+  "doctorProfile": {
+    "back": "Shifokorlar ro‘yxatiga qaytish",
+
+    "profile": {
+      "specialization": "Mutaxassislik",
+      "hospital": "Shifoxona",
+      "location": "Joylashuv"
+    },
+
+    "about": {
+      "label": "SHIFOKOR HAQIDA",
+      "title": "Kasbiy ma’lumotlar",
+      "description": "Ushbu bo‘lim shifokorning mutaxassisligi va shifoxonasi haqida umumiy ma’lumot beradi."
+    },
+
+    "appointment": {
+      "label": "QABUL MA’LUMOTLARI",
+      "title": "Qabul haqida suhbatlashmoqchimisiz?",
+      "description": "Tibbiy ehtiyojlaringizni biz bilan baham ko‘ring va qabul bo‘yicha so‘rovni muvofiqlashtirishga yordam beramiz.",
+      "button": "Qabul uchun so‘rov yuborish"
+    },
+
+    "otherDoctors": {
+      "label": "BOSHQA SHIFOKORLAR",
+      "title": "Boshqa mutaxassislarni o‘rganing",
+      "button": "Shifokorlarni ko‘rish"
+    }
+  },
+
+  "howItWorks": {
+    "hero": {
+      "badge": "SIZNING TIBBIY SAYOHATINGIZ",
+      "label": "QANDAY ISHLAYDI",
+      "title": "Tibbiy sayohatingiz uchun",
+      "highlight": "oddiy jarayon",
+      "description": "Yetti bosqichli jarayonimiz Hindistondagi tibbiy sayohatingizning muhim qismlarini tartibga solishga yordam beradi."
+    },
+
+    "main": {
+      "label": "YETTI ODDIY BOSQICH",
+      "title": "So‘rovdan keyingi kuzatuvgacha",
+      "description": "Tibbiy sayohatingizning turli bosqichlarini qanday muvofiqlashtirishimizni bilib oling."
+    },
+
+    "steps": {
+      "step1": {
+        "title": "Talablaringizni yuboring",
+        "description": "Tibbiy ehtiyojlaringiz, kerakli xizmat va yordam talablaringiz haqida bizga xabar bering."
+      },
+      "step2": {
+        "title": "Tibbiy hujjatlarni yuboring",
+        "description": "Zarur bo‘lganda konsultatsiyani rejalashtirish uchun tegishli tibbiy hisobot yoki hujjatlarni yuboring."
+      },
+      "step3": {
+        "title": "Shifoxona va shifokorni tanlash",
+        "description": "Talablaringiz asosida mos shifoxona va shifokor variantlarini muvofiqlashtirishga yordam beramiz."
+      },
+      "step4": {
+        "title": "Konsultatsiya va rejalashtirish",
+        "description": "Tibbiyot xizmati ko‘rsatuvchi bilan konsultatsiya va keyingi bosqichlarni muvofiqlashtirishga yordam beramiz."
+      },
+      "step5": {
+        "title": "Narx va davolash ma’lumotlari",
+        "description": "Davolash tafsilotlari va mavjud narx ma’lumotlarini tibbiyot xizmati ko‘rsatuvchi bilan muhokama qilishingiz mumkin."
+      },
+      "step6": {
+        "title": "Sayohat va davolanish yordami",
+        "description": "Turar joy, transport va tarjimonlik kabi tashkil etilgan xizmatlarda yordam beramiz."
+      },
+      "step7": {
+        "title": "Davolanish va keyingi kuzatuv",
+        "description": "Muvofiqlashtirish va keyingi kuzatuv yordami bilan sog‘liqni saqlash sayohatingizni davom ettiring."
+      }
+    },
+
+    "cta": {
+      "label": "BOSHLASHGA TAYYORMISIZ?",
+      "title": "Talablaringizni biz bilan baham ko‘ring",
+      "description": "So‘rovingizni boshlang va tibbiy sayohatingiz uchun kerak bo‘lishi mumkin bo‘lgan yordamni muhokama qiling.",
+      "button": "So‘rovni boshlash"
+    }
+  },
+
+  "contact": {
+    "hero": {
+      "badge": "HINDISTONDA TIBBIY SAYOHAT YORDAMI",
+      "label": "BIZ BILAN BOG‘LANING",
+      "title": "Sizning sog‘liqni saqlash",
+      "highlight": "sayohatingizni rejalashtiramiz",
+      "description": "Tibbiy ehtiyojlaringizni biz bilan baham ko‘ring va Hindistondagi tibbiy sayohatingiz uchun kerak bo‘lishi mumkin bo‘lgan muvofiqlashtirish yordamini muhokama qiling."
+    },
+
+    "form": {
+      "label": "SO‘ROV YUBORISH",
+      "title": "Talablaringiz haqida bizga xabar bering",
+      "description": "Quyidagi shaklni to‘ldiring va jamoamiz so‘rovingizni ko‘rib chiqadi.",
+      "fullName": "To‘liq ism",
+      "fullNamePlaceholder": "To‘liq ismingizni kiriting",
+      "country": "Mamlakat",
+      "countryPlaceholder": "Mamlakatingizni kiriting",
+      "phone": "Telefon / WhatsApp",
+      "phonePlaceholder": "Telefon yoki WhatsApp raqamingizni kiriting",
+      "email": "Elektron pochta",
+      "emailPlaceholder": "Elektron pochta manzilingizni kiriting",
+      "service": "Kerakli xizmat",
+      "servicePlaceholder": "Xizmatni tanlang",
+      "message": "Xabar",
+      "messagePlaceholder": "Talablaringiz haqida yozing",
+      "submit": "So‘rov yuborish",
+      "required": "Majburiy"
+    },
+
+    "services": {
+      "appointments": "Tibbiy qabullar",
+      "accommodation": "Turar joy",
+      "transport": "Mahalliy transport",
+      "interpreter": "Tarjimon xizmatlari",
+      "patientCare": "Bemorlarni parvarish qilishni muvofiqlashtirish",
+      "other": "Boshqa"
+    },
+
+    "info": {
+      "label": "ALOQAGA CHIQING",
+      "title": "Sizga yordam berishga tayyormiz",
+      "description": "Tibbiy sayohat talablaringiz va muvofiqlashtirish ehtiyojlaringiz haqida suhbatlashish uchun ShifoPath India bilan bog‘laning.",
+      "phone": "Telefon / WhatsApp",
+      "instagram": "Instagram",
+      "telegram": "Telegram"
+    },
+
+    "afterSubmit": {
+      "label": "KEYIN NIMA BO‘LADI?",
+      "title": "So‘rovingiz yuborilgandan keyin",
+      "step1": "So‘rovingiz jamoamizga kelib tushadi.",
+      "step2": "Siz taqdim etgan ma’lumotlarni ko‘rib chiqamiz.",
+      "step3": "Talablaringizni muhokama qilish uchun siz bilan bog‘lanamiz.",
+      "step4": "Keyingi muvofiqlashtirish bosqichlarini siz bilan muhokama qilamiz."
+    }
+  },
+
+  "admin": {
+    "login": {
+      "title": "Administrator kirishi",
+      "subtitle": "ShifoPath India administrator paneliga kirish uchun tizimga kiring.",
+      "username": "Foydalanuvchi nomi",
+      "usernamePlaceholder": "Foydalanuvchi nomini kiriting",
+      "password": "Parol",
+      "passwordPlaceholder": "Parolingizni kiriting",
+      "loginButton": "Kirish",
+      "error": "Foydalanuvchi nomi yoki parol noto‘g‘ri."
+    },
+
+    "dashboard": {
+      "title": "Administrator paneli",
+      "subtitle": "Bemorlarning so‘rovlarini boshqaring va ko‘rib chiqing.",
+      "logout": "Chiqish",
+      "totalEnquiries": "Jami so‘rovlar",
+      "new": "Yangi",
+      "contacted": "Bog‘lanilgan",
+      "inProgress": "Jarayonda",
+      "completed": "Tugallangan",
+      "search": "So‘rovlarni qidirish",
+      "filter": "Holat bo‘yicha filtrlash",
+      "all": "Barchasi",
+      "name": "Ism",
+      "country": "Mamlakat",
+      "phone": "Telefon",
+      "email": "Elektron pochta",
+      "service": "Xizmat",
+      "message": "Xabar",
+      "date": "Sana",
+      "status": "Holat",
+      "actions": "Amallar",
+      "update": "Yangilash",
+      "noEnquiries": "So‘rovlar topilmadi."
+    }
+  },
+
+  "privacy": {
+    "title": "Maxfiylik siyosati",
+    "intro": "Ushbu Maxfiylik siyosati ShifoPath India ushbu veb-sayt orqali yuborilgan ma’lumotlarni qanday to‘plashi va ishlatishi mumkinligini tushuntiradi.",
+    "sections": {
+      "information": {
+        "title": "Biz to‘playdigan ma’lumotlar",
+        "text": "So‘rov yuborganingizda ismingiz, mamlakatingiz, telefon raqamingiz, elektron pochta manzilingiz, kerakli xizmat va xabaringiz kabi ma’lumotlarni to‘plashimiz mumkin."
+      },
+      "use": {
+        "title": "Ma’lumotlardan qanday foydalanamiz",
+        "text": "Ma’lumotlar so‘rovlarga javob berish, so‘ralgan xizmatlarni muvofiqlashtirish va talablaringiz haqida siz bilan bog‘lanish uchun ishlatilishi mumkin."
+      },
+      "medical": {
+        "title": "Tibbiy ma’lumotlar",
+        "text": "Agar tibbiy hujjatlar so‘ralsa yoki yuborilsa, ularni faqat muvofiqlashtirish yoki konsultatsiya uchun zarur bo‘lganda taqdim eting. Keraksiz maxfiy ma’lumotlarni yubormang."
+      },
+      "security": {
+        "title": "Ma’lumotlar xavfsizligi",
+        "text": "Veb-sayt orqali qayta ishlanadigan ma’lumotlarni himoya qilish uchun oqilona choralar ko‘ramiz, ammo hech bir onlayn tizim mutlaq xavfsizlikni kafolatlay olmaydi."
+      },
+      "contact": {
+        "title": "Aloqa",
+        "text": "Ushbu Maxfiylik siyosati haqida savollaringiz bo‘lsa, ShifoPath India bilan bog‘laning."
+      }
+    }
+  },
+
+  "terms": {
+    "title": "Shartlar va qoidalar",
+    "intro": "Ushbu veb-saytdan foydalanish orqali siz quyidagi umumiy shartlar va qoidalarni qabul qilasiz.",
+    "sections": {
+      "information": {
+        "title": "Veb-sayt ma’lumotlari",
+        "text": "Ushbu veb-saytda taqdim etilgan ma’lumotlar umumiy ma’lumot va muvofiqlashtirish maqsadlari uchun mo‘ljallangan."
+      },
+      "services": {
+        "title": "Muvofiqlashtirish xizmatlari",
+        "text": "ShifoPath India qabullar, turar joy, transport, tarjimonlik va bemorlarni qo‘llab-quvvatlash xizmatlarini muvofiqlashtirishda yordam berishi mumkin."
+      },
+      "healthcare": {
+        "title": "Tibbiy qarorlar",
+        "text": "Tibbiy tashxis, davolash qarorlari va klinik yordam malakali tibbiyot mutaxassislari hamda tibbiyot xizmatlari ko‘rsatuvchilarning javobgarligidir."
+      },
+      "accuracy": {
+        "title": "Ma’lumotlarning aniqligi",
+        "text": "Ma’lumotlarni foydali va aniq saqlashga harakat qilamiz, ammo shifoxona xizmatlari, shifokorlarning mavjudligi, narxlar va boshqa ma’lumotlar o‘zgarishi mumkin."
+      },
+      "contact": {
+        "title": "Aloqa",
+        "text": "Ushbu shartlar bo‘yicha savollaringiz bo‘lsa, ShifoPath India bilan bog‘laning."
+      }
+    }
+  },
+
+  "medicalDisclaimer": {
+    "title": "Tibbiy rad javobi",
+    "intro": "Ushbu veb-saytdagi ma’lumotlar professional tibbiy maslahat, tashxis yoki davolashning o‘rnini bosa olmaydi.",
+    "sections": {
+      "notMedicalAdvice": {
+        "title": "Tibbiy maslahat emas",
+        "text": "ShifoPath India tibbiy sayohatni muvofiqlashtirish va qo‘llab-quvvatlash bo‘yicha ma’lumot beradi. Ushbu veb-sayt orqali tibbiy tashxis yoki davolash xizmatlarini taqdim etmaymiz."
+      },
+      "professionals": {
+        "title": "Tibbiyot mutaxassislari",
+        "text": "Tibbiy qarorlar bevosita malakali shifokorlar va tibbiyot xizmatlari ko‘rsatuvchilar bilan maslahatlashgan holda qabul qilinishi kerak."
+      },
+      "emergency": {
+        "title": "Tibbiy favqulodda holatlar",
+        "text": "Agar tibbiy favqulodda holat yuz bersa, mahalliy tez yordam xizmatiga murojaat qiling yoki darhol tibbiy yordam oling."
+      },
+      "information": {
+        "title": "Ma’lumotlarning o‘zgarishi",
+        "text": "Shifoxona xizmatlari, shifokorlarning mavjudligi, davolash imkoniyatlari va narxlar o‘zgarishi mumkin. Eng so‘nggi ma’lumotlarni tegishli tibbiyot xizmatlari ko‘rsatuvchisidan bevosita tasdiqlang."
+      }
+    }
+  }
+}
