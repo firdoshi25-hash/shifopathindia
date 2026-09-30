@@ -30,7 +30,7 @@ function EnquiryForm() {
 
         try {
             const response = await fetch(
-                "http://localhost:5000/api/enquiries",
+                "https://shifopathindia-com.onrender.com/api/enquiries",
                 {
                     method: "POST",
                     headers: {
