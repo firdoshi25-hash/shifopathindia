@@ -2,6 +2,8 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import "../styles/Contact.css";
 
+const API_BASE_URL = (import.meta.env.VITE_API_URL || "http://localhost:9000").replace(/\/$/, "");
+
 function EnquiryForm() {
     const { t } = useTranslation();
 
@@ -29,16 +31,13 @@ function EnquiryForm() {
         event.preventDefault();
 
         try {
-            const response = await fetch(
-                "https://shifopathindia-com.onrender.com/api/enquiries",
-                {
+            const response = await fetch(`${API_BASE_URL}/api/enquiries`, {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"
                     },
                     body: JSON.stringify(formData)
-                }
-            );
+                });
 
             const data = await response.json();
 
@@ -54,13 +53,18 @@ function EnquiryForm() {
                     message: ""
                 });
             } else {
-                alert(data.message || t("contact.form.error"));
+                alert(
+                    data.message ||
+                    t("contact.form.error")
+                );
             }
 
         } catch (error) {
             console.error(error);
 
-            alert(t("contact.form.connectionError"));
+            alert(
+                t("contact.form.connectionError")
+            );
         }
     };
 
@@ -110,12 +114,13 @@ function EnquiryForm() {
                         name="fullName"
                         value={formData.fullName}
                         onChange={handleChange}
-                        placeholder={t("contact.form.fullNamePlaceholder")}
+                        placeholder={t(
+                            "contact.form.fullNamePlaceholder"
+                        )}
                         required
                     />
 
                 </div>
-
 
                 <div className="form-group">
 
@@ -128,14 +133,15 @@ function EnquiryForm() {
                         name="country"
                         value={formData.country}
                         onChange={handleChange}
-                        placeholder={t("contact.form.countryPlaceholder")}
+                        placeholder={t(
+                            "contact.form.countryPlaceholder"
+                        )}
                         required
                     />
 
                 </div>
 
             </div>
-
 
             <div className="form-row">
 
@@ -150,12 +156,13 @@ function EnquiryForm() {
                         name="phone"
                         value={formData.phone}
                         onChange={handleChange}
-                        placeholder={t("contact.form.phonePlaceholder")}
+                        placeholder={t(
+                            "contact.form.phonePlaceholder"
+                        )}
                         required
                     />
 
                 </div>
-
 
                 <div className="form-group">
 
@@ -168,14 +175,14 @@ function EnquiryForm() {
                         name="email"
                         value={formData.email}
                         onChange={handleChange}
-                        placeholder={t("contact.form.emailPlaceholder")}
-                        required
+                        placeholder={t(
+                            "contact.form.emailPlaceholder"
+                        )}
                     />
 
                 </div>
 
             </div>
-
 
             <div className="form-group">
 
@@ -191,37 +198,50 @@ function EnquiryForm() {
                 >
 
                     <option value="">
-                        {t("contact.form.servicePlaceholder")}
+                        {t(
+                            "contact.form.servicePlaceholder"
+                        )}
                     </option>
 
-                    <option value="Hospital Appointment">
-                        {t("contact.form.serviceOptions.appointment")}
+                    <option value="Medical Appointments">
+                        {t(
+                            "contact.services.appointments"
+                        )}
                     </option>
 
                     <option value="Accommodation">
-                        {t("contact.form.serviceOptions.accommodation")}
+                        {t(
+                            "contact.services.accommodation"
+                        )}
                     </option>
 
                     <option value="Local Transport">
-                        {t("contact.form.serviceOptions.transport")}
+                        {t(
+                            "contact.services.transport"
+                        )}
                     </option>
 
-                    <option value="Interpreter">
-                        {t("contact.form.serviceOptions.interpreter")}
+                    <option value="Interpreter Services">
+                        {t(
+                            "contact.services.interpreter"
+                        )}
                     </option>
 
                     <option value="Patient Care Coordination">
-                        {t("contact.form.serviceOptions.patientCare")}
+                        {t(
+                            "contact.services.patientCare"
+                        )}
                     </option>
 
                     <option value="Other">
-                        {t("contact.form.serviceOptions.other")}
+                        {t(
+                            "contact.services.other"
+                        )}
                     </option>
 
                 </select>
 
             </div>
-
 
             <div className="form-group">
 
@@ -233,13 +253,14 @@ function EnquiryForm() {
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
-                    placeholder={t("contact.form.messagePlaceholder")}
+                    placeholder={t(
+                        "contact.form.messagePlaceholder"
+                    )}
                     rows="6"
                     required
                 ></textarea>
 
             </div>
-
 
             <div className="form-consent">
 
@@ -254,7 +275,6 @@ function EnquiryForm() {
                 </label>
 
             </div>
-
 
             <button
                 type="submit"

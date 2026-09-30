@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import "../styles/Navbar.css";
 import logo from "../assets/shifopath_logo_transparent2.png";
 
 function Navbar() {
     const { t, i18n } = useTranslation();
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const languages = [
         { code: "en", name: "English" },
@@ -47,7 +49,11 @@ function Navbar() {
                     />
                 </Link>
 
-                <nav className="navbar-links">
+                <nav
+                    id="primary-navigation"
+                    className={`navbar-links${isMenuOpen ? " navbar-links-open" : ""}`}
+                    onClick={() => setIsMenuOpen(false)}
+                >
 
                     <Link to="/">
                         {t("navbar.home")}
@@ -100,6 +106,21 @@ function Navbar() {
                     </select>
 
                 </div>
+
+                <button
+                    type="button"
+                    className="navbar-toggle"
+                    aria-label={isMenuOpen ? "Close navigation menu" : "Open navigation menu"}
+                    aria-expanded={isMenuOpen}
+                    aria-controls="primary-navigation"
+                    onClick={() => setIsMenuOpen((open) => !open)}
+                >
+                    <span className="navbar-toggle-lines" aria-hidden="true">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </button>
 
             </div>
 

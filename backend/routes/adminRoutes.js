@@ -7,7 +7,13 @@ const router = express.Router();
 
 router.post("/create", async (req, res) => {
     try {
-        const { email, password } = req.body;
+        const { email, password, setupKey } = req.body;
+
+        if (!process.env.ADMIN_SETUP_KEY || setupKey !== process.env.ADMIN_SETUP_KEY) {
+            return res.status(403).json({
+                message: "Admin setup key is invalid"
+            });
+        }
 
         if (!email || !password) {
             return res.status(400).json({

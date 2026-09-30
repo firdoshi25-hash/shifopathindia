@@ -163,7 +163,7 @@ function Contact() {
                     <EnquiryForm />
 
                 </div>
-
+                
             </section>
 
         </main>

@@ -1,5 +1,6 @@
 import express from "express";
 import Enquiry from "../models/Enquiry.js";
+import requireAdmin from "../middleware/requireAdmin.js";
 
 const router = express.Router();
 
@@ -20,7 +21,7 @@ router.post("/", async (req, res) => {
         });
     }
 });
-router.get("/", async (req, res) => {
+router.get("/", requireAdmin, async (req, res) => {
     try {
         const enquiries = await Enquiry.find().sort({ createdAt: -1 });
 
@@ -32,7 +33,7 @@ router.get("/", async (req, res) => {
         });
     }
 });
-router.patch("/:id/status", async (req, res) => {
+router.patch("/:id/status", requireAdmin, async (req, res) => {
     try {
         const { status } = req.body;
 

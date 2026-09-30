@@ -3,45 +3,105 @@ import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "../styles/AdminDashboard.css";
 
+const API_BASE_URL = (import.meta.env.VITE_API_URL || "http://localhost:9000").replace(/\/$/, "");
+
+async function requestEnquiries(token) {
+    const response = await fetch(`${API_BASE_URL}/api/enquiries`, {
+        headers: {
+            Authorization: `Bearer ${token}`
+        }
+    });
+    const data = await response.json();
+
+    if (!response.ok) {
+        const error = new Error(data.message || "Could not load enquiries");
+        error.status = response.status;
+        throw error;
+    }
+
+    return data;
+}
+
 function AdminDashboard() {
     const { t } = useTranslation();
     const navigate = useNavigate();
 
     const [enquiries, setEnquiries] = useState([]);
     const [loading, setLoading] = useState(true);
+    const [loadError, setLoadError] = useState("");
 
     useEffect(() => {
-        const isAdmin = localStorage.getItem("shifopath-admin");
+        const token = localStorage.getItem("shifopath-admin-token");
 
-        if (isAdmin !== "true") {
+        if (!token) {
             navigate("/admin");
             return;
         }
 
-        fetchEnquiries();
-    }, [navigate]);
+        let isActive = true;
 
-    const fetchEnquiries = async () => {
-        try {
-            const response = await fetch(
-                "http://localhost:5000/api/enquiries"
-            );
+        requestEnquiries(token)
+            .then((data) => {
+                if (isActive) {
+                    setEnquiries(data);
+                }
+            })
+            .catch((error) => {
+                if (!isActive) {
+                    return;
+                }
 
-            const data = await response.json();
+                console.error(error);
 
-            if (response.ok) {
-                setEnquiries(data);
-            }
-        } catch (error) {
-            console.error(error);
-        } finally {
-            setLoading(false);
-        }
-    };
+                if (error.status === 401) {
+                    localStorage.removeItem("shifopath-admin-token");
+                    navigate("/admin");
+                    return;
+                }
+
+                setLoadError(error.message || t("admin.dashboard.loadError"));
+            })
+            .finally(() => {
+                if (isActive) {
+                    setLoading(false);
+                }
+            });
+
+        return () => {
+            isActive = false;
+        };
+    }, [navigate, t]);
 
     const handleLogout = () => {
-        localStorage.removeItem("shifopath-admin");
+        localStorage.removeItem("shifopath-admin-token");
         navigate("/admin");
+    };
+
+    const handleRefresh = () => {
+        const token = localStorage.getItem("shifopath-admin-token");
+
+        if (!token) {
+            navigate("/admin");
+            return;
+        }
+
+        setLoading(true);
+        setLoadError("");
+
+        requestEnquiries(token)
+            .then(setEnquiries)
+            .catch((error) => {
+                console.error(error);
+
+                if (error.status === 401) {
+                    localStorage.removeItem("shifopath-admin-token");
+                    navigate("/admin");
+                    return;
+                }
+
+                setLoadError(error.message || t("admin.dashboard.loadError"));
+            })
+            .finally(() => setLoading(false));
     };
 
     const getStatusClass = (status) => {
@@ -166,7 +226,7 @@ function AdminDashboard() {
 
                     <button
                         className="admin-refresh-button"
-                        onClick={fetchEnquiries}
+                        onClick={handleRefresh}
                     >
                         {t("admin.dashboard.refresh")}
                     </button>
@@ -180,6 +240,12 @@ function AdminDashboard() {
                         <p>
                             {t("admin.dashboard.loading")}
                         </p>
+                    </div>
+
+                ) : loadError ? (
+
+                    <div className="admin-empty-state" role="alert">
+                        <p>{loadError}</p>
                     </div>
 
                 ) : enquiries.length === 0 ? (

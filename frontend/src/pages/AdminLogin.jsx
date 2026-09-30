@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "../styles/AdminLogin.css";
 
+const API_BASE_URL = (import.meta.env.VITE_API_URL || "http://localhost:9000").replace(/\/$/, "");
+
 function AdminLogin() {
     const { t } = useTranslation();
     const navigate = useNavigate();
@@ -11,7 +13,7 @@ function AdminLogin() {
     const [password, setPassword] = useState("");
     const [error, setError] = useState("");
 
-    const handleSubmit = (event) => {
+    const handleSubmit = async (event) => {
         event.preventDefault();
 
         setError("");
@@ -21,14 +23,26 @@ function AdminLogin() {
             return;
         }
 
-        if (
-            email === "admin@shifopathindia.com" &&
-            password === "admin123"
-        ) {
-            localStorage.setItem("shifopath-admin", "true");
+        try {
+            const response = await fetch(`${API_BASE_URL}/api/admin/login`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ email, password })
+            });
+            const data = await response.json();
+
+            if (!response.ok) {
+                setError(data.message || t("admin.login.invalid"));
+                return;
+            }
+
+            localStorage.setItem("shifopath-admin-token", data.token);
             navigate("/admin/dashboard");
-        } else {
-            setError(t("admin.login.invalid"));
+        } catch (requestError) {
+            console.error(requestError);
+            setError(t("contact.form.connectionError"));
         }
     };
 
