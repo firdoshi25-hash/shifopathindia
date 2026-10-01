@@ -1,7 +1,25 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { apiUrl } from "../api";
 import "../styles/AdminDashboard.css";
+
+async function requestEnquiries(token) {
+    const response = await fetch(apiUrl("/api/enquiries"), {
+        headers: {
+            Authorization: `Bearer ${token}`
+        }
+    });
+    const data = await response.json();
+
+    if (!response.ok) {
+        const error = new Error(data.message || "Could not load enquiries");
+        error.status = response.status;
+        throw error;
+    }
+
+    return data;
+}
 
 function AdminDashboard() {
     const { t } = useTranslation();
@@ -9,39 +27,65 @@ function AdminDashboard() {
 
     const [enquiries, setEnquiries] = useState([]);
     const [loading, setLoading] = useState(true);
+    const [loadError, setLoadError] = useState("");
 
     useEffect(() => {
-        const isAdmin = localStorage.getItem("shifopath-admin");
+        const token = localStorage.getItem("shifopath-admin-token");
 
-        if (isAdmin !== "true") {
+        if (!token) {
             navigate("/admin");
             return;
         }
 
-        fetchEnquiries();
-    }, [navigate]);
+        let isActive = true;
+        requestEnquiries(token)
+            .then((data) => {
+                if (isActive) setEnquiries(data);
+            })
+            .catch((error) => {
+                if (!isActive) return;
+                console.error(error);
+                if (error.status === 401) {
+                    localStorage.removeItem("shifopath-admin-token");
+                    navigate("/admin");
+                    return;
+                }
+                setLoadError(t("contact.form.connectionError"));
+            })
+            .finally(() => {
+                if (isActive) setLoading(false);
+            });
 
-    const fetchEnquiries = async () => {
-        try {
-            const response = await fetch(
-                "http://localhost:5000/api/enquiries"
-            );
-
-            const data = await response.json();
-
-            if (response.ok) {
-                setEnquiries(data);
-            }
-        } catch (error) {
-            console.error(error);
-        } finally {
-            setLoading(false);
-        }
-    };
+        return () => {
+            isActive = false;
+        };
+    }, [navigate, t]);
 
     const handleLogout = () => {
-        localStorage.removeItem("shifopath-admin");
+        localStorage.removeItem("shifopath-admin-token");
         navigate("/admin");
+    };
+
+    const handleRefresh = () => {
+        const token = localStorage.getItem("shifopath-admin-token");
+        if (!token) {
+            navigate("/admin");
+            return;
+        }
+        setLoading(true);
+        setLoadError("");
+        requestEnquiries(token)
+            .then(setEnquiries)
+            .catch((error) => {
+                console.error(error);
+                if (error.status === 401) {
+                    localStorage.removeItem("shifopath-admin-token");
+                    navigate("/admin");
+                    return;
+                }
+                setLoadError(t("contact.form.connectionError"));
+            })
+            .finally(() => setLoading(false));
     };
 
     const getStatusClass = (status) => {
@@ -50,22 +94,25 @@ function AdminDashboard() {
             .replace(/\s+/g, "-")}`;
     };
 
+    const statusLabels = {
+        New: t("admin.dashboard.new"),
+        Contacted: t("admin.dashboard.contacted"),
+        "In Progress": t("admin.dashboard.inProgress"),
+        Completed: t("admin.dashboard.completed")
+    };
+
     return (
         <main className="admin-dashboard-page">
 
             <section className="admin-dashboard-header">
 
                 <div>
-                    <p>
-                        {t("admin.dashboard.label")}
-                    </p>
-
                     <h1>
                         {t("admin.dashboard.title")}
                     </h1>
 
                     <span>
-                        {t("admin.dashboard.description")}
+                        {t("admin.dashboard.subtitle")}
                     </span>
                 </div>
 
@@ -97,7 +144,7 @@ function AdminDashboard() {
                 <div className="admin-stat-card">
 
                     <span>
-                        {t("admin.dashboard.newEnquiries")}
+                        {t("admin.dashboard.new")}
                     </span>
 
                     <strong>
@@ -155,20 +202,16 @@ function AdminDashboard() {
                 <div className="admin-section-heading">
 
                     <div>
-                        <p>
-                            {t("admin.dashboard.enquiriesLabel")}
-                        </p>
-
                         <h2>
-                            {t("admin.dashboard.enquiriesTitle")}
+                            {t("admin.dashboard.totalEnquiries")}
                         </h2>
                     </div>
 
                     <button
                         className="admin-refresh-button"
-                        onClick={fetchEnquiries}
+                        onClick={handleRefresh}
                     >
-                        {t("admin.dashboard.refresh")}
+                        {t("common.refresh")}
                     </button>
 
                 </div>
@@ -178,10 +221,18 @@ function AdminDashboard() {
 
                     <div className="admin-empty-state">
                         <p>
-                            {t("admin.dashboard.loading")}
+                            {t("common.loading")}
                         </p>
                     </div>
 
+                ) : loadError ? (
+                    <div className="admin-empty-state" role="alert">
+                        <p>{loadError}</p>
+                    </div>
+                ) : loadError ? (
+                    <div className="admin-empty-state" role="alert">
+                        <p>{loadError}</p>
+                    </div>
                 ) : enquiries.length === 0 ? (
 
                     <div className="admin-empty-state">
@@ -195,7 +246,7 @@ function AdminDashboard() {
                         </h3>
 
                         <p>
-                            {t("admin.dashboard.noEnquiriesDescription")}
+                            {t("admin.dashboard.subtitle")}
                         </p>
 
                     </div>
@@ -278,7 +329,7 @@ function AdminDashboard() {
                                                     enquiry.status
                                                 )}`}
                                             >
-                                                {enquiry.status}
+                                                {statusLabels[enquiry.status] || enquiry.status}
                                             </span>
 
                                         </td>

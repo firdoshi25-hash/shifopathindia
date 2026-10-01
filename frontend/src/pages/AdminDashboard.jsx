@@ -1,12 +1,11 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { apiUrl } from "../api";
 import "../styles/AdminDashboard.css";
 
-const API_BASE_URL = (import.meta.env.VITE_API_URL || "http://localhost:9000").replace(/\/$/, "");
-
 async function requestEnquiries(token) {
-    const response = await fetch(`${API_BASE_URL}/api/enquiries`, {
+    const response = await fetch(apiUrl("/api/enquiries"), {
         headers: {
             Authorization: `Bearer ${token}`
         }
@@ -59,7 +58,7 @@ function AdminDashboard() {
                     return;
                 }
 
-                setLoadError(error.message || t("admin.dashboard.loadError"));
+                setLoadError(t("contact.form.connectionError"));
             })
             .finally(() => {
                 if (isActive) {
@@ -99,7 +98,7 @@ function AdminDashboard() {
                     return;
                 }
 
-                setLoadError(error.message || t("admin.dashboard.loadError"));
+                setLoadError(t("contact.form.connectionError"));
             })
             .finally(() => setLoading(false));
     };
@@ -110,22 +109,25 @@ function AdminDashboard() {
             .replace(/\s+/g, "-")}`;
     };
 
+    const statusLabels = {
+        New: t("admin.dashboard.new"),
+        Contacted: t("admin.dashboard.contacted"),
+        "In Progress": t("admin.dashboard.inProgress"),
+        Completed: t("admin.dashboard.completed")
+    };
+
     return (
         <main className="admin-dashboard-page">
 
             <section className="admin-dashboard-header">
 
                 <div>
-                    <p>
-                        {t("admin.dashboard.label")}
-                    </p>
-
                     <h1>
                         {t("admin.dashboard.title")}
                     </h1>
 
                     <span>
-                        {t("admin.dashboard.description")}
+                        {t("admin.dashboard.subtitle")}
                     </span>
                 </div>
 
@@ -157,7 +159,7 @@ function AdminDashboard() {
                 <div className="admin-stat-card">
 
                     <span>
-                        {t("admin.dashboard.newEnquiries")}
+                        {t("admin.dashboard.new")}
                     </span>
 
                     <strong>
@@ -215,12 +217,8 @@ function AdminDashboard() {
                 <div className="admin-section-heading">
 
                     <div>
-                        <p>
-                            {t("admin.dashboard.enquiriesLabel")}
-                        </p>
-
                         <h2>
-                            {t("admin.dashboard.enquiriesTitle")}
+                            {t("admin.dashboard.totalEnquiries")}
                         </h2>
                     </div>
 
@@ -228,7 +226,7 @@ function AdminDashboard() {
                         className="admin-refresh-button"
                         onClick={handleRefresh}
                     >
-                        {t("admin.dashboard.refresh")}
+                        {t("common.refresh")}
                     </button>
 
                 </div>
@@ -238,7 +236,7 @@ function AdminDashboard() {
 
                     <div className="admin-empty-state">
                         <p>
-                            {t("admin.dashboard.loading")}
+                            {t("common.loading")}
                         </p>
                     </div>
 
@@ -261,7 +259,7 @@ function AdminDashboard() {
                         </h3>
 
                         <p>
-                            {t("admin.dashboard.noEnquiriesDescription")}
+                            {t("admin.dashboard.subtitle")}
                         </p>
 
                     </div>
@@ -344,7 +342,7 @@ function AdminDashboard() {
                                                     enquiry.status
                                                 )}`}
                                             >
-                                                {enquiry.status}
+                                                {statusLabels[enquiry.status] || enquiry.status}
                                             </span>
 
                                         </td>

@@ -90,6 +90,39 @@
     width: 100%;
 }
 
+.navbar-toggle {
+    display: none;
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #d7e4ea;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #0d4168;
+    cursor: pointer;
+}
+
+.navbar-toggle-lines {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.navbar-toggle-lines span {
+    display: block;
+    width: 19px;
+    height: 2px;
+    border-radius: 2px;
+    background: currentColor;
+}
+
+.navbar-toggle:focus-visible {
+    outline: 3px solid rgba(21, 155, 145, 0.35);
+    outline-offset: 2px;
+}
+
 .navbar-button {
     padding: 14px 22px;
 
@@ -141,56 +174,77 @@
 @media (max-width: 850px) {
 
     .navbar-container {
-        min-height: auto;
-
-        padding: 12px 20px;
-
+        min-height: 72px;
+        padding: 8px 20px;
+        gap: 10px;
         flex-wrap: wrap;
     }
 
     .navbar-logo {
-        width: 105px;
-        height: 62px;
-    }
-
-    .navbar-button {
-        margin-left: auto;
+        width: 96px;
+        height: 56px;
     }
 
     .navbar-links {
+        display: none;
         order: 3;
-
+        flex: 0 0 100%;
         width: 100%;
+        padding: 8px 0 0;
+        border-top: 1px solid #e6edf2;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
 
-        padding: 8px 0 5px;
+    .navbar-links-open {
+        display: flex;
+    }
 
-        flex-wrap: wrap;
-        gap: 14px 20px;
+    .navbar-links a {
+        padding: 12px 10px;
+        border-bottom: 1px solid #edf2f4;
+        font-size: 15px;
+    }
+
+    .navbar-links a::after {
+        display: none;
+    }
+
+    .navbar-links a:hover {
+        background: #f3faf9;
+    }
+
+    .language-selector {
+        margin-left: auto;
+        order: 1;
+    }
+
+    .navbar-toggle {
+        display: inline-flex;
+        order: 2;
     }
 }
 
 @media (max-width: 500px) {
 
     .navbar-container {
-        padding: 10px 15px;
+        padding: 8px 12px;
     }
 
     .navbar-logo {
-        width: 90px;
-        height: 55px;
+        width: 82px;
+        height: 50px;
     }
 
-    .navbar-button {
-        padding: 10px 12px;
-        font-size: 12px;
+    .navbar-toggle {
+        width: 42px;
+        height: 42px;
     }
 
-    .navbar-links {
-        gap: 10px 15px;
-    }
-
-    .navbar-links a {
-        font-size: 12px;
+    .language-selector {
+        gap: 5px;
+        padding: 7px;
     }
 }
 
@@ -271,7 +325,8 @@
     }
 
     .language-selector select {
-        max-width: 85px;
+        width: 82px;
+        max-width: 82px;
         font-size: 11px;
     }
 

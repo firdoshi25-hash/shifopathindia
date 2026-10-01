@@ -11,22 +11,14 @@ function MedicalDisclaimer() {
 
                 <div className="legal-hero-content">
 
-                    <div className="legal-badge">
-                        {t("medicalDisclaimer.hero.badge")}
-                    </div>
-
-                    <p>
-                        {t("medicalDisclaimer.hero.label")}
-                    </p>
-
                     <h1>
-                        {t("medicalDisclaimer.hero.title")}
+                        {t("medicalDisclaimer.title")}
                     </h1>
 
                     <div className="legal-line"></div>
 
                     <span>
-                        {t("medicalDisclaimer.hero.description")}
+                        {t("medicalDisclaimer.intro")}
                     </span>
 
                 </div>
@@ -45,7 +37,7 @@ function MedicalDisclaimer() {
                         </h2>
 
                         <p>
-                            {t("medicalDisclaimer.sections.information.content")}
+                            {t("medicalDisclaimer.sections.information.text")}
                         </p>
 
                     </section>
@@ -58,7 +50,7 @@ function MedicalDisclaimer() {
                         </h2>
 
                         <p>
-                            {t("medicalDisclaimer.sections.notMedicalAdvice.content")}
+                            {t("medicalDisclaimer.sections.notMedicalAdvice.text")}
                         </p>
 
                     </section>
@@ -67,11 +59,11 @@ function MedicalDisclaimer() {
                     <section className="legal-section">
 
                         <h2>
-                            {t("medicalDisclaimer.sections.doctors.title")}
+                            {t("medicalDisclaimer.sections.professionals.title")}
                         </h2>
 
                         <p>
-                            {t("medicalDisclaimer.sections.doctors.content")}
+                            {t("medicalDisclaimer.sections.professionals.text")}
                         </p>
 
                     </section>
@@ -84,7 +76,7 @@ function MedicalDisclaimer() {
                         </h2>
 
                         <p>
-                            {t("medicalDisclaimer.sections.emergency.content")}
+                            {t("medicalDisclaimer.sections.emergency.text")}
                         </p>
 
                     </section>
@@ -93,40 +85,15 @@ function MedicalDisclaimer() {
                     <section className="legal-section">
 
                         <h2>
-                            {t("medicalDisclaimer.sections.results.title")}
+                            {t("medicalDisclaimer.sections.information.title")}
                         </h2>
 
                         <p>
-                            {t("medicalDisclaimer.sections.results.content")}
+                            {t("medicalDisclaimer.sections.information.text")}
                         </p>
 
                     </section>
 
-
-                    <section className="legal-section">
-
-                        <h2>
-                            {t("medicalDisclaimer.sections.responsibility.title")}
-                        </h2>
-
-                        <p>
-                            {t("medicalDisclaimer.sections.responsibility.content")}
-                        </p>
-
-                    </section>
-
-
-                    <section className="legal-section">
-
-                        <h2>
-                            {t("medicalDisclaimer.sections.contact.title")}
-                        </h2>
-
-                        <p>
-                            {t("medicalDisclaimer.sections.contact.content")}
-                        </p>
-
-                    </section>
 
                 </div>
 

@@ -94,6 +94,15 @@ function DoctorProfile() {
     };
 
     const doctor = doctors[id];
+    const specialtyKeys = {
+        Cardiology: "cardiology",
+        "Interventional Cardiology": "interventionalCardiology",
+        "Cardiac Surgery": "cardiacSurgery",
+        "Cardiology & Electrophysiology": "cardiologyElectrophysiology"
+    };
+    const specialtyLabel = doctor
+        ? t(`catalog.specialties.${specialtyKeys[doctor.specialization]}`)
+        : "";
 
     if (!doctor) {
         return (
@@ -102,15 +111,15 @@ function DoctorProfile() {
                 <section className="doctor-not-found">
 
                     <h1>
-                        {t("doctorProfile.notFound.title")}
+                        {t("doctors.main.title")}
                     </h1>
 
                     <p>
-                        {t("doctorProfile.notFound.description")}
+                        {t("doctors.main.description")}
                     </p>
 
                     <Link to="/doctors">
-                        {t("doctorProfile.notFound.button")}
+                        {t("doctorProfile.back")}
                     </Link>
 
                 </section>
@@ -130,11 +139,11 @@ function DoctorProfile() {
                 <div className="doctor-profile-hero-content">
 
                     <div className="doctor-profile-badge">
-                        {t("doctorProfile.hero.badge")}
+                        {t("doctors.hero.badge")}
                     </div>
 
                     <p>
-                        {t("doctorProfile.hero.label")}
+                        {t("doctors.hero.label")}
                     </p>
 
                     <h1>
@@ -144,7 +153,7 @@ function DoctorProfile() {
                     <div className="doctor-profile-line"></div>
 
                     <span>
-                        {doctor.specialization}
+                        {specialtyLabel}
                     </span>
 
                 </div>
@@ -163,7 +172,7 @@ function DoctorProfile() {
                     <div className="doctor-profile-content">
 
                         <p className="doctor-profile-label">
-                            {t("doctorProfile.details.label")}
+                            {t("doctorProfile.about.label")}
                         </p>
 
                         <h2>
@@ -175,11 +184,11 @@ function DoctorProfile() {
                             <div className="doctor-profile-detail">
 
                                 <span>
-                                    {t("doctorProfile.details.specialization")}
+                                    {t("doctorProfile.profile.specialization")}
                                 </span>
 
                                 <strong>
-                                    {doctor.specialization}
+                                    {specialtyLabel}
                                 </strong>
 
                             </div>
@@ -188,7 +197,7 @@ function DoctorProfile() {
                             <div className="doctor-profile-detail">
 
                                 <span>
-                                    {t("doctorProfile.details.hospital")}
+                                    {t("doctorProfile.profile.hospital")}
                                 </span>
 
                                 <strong>
@@ -201,7 +210,7 @@ function DoctorProfile() {
                             <div className="doctor-profile-detail">
 
                                 <span>
-                                    {t("doctorProfile.details.location")}
+                                    {t("doctorProfile.profile.location")}
                                 </span>
 
                                 <strong>
@@ -220,19 +229,19 @@ function DoctorProfile() {
                 <div className="doctor-profile-info">
 
                     <p>
-                        {t("doctorProfile.info.label")}
+                        {t("doctorProfile.appointment.label")}
                     </p>
 
                     <h2>
-                        {t("doctorProfile.info.title")}
+                        {t("doctorProfile.appointment.title")}
                     </h2>
 
                     <span>
-                        {t("doctorProfile.info.description")}
+                        {t("doctorProfile.appointment.description")}
                     </span>
 
                     <Link to="/contact">
-                        {t("doctorProfile.info.button")}
+                        {t("doctorProfile.appointment.button")}
                     </Link>
 
                 </div>

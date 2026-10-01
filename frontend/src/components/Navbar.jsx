@@ -11,7 +11,7 @@ function Navbar() {
     const languages = [
         { code: "en", name: "English" },
         { code: "hi", name: "Hindi" },
-        { code: "zh", name: "Mandarin Chinese" },
+        { code: "zh", name: "中文" },
         { code: "es", name: "Spanish" },
         { code: "fr", name: "French" },
         { code: "ar", name: "Arabic" },
@@ -110,7 +110,7 @@ function Navbar() {
                 <button
                     type="button"
                     className="navbar-toggle"
-                    aria-label={isMenuOpen ? "Close navigation menu" : "Open navigation menu"}
+                    aria-label={isMenuOpen ? t("common.close") : t("common.openMenu")}
                     aria-expanded={isMenuOpen}
                     aria-controls="primary-navigation"
                     onClick={() => setIsMenuOpen((open) => !open)}

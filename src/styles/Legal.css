@@ -22,6 +22,7 @@
 .legal-hero-content {
     width: 100%;
     max-width: 1200px;
+    min-width: 0;
 
     margin: 0 auto;
 
@@ -98,6 +99,15 @@
     line-height: 1.8;
 }
 
+.legal-badge,
+.legal-hero-content > p,
+.legal-hero-content h1,
+.legal-hero-content > span,
+.legal-section h2,
+.legal-section p {
+    overflow-wrap: anywhere;
+}
+
 
 /* =========================
    MAIN
@@ -114,6 +124,7 @@
 
 .legal-content {
     width: 100%;
+    min-width: 0;
 }
 
 

@@ -11,22 +11,14 @@ function Terms() {
 
                 <div className="legal-hero-content">
 
-                    <div className="legal-badge">
-                        {t("terms.hero.badge")}
-                    </div>
-
-                    <p>
-                        {t("terms.hero.label")}
-                    </p>
-
                     <h1>
-                        {t("terms.hero.title")}
+                        {t("terms.title")}
                     </h1>
 
                     <div className="legal-line"></div>
 
                     <span>
-                        {t("terms.hero.description")}
+                        {t("terms.intro")}
                     </span>
 
                 </div>
@@ -40,11 +32,11 @@ function Terms() {
 
                     <section className="legal-section">
                         <h2>
-                            {t("terms.sections.acceptance.title")}
+                            {t("terms.sections.information.title")}
                         </h2>
 
                         <p>
-                            {t("terms.sections.acceptance.content")}
+                            {t("terms.sections.information.text")}
                         </p>
                     </section>
 
@@ -55,73 +47,29 @@ function Terms() {
                         </h2>
 
                         <p>
-                            {t("terms.sections.services.content")}
+                            {t("terms.sections.services.text")}
                         </p>
                     </section>
 
 
                     <section className="legal-section">
                         <h2>
-                            {t("terms.sections.userResponsibilities.title")}
+                            {t("terms.sections.healthcare.title")}
                         </h2>
 
                         <p>
-                            {t("terms.sections.userResponsibilities.content")}
+                            {t("terms.sections.healthcare.text")}
                         </p>
                     </section>
 
 
                     <section className="legal-section">
                         <h2>
-                            {t("terms.sections.medical.title")}
+                            {t("terms.sections.accuracy.title")}
                         </h2>
 
                         <p>
-                            {t("terms.sections.medical.content")}
-                        </p>
-                    </section>
-
-
-                    <section className="legal-section">
-                        <h2>
-                            {t("terms.sections.thirdParties.title")}
-                        </h2>
-
-                        <p>
-                            {t("terms.sections.thirdParties.content")}
-                        </p>
-                    </section>
-
-
-                    <section className="legal-section">
-                        <h2>
-                            {t("terms.sections.payments.title")}
-                        </h2>
-
-                        <p>
-                            {t("terms.sections.payments.content")}
-                        </p>
-                    </section>
-
-
-                    <section className="legal-section">
-                        <h2>
-                            {t("terms.sections.liability.title")}
-                        </h2>
-
-                        <p>
-                            {t("terms.sections.liability.content")}
-                        </p>
-                    </section>
-
-
-                    <section className="legal-section">
-                        <h2>
-                            {t("terms.sections.changes.title")}
-                        </h2>
-
-                        <p>
-                            {t("terms.sections.changes.content")}
+                            {t("terms.sections.accuracy.text")}
                         </p>
                     </section>
 
@@ -132,7 +80,7 @@ function Terms() {
                         </h2>
 
                         <p>
-                            {t("terms.sections.contact.content")}
+                            {t("terms.sections.contact.text")}
                         </p>
                     </section>
 

@@ -332,31 +332,49 @@
     background: #159b91;
 }
 
-.hospital-cta {
-    padding: 80px 24px;
+.hospitals-cta {
+    width: 100%;
+    padding: 78px 28px;
 
     background: #f4f9fb;
 
     text-align: center;
 }
 
-.hospital-cta h2 {
-    color: #0d4168;
-    font-size: 34px;
-    margin: 0 0 15px;
+.hospitals-cta-content {
+    max-width: 850px;
+    margin: 0 auto;
 }
 
-.hospital-cta p {
+.hospitals-cta-content > p {
+    margin: 0 0 12px;
+    color: #159b91;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.hospitals-cta h2 {
+    color: #0d4168;
+    font-size: 34px;
+    line-height: 1.25;
+    margin: 0 0 14px;
+}
+
+.hospitals-cta-content > span {
+    display: block;
     max-width: 650px;
-    margin: 0 auto 28px;
+    margin: 0 auto 26px;
 
     color: #667085;
     font-size: 16px;
     line-height: 1.7;
 }
 
-.hospital-cta a {
-    display: inline-block;
+.hospitals-cta a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 
     padding: 14px 24px;
 
@@ -369,7 +387,7 @@
     font-weight: 600;
 }
 
-.hospital-cta a:hover {
+.hospitals-cta a:hover {
     background: #159b91;
 }
 
@@ -423,11 +441,15 @@
         padding: 22px;
     }
 
-    .hospital-cta {
-        padding: 60px 20px;
+    .hospitals-cta {
+        padding: 58px 20px;
     }
 
-    .hospital-cta h2 {
+    .hospitals-cta h2 {
         font-size: 29px;
+    }
+
+    .hospitals-cta a {
+        width: 100%;
     }
 }

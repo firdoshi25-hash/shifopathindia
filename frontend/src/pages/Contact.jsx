@@ -72,7 +72,7 @@ function Contact() {
 
                             <div>
                                 <h3>
-                                    {t("contact.info.phoneTitle")}
+                                    {t("contact.info.phone")}
                                 </h3>
 
                                 <p>
@@ -91,7 +91,7 @@ function Contact() {
 
                             <div>
                                 <h3>
-                                    {t("contact.info.instagramTitle")}
+                                    {t("contact.info.instagram")}
                                 </h3>
 
                                 <p>
@@ -110,11 +110,11 @@ function Contact() {
 
                             <div>
                                 <h3>
-                                    {t("contact.info.supportTitle")}
+                                    {t("contact.info.telegram")}
                                 </h3>
 
                                 <p>
-                                    {t("contact.info.supportDescription")}
+                                    @ShifoPathIndia
                                 </p>
                             </div>
 
@@ -126,15 +126,15 @@ function Contact() {
                     <div className="contact-after">
 
                         <p>
-                            {t("contact.after.label")}
+                            {t("contact.afterSubmit.label")}
                         </p>
 
                         <h3>
-                            {t("contact.after.title")}
+                            {t("contact.afterSubmit.title")}
                         </h3>
 
                         <span>
-                            {t("contact.after.description")}
+                            {t("contact.afterSubmit.step1")}
                         </span>
 
                     </div>

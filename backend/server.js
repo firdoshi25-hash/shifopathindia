@@ -20,13 +20,33 @@ app.get("/", (req, res) => {
         message: "ShifoPath India Backend is Running!"
     });
 });
-mongoose.connect(process.env.MONGODB_URI)
-    .then(() => {
-        console.log("MongoDB connected successfully");
-    })
-    .catch((error) => {
-        console.error("MongoDB connection failed:", error.message);
+
+app.get("/health", (req, res) => {
+    const databaseConnected = mongoose.connection.readyState === 1;
+
+    res.status(databaseConnected ? 200 : 503).json({
+        status: databaseConnected ? "ok" : "database_unavailable"
     });
-app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+});
+
+async function startServer() {
+    if (!process.env.MONGODB_URI) {
+        throw new Error("MONGODB_URI is required");
+    }
+
+    if (!process.env.JWT_SECRET) {
+        throw new Error("JWT_SECRET is required");
+    }
+
+    await mongoose.connect(process.env.MONGODB_URI);
+    console.log("MongoDB connected successfully");
+
+    app.listen(PORT, () => {
+        console.log(`Server is listening on port ${PORT}`);
+    });
+}
+
+startServer().catch((error) => {
+    console.error("Backend startup failed:", error.message);
+    process.exit(1);
 });

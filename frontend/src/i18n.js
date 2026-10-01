@@ -16,9 +16,15 @@ import uz from "./locales/uz.json";
 import fa from "./locales/fa.json";
 import ko from "./locales/ko.json";
 import it from "./locales/it.json";
+import supplemental from "./locales/supplemental.json";
 
 const savedLanguage =
     localStorage.getItem("shifopath-language") || "en";
+
+const syncDocumentLanguage = (language) => {
+    document.documentElement.lang = language;
+    document.documentElement.dir = ["ar", "fa"].includes(language) ? "rtl" : "ltr";
+};
 
 i18n
     .use(initReactI18next)
@@ -49,5 +55,12 @@ i18n
             escapeValue: false
         }
     });
+
+syncDocumentLanguage(savedLanguage);
+i18n.on("languageChanged", syncDocumentLanguage);
+
+Object.entries(supplemental).forEach(([language, translations]) => {
+    i18n.addResourceBundle(language, "translation", translations, true, true);
+});
 
 export default i18n;

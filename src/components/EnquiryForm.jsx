@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { apiUrl } from "../api";
 import "../styles/Contact.css";
 
 function EnquiryForm() {
@@ -29,18 +30,13 @@ function EnquiryForm() {
         event.preventDefault();
 
         try {
-            const response = await fetch(
-                "http://localhost:5000/api/enquiries",
-                {
+            const response = await fetch(apiUrl("/api/enquiries"), {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"
                     },
                     body: JSON.stringify(formData)
-                }
-            );
-
-            const data = await response.json();
+                });
 
             if (response.ok) {
                 setSubmitted(true);
@@ -54,13 +50,15 @@ function EnquiryForm() {
                     message: ""
                 });
             } else {
-                alert(data.message || t("contact.form.error"));
+                alert(t("contact.form.error"));
             }
 
         } catch (error) {
             console.error(error);
 
-            alert(t("contact.form.connectionError"));
+            alert(error.message === "Failed to fetch"
+                ? t("contact.form.connectionError")
+                : error.message);
         }
     };
 
@@ -195,27 +193,27 @@ function EnquiryForm() {
                     </option>
 
                     <option value="Hospital Appointment">
-                        {t("contact.form.serviceOptions.appointment")}
+                        {t("contact.services.appointments")}
                     </option>
 
                     <option value="Accommodation">
-                        {t("contact.form.serviceOptions.accommodation")}
+                        {t("contact.services.accommodation")}
                     </option>
 
                     <option value="Local Transport">
-                        {t("contact.form.serviceOptions.transport")}
+                        {t("contact.services.transport")}
                     </option>
 
                     <option value="Interpreter">
-                        {t("contact.form.serviceOptions.interpreter")}
+                        {t("contact.services.interpreter")}
                     </option>
 
                     <option value="Patient Care Coordination">
-                        {t("contact.form.serviceOptions.patientCare")}
+                        {t("contact.services.patientCare")}
                     </option>
 
                     <option value="Other">
-                        {t("contact.form.serviceOptions.other")}
+                        {t("contact.services.other")}
                     </option>
 
                 </select>

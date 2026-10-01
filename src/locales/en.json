@@ -420,7 +420,13 @@
             "message": "Message",
             "messagePlaceholder": "Tell us about your requirements",
             "submit": "Submit Enquiry",
-            "required": "Required"
+            "required": "Required",
+            "consent": "I agree to be contacted about my enquiry.",
+            "error": "We could not submit your enquiry. Please try again.",
+            "connectionError": "Could not connect to the enquiry service. Please try again later.",
+            "successTitle": "Enquiry received",
+            "successMessage": "Thank you. Our team will review your request and contact you.",
+            "sendAnother": "Send another enquiry"
         },
 
         "services": {
@@ -438,7 +444,17 @@
             "description": "Contact ShifoPath India to discuss your medical travel requirements and coordination needs.",
             "phone": "Phone / WhatsApp",
             "instagram": "Instagram",
-            "telegram": "Telegram"
+            "telegram": "Telegram",
+            "phoneTitle": "Phone / WhatsApp",
+            "instagramTitle": "Instagram",
+            "supportTitle": "International Patient Support",
+            "supportDescription": "Our team can help coordinate your medical journey in India."
+        },
+
+        "after": {
+            "label": "WHAT HAPPENS NEXT",
+            "title": "After You Submit Your Enquiry",
+            "description": "Our team reviews your requirements and contacts you to discuss the next steps."
         },
 
         "afterSubmit": {

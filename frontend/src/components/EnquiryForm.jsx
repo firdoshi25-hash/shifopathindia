@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { apiUrl } from "../api";
 import "../styles/Contact.css";
-
-const API_BASE_URL = (import.meta.env.VITE_API_URL || "http://localhost:9000").replace(/\/$/, "");
 
 function EnquiryForm() {
     const { t } = useTranslation();
@@ -31,15 +30,13 @@ function EnquiryForm() {
         event.preventDefault();
 
         try {
-            const response = await fetch(`${API_BASE_URL}/api/enquiries`, {
+            const response = await fetch(apiUrl("/api/enquiries"), {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"
                     },
                     body: JSON.stringify(formData)
                 });
-
-            const data = await response.json();
 
             if (response.ok) {
                 setSubmitted(true);
@@ -53,18 +50,15 @@ function EnquiryForm() {
                     message: ""
                 });
             } else {
-                alert(
-                    data.message ||
-                    t("contact.form.error")
-                );
+                alert(t("contact.form.error"));
             }
 
         } catch (error) {
             console.error(error);
 
-            alert(
-                t("contact.form.connectionError")
-            );
+            alert(error.message === "Failed to fetch"
+                ? t("contact.form.connectionError")
+                : error.message);
         }
     };
 

@@ -1,0 +1,182 @@
+{
+  "en": {
+    "common": { "refresh": "Refresh", "loading": "Loading...", "openMenu": "Open navigation menu" },
+    "catalog": { "specialties": { "cardiology": "Cardiology", "interventionalCardiology": "Interventional Cardiology", "cardiacSurgery": "Cardiac Surgery", "cardiologyElectrophysiology": "Cardiology & Electrophysiology" }, "hospitals": {
+      "aiims": { "description": "A major public medical institute in New Delhi offering advanced care, education and research.", "specialties": "Cardiology, Neurology, Oncology, Orthopaedics, Gastroenterology and more." },
+      "apollo": { "description": "A multispecialty tertiary hospital in New Delhi with services across many clinical fields.", "specialties": "Cardiology, cancer care, neurosciences, gastroenterology, orthopaedics and transplants." },
+      "medanta": { "description": "A multispecialty hospital in Gurugram providing care across a broad range of specialties.", "specialties": "Cardiac care, cancer care, neurosciences, gastrosciences, orthopaedics and transplant care." },
+      "fortis": { "description": "A multispecialty hospital in Gurugram offering a wide range of specialist healthcare services.", "specialties": "Cardiac sciences, oncology, neurology, neurosurgery, orthopaedics and gastroenterology." },
+      "max": { "description": "A multispecialty and super-specialty hospital providing healthcare services in New Delhi.", "specialties": "Cancer care, cardiac sciences, neurosciences, orthopaedics, gastroenterology and transplants." },
+      "artemis": { "description": "A Gurugram hospital providing advanced care across a range of medical departments.", "specialties": "Cardiology, oncology, neurosciences, orthopaedics, gastroenterology and critical care." }
+    } },
+    "contact": { "form": { "consent": "I agree to be contacted about my enquiry.", "error": "We could not submit your enquiry. Please try again.", "connectionError": "Could not connect to the enquiry service. Please try again later.", "successTitle": "Enquiry received", "successMessage": "Thank you. Our team will review your request and contact you.", "sendAnother": "Send another enquiry" } }
+  },
+  "hi": {
+    "common": { "refresh": "रीफ़्रेश करें", "loading": "लोड हो रहा है...", "openMenu": "नेविगेशन मेनू खोलें" },
+    "catalog": { "specialties": { "cardiology": "हृदय रोग विज्ञान", "interventionalCardiology": "इंटरवेंशनल कार्डियोलॉजी", "cardiacSurgery": "हृदय शल्य चिकित्सा", "cardiologyElectrophysiology": "हृदय रोग विज्ञान और इलेक्ट्रोफिजियोलॉजी" }, "hospitals": {
+      "aiims": { "description": "नई दिल्ली का प्रमुख सार्वजनिक चिकित्सा संस्थान, जो उन्नत उपचार, शिक्षा और अनुसंधान प्रदान करता है।", "specialties": "हृदय रोग, तंत्रिका विज्ञान, कैंसर उपचार, अस्थि रोग, गैस्ट्रोएंटरोलॉजी और अन्य सेवाएं।" },
+      "apollo": { "description": "नई दिल्ली का बहु-विशेषता तृतीयक अस्पताल, जहाँ कई चिकित्सा क्षेत्रों में सेवाएं उपलब्ध हैं।", "specialties": "हृदय रोग, कैंसर देखभाल, तंत्रिका विज्ञान, गैस्ट्रोएंटरोलॉजी, अस्थि रोग और प्रत्यारोपण।" },
+      "medanta": { "description": "गुरुग्राम का बहु-विशेषता अस्पताल, जहाँ अनेक चिकित्सा क्षेत्रों में देखभाल उपलब्ध है।", "specialties": "हृदय देखभाल, कैंसर देखभाल, तंत्रिका विज्ञान, गैस्ट्रो विज्ञान, अस्थि रोग और प्रत्यारोपण देखभाल।" },
+      "fortis": { "description": "गुरुग्राम का बहु-विशेषता अस्पताल, जो कई विशेषज्ञ स्वास्थ्य सेवाएं प्रदान करता है।", "specialties": "हृदय विज्ञान, कैंसर विज्ञान, तंत्रिका विज्ञान, न्यूरोसर्जरी, अस्थि रोग और गैस्ट्रोएंटरोलॉजी।" },
+      "max": { "description": "नई दिल्ली का बहु-विशेषता और सुपर-विशेषता अस्पताल, जो विभिन्न स्वास्थ्य सेवाएं प्रदान करता है।", "specialties": "कैंसर देखभाल, हृदय विज्ञान, तंत्रिका विज्ञान, अस्थि रोग, गैस्ट्रोएंटरोलॉजी और प्रत्यारोपण।" },
+      "artemis": { "description": "गुरुग्राम का अस्पताल, जो कई चिकित्सा विभागों में उन्नत देखभाल प्रदान करता है।", "specialties": "हृदय रोग, कैंसर विज्ञान, तंत्रिका विज्ञान, अस्थि रोग, गैस्ट्रोएंटरोलॉजी और गंभीर देखभाल।" }
+    } },
+    "contact": { "form": { "consent": "मैं अपनी पूछताछ के बारे में संपर्क किए जाने के लिए सहमत हूँ।", "error": "आपकी पूछताछ भेजी नहीं जा सकी। कृपया फिर से प्रयास करें।", "connectionError": "पूछताछ सेवा से संपर्क नहीं हो सका। कृपया बाद में प्रयास करें।", "successTitle": "पूछताछ प्राप्त हुई", "successMessage": "धन्यवाद। हमारी टीम आपके अनुरोध की समीक्षा करके आपसे संपर्क करेगी।", "sendAnother": "एक और पूछताछ भेजें" } }
+  },
+  "zh": {
+    "common": { "refresh": "刷新", "loading": "正在加载...", "openMenu": "打开导航菜单" },
+    "catalog": { "specialties": { "cardiology": "心脏病学", "interventionalCardiology": "介入心脏病学", "cardiacSurgery": "心脏外科", "cardiologyElectrophysiology": "心脏病学与电生理学" }, "hospitals": {
+      "aiims": { "description": "新德里的重要公立医学机构，提供先进医疗、医学教育和研究。", "specialties": "心脏病学、神经病学、肿瘤学、骨科、胃肠病学等。" },
+      "apollo": { "description": "新德里的综合性三级医院，提供多个临床领域的医疗服务。", "specialties": "心脏病学、癌症护理、神经科学、胃肠病学、骨科和移植。" },
+      "medanta": { "description": "古尔冈的综合性医院，涵盖广泛的医疗专科。", "specialties": "心脏护理、癌症护理、神经科学、胃肠科学、骨科和移植护理。" },
+      "fortis": { "description": "古尔冈的综合性医院，提供多种专科医疗服务。", "specialties": "心脏科学、肿瘤学、神经病学、神经外科、骨科和胃肠病学。" },
+      "max": { "description": "新德里的综合及超专科医院，提供多种医疗服务。", "specialties": "癌症护理、心脏科学、神经科学、骨科、胃肠病学和移植。" },
+      "artemis": { "description": "古尔冈的医院，在多个医学科室提供先进医疗服务。", "specialties": "心脏病学、肿瘤学、神经科学、骨科、胃肠病学和重症护理。" }
+    } },
+    "contact": { "form": { "consent": "我同意就我的咨询与我联系。", "error": "无法提交您的咨询，请重试。", "connectionError": "无法连接咨询服务，请稍后再试。", "successTitle": "已收到咨询", "successMessage": "谢谢。我们的团队会审核您的请求并与您联系。", "sendAnother": "提交另一条咨询" } }
+  },
+  "es": {
+    "common": { "refresh": "Actualizar", "loading": "Cargando...", "openMenu": "Abrir menú de navegación" },
+    "catalog": { "specialties": { "cardiology": "Cardiología", "interventionalCardiology": "Cardiología intervencionista", "cardiacSurgery": "Cirugía cardíaca", "cardiologyElectrophysiology": "Cardiología y electrofisiología" }, "hospitals": {
+      "aiims": { "description": "Importante instituto médico público de Nueva Delhi que ofrece atención avanzada, educación e investigación.", "specialties": "Cardiología, neurología, oncología, ortopedia, gastroenterología y más." },
+      "apollo": { "description": "Hospital terciario multiespecialidad de Nueva Delhi con servicios en numerosos campos clínicos.", "specialties": "Cardiología, atención oncológica, neurociencias, gastroenterología, ortopedia y trasplantes." },
+      "medanta": { "description": "Hospital multiespecialidad de Gurugram con atención en una amplia variedad de especialidades.", "specialties": "Atención cardíaca y oncológica, neurociencias, gastroenterología, ortopedia y trasplantes." },
+      "fortis": { "description": "Hospital multiespecialidad de Gurugram que ofrece diversos servicios de atención especializada.", "specialties": "Ciencias cardíacas, oncología, neurología, neurocirugía, ortopedia y gastroenterología." },
+      "max": { "description": "Hospital multiespecialidad y de alta especialización que presta servicios médicos en Nueva Delhi.", "specialties": "Atención oncológica, ciencias cardíacas, neurociencias, ortopedia, gastroenterología y trasplantes." },
+      "artemis": { "description": "Hospital de Gurugram que ofrece atención avanzada en diversas áreas médicas.", "specialties": "Cardiología, oncología, neurociencias, ortopedia, gastroenterología y cuidados intensivos." }
+    } },
+    "contact": { "form": { "consent": "Acepto que se pongan en contacto conmigo sobre mi consulta.", "error": "No pudimos enviar su consulta. Inténtelo de nuevo.", "connectionError": "No se pudo conectar con el servicio de consultas. Inténtelo más tarde.", "successTitle": "Consulta recibida", "successMessage": "Gracias. Nuestro equipo revisará su solicitud y se pondrá en contacto.", "sendAnother": "Enviar otra consulta" } }
+  },
+  "fr": {
+    "common": { "refresh": "Actualiser", "loading": "Chargement...", "openMenu": "Ouvrir le menu de navigation" },
+    "catalog": { "specialties": { "cardiology": "Cardiologie", "interventionalCardiology": "Cardiologie interventionnelle", "cardiacSurgery": "Chirurgie cardiaque", "cardiologyElectrophysiology": "Cardiologie et électrophysiologie" }, "hospitals": {
+      "aiims": { "description": "Grand institut médical public de New Delhi proposant des soins avancés, de l'enseignement et de la recherche.", "specialties": "Cardiologie, neurologie, oncologie, orthopédie, gastro-entérologie et autres spécialités." },
+      "apollo": { "description": "Hôpital tertiaire multispécialité de New Delhi proposant des services dans de nombreux domaines cliniques.", "specialties": "Cardiologie, cancérologie, neurosciences, gastro-entérologie, orthopédie et greffes." },
+      "medanta": { "description": "Hôpital multispécialité de Gurugram couvrant un large éventail de disciplines médicales.", "specialties": "Cardiologie, cancérologie, neurosciences, gastro-entérologie, orthopédie et greffes." },
+      "fortis": { "description": "Hôpital multispécialité de Gurugram proposant de nombreux services médicaux spécialisés.", "specialties": "Cardiologie, oncologie, neurologie, neurochirurgie, orthopédie et gastro-entérologie." },
+      "max": { "description": "Hôpital multispécialité et hyperspécialisé proposant des soins à New Delhi.", "specialties": "Cancérologie, cardiologie, neurosciences, orthopédie, gastro-entérologie et greffes." },
+      "artemis": { "description": "Hôpital de Gurugram proposant des soins avancés dans plusieurs spécialités médicales.", "specialties": "Cardiologie, oncologie, neurosciences, orthopédie, gastro-entérologie et soins intensifs." }
+    } },
+    "contact": { "form": { "consent": "J'accepte d'être contacté au sujet de ma demande.", "error": "Impossible d'envoyer votre demande. Veuillez réessayer.", "connectionError": "Impossible de joindre le service des demandes. Veuillez réessayer plus tard.", "successTitle": "Demande reçue", "successMessage": "Merci. Notre équipe examinera votre demande et vous contactera.", "sendAnother": "Envoyer une autre demande" } }
+  },
+  "ar": {
+    "common": { "refresh": "تحديث", "loading": "جارٍ التحميل...", "openMenu": "فتح قائمة التنقل" },
+    "catalog": { "specialties": { "cardiology": "أمراض القلب", "interventionalCardiology": "أمراض القلب التداخلية", "cardiacSurgery": "جراحة القلب", "cardiologyElectrophysiology": "أمراض القلب والفيزيولوجيا الكهربائية" }, "hospitals": {
+      "aiims": { "description": "معهد طبي حكومي بارز في نيودلهي يقدم رعاية متقدمة وتعليماً وبحوثاً طبية.", "specialties": "أمراض القلب والأعصاب والأورام والعظام والجهاز الهضمي وغيرها." },
+      "apollo": { "description": "مستشفى ثالثي متعدد التخصصات في نيودلهي يقدم خدمات في مجالات سريرية عديدة.", "specialties": "أمراض القلب ورعاية السرطان وعلوم الأعصاب والجهاز الهضمي والعظام وزراعة الأعضاء." },
+      "medanta": { "description": "مستشفى متعدد التخصصات في جوروجرام يقدم الرعاية في مجموعة واسعة من المجالات الطبية.", "specialties": "رعاية القلب والسرطان وعلوم الأعصاب وعلوم الجهاز الهضمي والعظام وزراعة الأعضاء." },
+      "fortis": { "description": "مستشفى متعدد التخصصات في جوروجرام يقدم مجموعة واسعة من خدمات الرعاية المتخصصة.", "specialties": "علوم القلب والأورام والأعصاب وجراحة الأعصاب والعظام والجهاز الهضمي." },
+      "max": { "description": "مستشفى متعدد التخصصات وفائق التخصصات يقدم خدمات صحية في نيودلهي.", "specialties": "رعاية السرطان وعلوم القلب والأعصاب والعظام والجهاز الهضمي وزراعة الأعضاء." },
+      "artemis": { "description": "مستشفى في جوروجرام يقدم رعاية متقدمة عبر مجموعة من الأقسام الطبية.", "specialties": "أمراض القلب والأورام وعلوم الأعصاب والعظام والجهاز الهضمي والرعاية الحرجة." }
+    } },
+    "contact": { "form": { "consent": "أوافق على التواصل معي بشأن استفساري.", "error": "تعذر إرسال استفسارك. يرجى المحاولة مرة أخرى.", "connectionError": "تعذر الاتصال بخدمة الاستفسارات. يرجى المحاولة لاحقًا.", "successTitle": "تم استلام الاستفسار", "successMessage": "شكرًا لك. سيراجع فريقنا طلبك ويتواصل معك.", "sendAnother": "إرسال استفسار آخر" } }
+  },
+  "tg": {
+    "common": { "refresh": "Навсозӣ", "loading": "Бор шуда истодааст...", "openMenu": "Кушодани менюи паймоиш" },
+    "catalog": { "specialties": { "cardiology": "Кардиология", "interventionalCardiology": "Кардиологияи интервенсионӣ", "cardiacSurgery": "Ҷарроҳии дил", "cardiologyElectrophysiology": "Кардиология ва электрофизиология" }, "hospitals": {
+      "aiims": { "description": "Муассисаи давлатии тиббии бузург дар Деҳлии Нав, ки табобати пешрафта, омӯзиш ва таҳқиқот пешниҳод мекунад.", "specialties": "Кардиология, неврология, онкология, ортопедия, гастроэнтерология ва дигар соҳаҳо." },
+      "apollo": { "description": "Беморхонаи бисёрсоҳаи сатҳи олӣ дар Деҳлии Нав бо хизматрасонӣ дар соҳаҳои гуногуни клиникӣ.", "specialties": "Кардиология, нигоҳубини саратон, неврология, гастроэнтерология, ортопедия ва пайвандсозӣ." },
+      "medanta": { "description": "Беморхонаи бисёрсоҳа дар Гуруграм, ки соҳаҳои гуногуни тиббиро фаро мегирад.", "specialties": "Нигоҳубини дил ва саратон, неврология, гастроилмҳо, ортопедия ва пайвандсозӣ." },
+      "fortis": { "description": "Беморхонаи бисёрсоҳа дар Гуруграм, ки хизматрасониҳои гуногуни махсуси тиббӣ пешниҳод мекунад.", "specialties": "Илмҳои дил, онкология, неврология, нейроҷарроҳӣ, ортопедия ва гастроэнтерология." },
+      "max": { "description": "Беморхонаи бисёрсоҳа ва махсусгардонидашуда дар Деҳлии Нав.", "specialties": "Нигоҳубини саратон, илмҳои дил, неврология, ортопедия, гастроэнтерология ва пайвандсозӣ." },
+      "artemis": { "description": "Беморхонаи Гуруграм, ки дар чандин бахши тиббӣ табобати пешрафта пешниҳод мекунад.", "specialties": "Кардиология, онкология, неврология, ортопедия, гастроэнтерология ва нигоҳубини шадид." }
+    } },
+    "contact": { "form": { "consent": "Ман розӣ ҳастам, ки оид ба дархостам бо ман тамос гиранд.", "error": "Дархости шумо фиристода нашуд. Лутфан бори дигар кӯшиш кунед.", "connectionError": "Пайваст шудан ба хадамоти дархостҳо имкон нашуд. Баъдтар кӯшиш кунед.", "successTitle": "Дархост қабул шуд", "successMessage": "Ташаккур. Гурӯҳи мо дархости шуморо баррасӣ карда, бо шумо тамос мегирад.", "sendAnother": "Дархости дигар фиристед" } }
+  },
+  "ru": {
+    "common": { "refresh": "Обновить", "loading": "Загрузка...", "openMenu": "Открыть меню навигации" },
+    "catalog": { "specialties": { "cardiology": "Кардиология", "interventionalCardiology": "Интервенционная кардиология", "cardiacSurgery": "Кардиохирургия", "cardiologyElectrophysiology": "Кардиология и электрофизиология" }, "hospitals": {
+      "aiims": { "description": "Крупный государственный медицинский институт в Нью-Дели, предлагающий передовую помощь, обучение и исследования.", "specialties": "Кардиология, неврология, онкология, ортопедия, гастроэнтерология и другие направления." },
+      "apollo": { "description": "Многопрофильная больница третичного уровня в Нью-Дели с отделениями в разных клинических областях.", "specialties": "Кардиология, лечение рака, нейронауки, гастроэнтерология, ортопедия и трансплантация." },
+      "medanta": { "description": "Многопрофильная больница в Гуруграме, предлагающая помощь по широкому кругу специальностей.", "specialties": "Кардиология, лечение рака, нейронауки, гастронауки, ортопедия и трансплантация." },
+      "fortis": { "description": "Многопрофильная больница в Гуруграме с широким спектром специализированной медицинской помощи.", "specialties": "Кардиология, онкология, неврология, нейрохирургия, ортопедия и гастроэнтерология." },
+      "max": { "description": "Многопрофильная и высокоспециализированная больница, предоставляющая медицинскую помощь в Нью-Дели.", "specialties": "Лечение рака, кардиология, нейронауки, ортопедия, гастроэнтерология и трансплантация." },
+      "artemis": { "description": "Больница в Гуруграме, предлагающая передовую помощь в различных медицинских отделениях.", "specialties": "Кардиология, онкология, нейронауки, ортопедия, гастроэнтерология и интенсивная терапия." }
+    } },
+    "contact": { "form": { "consent": "Я согласен(на), что со мной свяжутся по поводу моего запроса.", "error": "Не удалось отправить запрос. Попробуйте ещё раз.", "connectionError": "Не удалось подключиться к службе запросов. Повторите попытку позже.", "successTitle": "Запрос получен", "successMessage": "Спасибо. Наша команда рассмотрит ваш запрос и свяжется с вами.", "sendAnother": "Отправить ещё один запрос" } }
+  },
+  "de": {
+    "common": { "refresh": "Aktualisieren", "loading": "Wird geladen...", "openMenu": "Navigationsmenü öffnen" },
+    "catalog": { "specialties": { "cardiology": "Kardiologie", "interventionalCardiology": "Interventionelle Kardiologie", "cardiacSurgery": "Herzchirurgie", "cardiologyElectrophysiology": "Kardiologie und Elektrophysiologie" }, "hospitals": {
+      "aiims": { "description": "Ein bedeutendes öffentliches medizinisches Institut in Neu-Delhi mit moderner Versorgung, Lehre und Forschung.", "specialties": "Kardiologie, Neurologie, Onkologie, Orthopädie, Gastroenterologie und weitere Fachgebiete." },
+      "apollo": { "description": "Ein multispezialisiertes Krankenhaus der Maximalversorgung in Neu-Delhi mit zahlreichen klinischen Fachbereichen.", "specialties": "Kardiologie, Krebsversorgung, Neurowissenschaften, Gastroenterologie, Orthopädie und Transplantationen." },
+      "medanta": { "description": "Ein multispezialisiertes Krankenhaus in Gurugram mit einem breiten medizinischen Leistungsspektrum.", "specialties": "Herz- und Krebsversorgung, Neurowissenschaften, Gastroenterologie, Orthopädie und Transplantationen." },
+      "fortis": { "description": "Ein multispezialisiertes Krankenhaus in Gurugram mit zahlreichen spezialisierten Gesundheitsleistungen.", "specialties": "Herzmedizin, Onkologie, Neurologie, Neurochirurgie, Orthopädie und Gastroenterologie." },
+      "max": { "description": "Ein multi- und hochspezialisiertes Krankenhaus mit umfassender medizinischer Versorgung in Neu-Delhi.", "specialties": "Krebsversorgung, Herzmedizin, Neurowissenschaften, Orthopädie, Gastroenterologie und Transplantationen." },
+      "artemis": { "description": "Ein Krankenhaus in Gurugram mit moderner Versorgung in verschiedenen medizinischen Fachbereichen.", "specialties": "Kardiologie, Onkologie, Neurowissenschaften, Orthopädie, Gastroenterologie und Intensivmedizin." }
+    } },
+    "contact": { "form": { "consent": "Ich bin damit einverstanden, dass Sie mich zu meiner Anfrage kontaktieren.", "error": "Ihre Anfrage konnte nicht gesendet werden. Bitte versuchen Sie es erneut.", "connectionError": "Verbindung zum Anfrage-Service fehlgeschlagen. Bitte versuchen Sie es später erneut.", "successTitle": "Anfrage erhalten", "successMessage": "Vielen Dank. Unser Team prüft Ihre Anfrage und meldet sich bei Ihnen.", "sendAnother": "Weitere Anfrage senden" } }
+  },
+  "ja": {
+    "common": { "refresh": "更新", "loading": "読み込み中...", "openMenu": "ナビゲーションメニューを開く" },
+    "catalog": { "specialties": { "cardiology": "循環器内科", "interventionalCardiology": "心臓血管カテーテル治療", "cardiacSurgery": "心臓外科", "cardiologyElectrophysiology": "循環器内科・電気生理学" }, "hospitals": {
+      "aiims": { "description": "ニューデリーの主要な公立医療機関で、高度医療、医学教育、研究を提供しています。", "specialties": "循環器内科、神経内科、腫瘍科、整形外科、消化器内科など。" },
+      "apollo": { "description": "ニューデリーにある多診療科の高度医療病院で、幅広い臨床サービスを提供しています。", "specialties": "循環器内科、がん医療、神経科学、消化器内科、整形外科、移植医療。" },
+      "medanta": { "description": "グルグラムにある多診療科病院で、幅広い専門分野の医療を提供しています。", "specialties": "心臓医療、がん医療、神経科学、消化器医療、整形外科、移植医療。" },
+      "fortis": { "description": "グルグラムにある多診療科病院で、さまざまな専門医療サービスを提供しています。", "specialties": "心臓医療、腫瘍科、神経内科、脳神経外科、整形外科、消化器内科。" },
+      "max": { "description": "ニューデリーで幅広い医療を提供する多診療科・高度専門病院です。", "specialties": "がん医療、心臓医療、神経科学、整形外科、消化器内科、移植医療。" },
+      "artemis": { "description": "グルグラムにある病院で、複数の診療科において高度医療を提供しています。", "specialties": "循環器内科、腫瘍科、神経科学、整形外科、消化器内科、集中治療。" }
+    } },
+    "contact": { "form": { "consent": "お問い合わせについて連絡を受けることに同意します。", "error": "お問い合わせを送信できませんでした。もう一度お試しください。", "connectionError": "お問い合わせサービスに接続できません。しばらくしてからお試しください。", "successTitle": "お問い合わせを受け付けました", "successMessage": "ありがとうございます。担当チームが内容を確認し、ご連絡いたします。", "sendAnother": "別のお問い合わせを送信" } }
+  },
+  "tr": {
+    "common": { "refresh": "Yenile", "loading": "Yükleniyor...", "openMenu": "Gezinme menüsünü aç" },
+    "catalog": { "specialties": { "cardiology": "Kardiyoloji", "interventionalCardiology": "Girişimsel Kardiyoloji", "cardiacSurgery": "Kalp Cerrahisi", "cardiologyElectrophysiology": "Kardiyoloji ve Elektrofizyoloji" }, "hospitals": {
+      "aiims": { "description": "Yeni Delhi'de ileri sağlık hizmeti, eğitim ve araştırma sunan önemli bir kamu tıp kurumudur.", "specialties": "Kardiyoloji, nöroloji, onkoloji, ortopedi, gastroenteroloji ve diğer alanlar." },
+      "apollo": { "description": "Yeni Delhi'de birçok klinik alanda hizmet veren çok branşlı bir üçüncü basamak hastanesidir.", "specialties": "Kardiyoloji, kanser bakımı, sinirbilim, gastroenteroloji, ortopedi ve organ nakli." },
+      "medanta": { "description": "Gurugram'da geniş bir uzmanlık yelpazesinde sağlık hizmeti sunan çok branşlı bir hastanedir.", "specialties": "Kalp ve kanser bakımı, sinirbilim, gastro bilimleri, ortopedi ve nakil bakımı." },
+      "fortis": { "description": "Gurugram'da çeşitli uzmanlık hizmetleri sunan çok branşlı bir hastanedir.", "specialties": "Kalp bilimleri, onkoloji, nöroloji, beyin cerrahisi, ortopedi ve gastroenteroloji." },
+      "max": { "description": "Yeni Delhi'de çok branşlı ve üst uzmanlık sağlık hizmetleri sunan bir hastanedir.", "specialties": "Kanser bakımı, kalp bilimleri, sinirbilim, ortopedi, gastroenteroloji ve organ nakli." },
+      "artemis": { "description": "Gurugram'da çeşitli tıp bölümlerinde ileri sağlık hizmeti sunan bir hastanedir.", "specialties": "Kardiyoloji, onkoloji, sinirbilim, ortopedi, gastroenteroloji ve yoğun bakım." }
+    } },
+    "contact": { "form": { "consent": "Talebim hakkında benimle iletişime geçilmesini kabul ediyorum.", "error": "Talebiniz gönderilemedi. Lütfen tekrar deneyin.", "connectionError": "Talep hizmetine bağlanılamadı. Lütfen daha sonra tekrar deneyin.", "successTitle": "Talep alındı", "successMessage": "Teşekkürler. Ekibimiz talebinizi inceleyip sizinle iletişime geçecek.", "sendAnother": "Başka bir talep gönder" } }
+  },
+  "uz": {
+    "common": { "refresh": "Yangilash", "loading": "Yuklanmoqda...", "openMenu": "Navigatsiya menyusini ochish" },
+    "catalog": { "specialties": { "cardiology": "Kardiologiya", "interventionalCardiology": "Intervension kardiologiya", "cardiacSurgery": "Yurak jarrohligi", "cardiologyElectrophysiology": "Kardiologiya va elektrofiziologiya" }, "hospitals": {
+      "aiims": { "description": "Yangi Dehlidagi ilg‘or tibbiy yordam, ta’lim va tadqiqotlarni taklif etuvchi yirik davlat tibbiyot instituti.", "specialties": "Kardiologiya, nevrologiya, onkologiya, ortopediya, gastroenterologiya va boshqa yo‘nalishlar." },
+      "apollo": { "description": "Yangi Dehlidagi ko‘plab klinik yo‘nalishlarda xizmat ko‘rsatuvchi ko‘p tarmoqli oliy darajali shifoxona.", "specialties": "Kardiologiya, saraton parvarishi, nevrologiya, gastroenterologiya, ortopediya va transplantatsiya." },
+      "medanta": { "description": "Gurugramdagi keng tibbiy mutaxassisliklar bo‘yicha xizmat ko‘rsatuvchi ko‘p tarmoqli shifoxona.", "specialties": "Yurak va saraton parvarishi, nevrologiya, gastro fanlari, ortopediya va transplantatsiya." },
+      "fortis": { "description": "Gurugramdagi turli ixtisoslashtirilgan tibbiy xizmatlarni taklif etuvchi ko‘p tarmoqli shifoxona.", "specialties": "Yurak fanlari, onkologiya, nevrologiya, neyrojarrohlik, ortopediya va gastroenterologiya." },
+      "max": { "description": "Yangi Dehlida ko‘p tarmoqli va yuqori ixtisoslashgan tibbiy xizmatlar ko‘rsatuvchi shifoxona.", "specialties": "Saraton parvarishi, yurak fanlari, nevrologiya, ortopediya, gastroenterologiya va transplantatsiya." },
+      "artemis": { "description": "Gurugramdagi bir nechta tibbiy bo‘limlarda ilg‘or yordam ko‘rsatuvchi shifoxona.", "specialties": "Kardiologiya, onkologiya, nevrologiya, ortopediya, gastroenterologiya va intensiv yordam." }
+    } },
+    "contact": { "form": { "consent": "So‘rovim bo‘yicha men bilan bog‘lanishlariga roziman.", "error": "So‘rovingiz yuborilmadi. Iltimos, qayta urinib ko‘ring.", "connectionError": "So‘rov xizmatiga ulanib bo‘lmadi. Iltimos, keyinroq urinib ko‘ring.", "successTitle": "So‘rov qabul qilindi", "successMessage": "Rahmat. Jamoamiz so‘rovingizni ko‘rib chiqib, siz bilan bog‘lanadi.", "sendAnother": "Yana so‘rov yuborish" } }
+  },
+  "fa": {
+    "common": { "refresh": "تازه‌سازی", "loading": "در حال بارگذاری...", "openMenu": "باز کردن منوی پیمایش" },
+    "catalog": { "specialties": { "cardiology": "قلب و عروق", "interventionalCardiology": "قلب و عروق مداخله‌ای", "cardiacSurgery": "جراحی قلب", "cardiologyElectrophysiology": "قلب و عروق و الکتروفیزیولوژی" }, "hospitals": {
+      "aiims": { "description": "مؤسسه پزشکی دولتی مهمی در دهلی نو که خدمات پیشرفته، آموزش و پژوهش پزشکی ارائه می‌کند.", "specialties": "قلب و عروق، مغز و اعصاب، سرطان‌شناسی، ارتوپدی، گوارش و موارد دیگر." },
+      "apollo": { "description": "بیمارستان چندتخصصی سطح سوم در دهلی نو با خدماتی در حوزه‌های بالینی گوناگون.", "specialties": "قلب و عروق، مراقبت سرطان، علوم اعصاب، گوارش، ارتوپدی و پیوند اعضا." },
+      "medanta": { "description": "بیمارستان چندتخصصی در گوروگرام با خدمات در طیف گسترده‌ای از تخصص‌های پزشکی.", "specialties": "مراقبت قلب و سرطان، علوم اعصاب، گوارش، ارتوپدی و پیوند اعضا." },
+      "fortis": { "description": "بیمارستان چندتخصصی در گوروگرام که خدمات تخصصی متنوعی ارائه می‌دهد.", "specialties": "علوم قلب، سرطان‌شناسی، مغز و اعصاب، جراحی مغز و اعصاب، ارتوپدی و گوارش." },
+      "max": { "description": "بیمارستان چندتخصصی و فوق‌تخصصی ارائه‌دهنده خدمات درمانی در دهلی نو.", "specialties": "مراقبت سرطان، علوم قلب، علوم اعصاب، ارتوپدی، گوارش و پیوند اعضا." },
+      "artemis": { "description": "بیمارستانی در گوروگرام که در چندین بخش پزشکی خدمات پیشرفته ارائه می‌کند.", "specialties": "قلب و عروق، سرطان‌شناسی، علوم اعصاب، ارتوپدی، گوارش و مراقبت‌های ویژه." }
+    } },
+    "contact": { "form": { "consent": "موافقم درباره درخواست من با من تماس گرفته شود.", "error": "ارسال درخواست انجام نشد. لطفاً دوباره تلاش کنید.", "connectionError": "ارتباط با خدمات درخواست‌ها برقرار نشد. لطفاً بعداً تلاش کنید.", "successTitle": "درخواست دریافت شد", "successMessage": "سپاسگزاریم. تیم ما درخواست شما را بررسی می‌کند و با شما تماس می‌گیرد.", "sendAnother": "ارسال درخواست دیگر" } }
+  },
+  "ko": {
+    "common": { "refresh": "새로고침", "loading": "불러오는 중...", "openMenu": "탐색 메뉴 열기" },
+    "catalog": { "specialties": { "cardiology": "심장내과", "interventionalCardiology": "중재 심장학", "cardiacSurgery": "심장외과", "cardiologyElectrophysiology": "심장내과 및 전기생리학" }, "hospitals": {
+      "aiims": { "description": "뉴델리에 있는 주요 공공 의료기관으로 첨단 진료, 의학 교육 및 연구를 제공합니다.", "specialties": "심장내과, 신경과, 종양학, 정형외과, 소화기내과 등." },
+      "apollo": { "description": "뉴델리의 다중 전문 3차 의료기관으로 다양한 임상 분야의 서비스를 제공합니다.", "specialties": "심장내과, 암 치료, 신경과학, 소화기내과, 정형외과 및 이식." },
+      "medanta": { "description": "구루그람의 다중 전문 병원으로 폭넓은 의료 분야의 진료를 제공합니다.", "specialties": "심장 및 암 치료, 신경과학, 소화기 분야, 정형외과 및 이식 치료." },
+      "fortis": { "description": "구루그람의 다중 전문 병원으로 여러 전문 의료 서비스를 제공합니다.", "specialties": "심장 분야, 종양학, 신경과, 신경외과, 정형외과 및 소화기내과." },
+      "max": { "description": "뉴델리에서 다중 전문 및 초전문 의료 서비스를 제공하는 병원입니다.", "specialties": "암 치료, 심장 분야, 신경과학, 정형외과, 소화기내과 및 이식." },
+      "artemis": { "description": "구루그람의 병원으로 여러 의료 부문에서 첨단 진료를 제공합니다.", "specialties": "심장내과, 종양학, 신경과학, 정형외과, 소화기내과 및 중환자 치료." }
+    } },
+    "contact": { "form": { "consent": "문의 내용에 대해 연락받는 데 동의합니다.", "error": "문의를 제출하지 못했습니다. 다시 시도해 주세요.", "connectionError": "문의 서비스에 연결할 수 없습니다. 잠시 후 다시 시도해 주세요.", "successTitle": "문의를 접수했습니다", "successMessage": "감사합니다. 담당 팀이 내용을 검토한 후 연락드리겠습니다.", "sendAnother": "다른 문의 보내기" } }
+  },
+  "it": {
+    "common": { "refresh": "Aggiorna", "loading": "Caricamento...", "openMenu": "Apri il menu di navigazione" },
+    "catalog": { "specialties": { "cardiology": "Cardiologia", "interventionalCardiology": "Cardiologia interventistica", "cardiacSurgery": "Chirurgia cardiaca", "cardiologyElectrophysiology": "Cardiologia ed elettrofisiologia" }, "hospitals": {
+      "aiims": { "description": "Un importante istituto medico pubblico di Nuova Delhi che offre cure avanzate, formazione e ricerca.", "specialties": "Cardiologia, neurologia, oncologia, ortopedia, gastroenterologia e altre specialità." },
+      "apollo": { "description": "Ospedale terziario multispecialistico di Nuova Delhi con servizi in numerosi ambiti clinici.", "specialties": "Cardiologia, oncologia, neuroscienze, gastroenterologia, ortopedia e trapianti." },
+      "medanta": { "description": "Ospedale multispecialistico di Gurugram con assistenza in un'ampia gamma di specialità.", "specialties": "Cardiologia, oncologia, neuroscienze, gastroenterologia, ortopedia e trapianti." },
+      "fortis": { "description": "Ospedale multispecialistico di Gurugram che offre diversi servizi sanitari specialistici.", "specialties": "Cardiologia, oncologia, neurologia, neurochirurgia, ortopedia e gastroenterologia." },
+      "max": { "description": "Ospedale multispecialistico e superspecialistico che offre servizi sanitari a Nuova Delhi.", "specialties": "Oncologia, cardiologia, neuroscienze, ortopedia, gastroenterologia e trapianti." },
+      "artemis": { "description": "Ospedale di Gurugram che offre cure avanzate in diverse specialità mediche.", "specialties": "Cardiologia, oncologia, neuroscienze, ortopedia, gastroenterologia e terapia intensiva." }
+    } },
+    "contact": { "form": { "consent": "Acconsento a essere contattato in merito alla mia richiesta.", "error": "Impossibile inviare la richiesta. Riprova.", "connectionError": "Impossibile contattare il servizio richieste. Riprova più tardi.", "successTitle": "Richiesta ricevuta", "successMessage": "Grazie. Il nostro team esaminerà la richiesta e ti contatterà.", "sendAnother": "Invia un'altra richiesta" } }
+  }
+}

@@ -93,6 +93,13 @@ function Doctors() {
         }
     ];
 
+    const specialtyKeys = {
+        Cardiology: "cardiology",
+        "Interventional Cardiology": "interventionalCardiology",
+        "Cardiac Surgery": "cardiacSurgery",
+        "Cardiology & Electrophysiology": "cardiologyElectrophysiology"
+    };
+
     return (
         <main className="doctors-page">
 
@@ -177,7 +184,7 @@ function Doctors() {
                                 </h3>
 
                                 <p className="doctor-specialization">
-                                    {doctor.specialization}
+                                    {t(`catalog.specialties.${specialtyKeys[doctor.specialization]}`)}
                                 </p>
 
 

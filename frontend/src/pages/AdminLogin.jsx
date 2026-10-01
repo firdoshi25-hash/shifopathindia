@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { apiUrl } from "../api";
 import "../styles/AdminLogin.css";
-
-const API_BASE_URL = (import.meta.env.VITE_API_URL || "http://localhost:9000").replace(/\/$/, "");
 
 function AdminLogin() {
     const { t } = useTranslation();
@@ -18,13 +17,8 @@ function AdminLogin() {
 
         setError("");
 
-        if (!email || !password) {
-            setError(t("admin.login.required"));
-            return;
-        }
-
         try {
-            const response = await fetch(`${API_BASE_URL}/api/admin/login`, {
+            const response = await fetch(apiUrl("/api/admin/login"), {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
@@ -34,7 +28,7 @@ function AdminLogin() {
             const data = await response.json();
 
             if (!response.ok) {
-                setError(data.message || t("admin.login.invalid"));
+                setError(t("admin.login.error"));
                 return;
             }
 
@@ -42,7 +36,9 @@ function AdminLogin() {
             navigate("/admin/dashboard");
         } catch (requestError) {
             console.error(requestError);
-            setError(t("contact.form.connectionError"));
+            setError(requestError.message === "Failed to fetch"
+                ? t("contact.form.connectionError")
+                : requestError.message);
         }
     };
 
@@ -57,16 +53,12 @@ function AdminLogin() {
                         🔐
                     </div>
 
-                    <p>
-                        {t("admin.login.label")}
-                    </p>
-
                     <h1>
                         {t("admin.login.title")}
                     </h1>
 
                     <span>
-                        {t("admin.login.description")}
+                        {t("admin.login.subtitle")}
                     </span>
 
                 </div>
@@ -80,17 +72,18 @@ function AdminLogin() {
                     <div className="admin-form-group">
 
                         <label>
-                            {t("admin.login.email")}
+                            {t("admin.dashboard.email")}
                         </label>
 
                         <input
                             type="email"
+                            required
                             value={email}
                             onChange={(event) =>
                                 setEmail(event.target.value)
                             }
                             placeholder={t(
-                                "admin.login.emailPlaceholder"
+                                "admin.dashboard.email"
                             )}
                         />
 
@@ -105,6 +98,7 @@ function AdminLogin() {
 
                         <input
                             type="password"
+                            required
                             value={password}
                             onChange={(event) =>
                                 setPassword(event.target.value)
@@ -128,7 +122,7 @@ function AdminLogin() {
                         type="submit"
                         className="admin-login-button"
                     >
-                        {t("admin.login.button")}
+                        {t("admin.login.loginButton")}
                     </button>
 
                 </form>
